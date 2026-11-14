@@ -1,0 +1,72 @@
+{
+  "recorded_utc": "2026-11-14T18:00:48.159346+00:00",
+  "current_analysis": "Scientist-directed fixed-three section means and Running \u2212 Homecage; separateHK1/PFKP; empty section-bins assumed zero; coverage uncertain.",
+  "scientific_policy": "metadata/scientist_directed_mean_policy.json",
+  "status": "completed_exploratory_fixed_three_means",
+  "fixed_section_denominator": 3,
+  "empty_bin_policy": "zero",
+  "tissue_coverage_verified": false,
+  "current_run_directory": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/section_means/20261114T175717494903Z_ab4d15ecc15b",
+  "source_totals": {
+    "source_rows": 3010776,
+    "pla_objects": 310024,
+    "chat_objects": 2700752,
+    "in_grid_objects": 3010776,
+    "outside_grid_objects": 0
+  },
+  "full_pla_point_provenance_count": 310024,
+  "bin_widths_export_units": [
+    1000,
+    500,
+    250,
+    100
+  ],
+  "default_bin_width_export_units": 100,
+  "all_fixed_three_means_independently_verified": true,
+  "raw_csv_recomputed_this_update": false,
+  "saved_raw_counts_reused": true,
+  "raw_source_hashes_revalidated_this_update": 12,
+  "historical_numerical_files_hash_verified_unchanged": 99,
+  "source_revalidation": "outputs/protocols/source_revalidation_2026-11-14.json",
+  "alignment_transforms_unchanged": true,
+  "alignment_replay_pixel_identical": true,
+  "serial_3d_reconstruction": false,
+  "tests": {
+    "run": 111,
+    "failures": 0,
+    "errors": 0,
+    "log": "outputs/test_log_fixed_three_2026-11-14.txt",
+    "note": "Expected BLOCKED messages in the log exercise fictional strict-input rejection fixtures; current scientist-directed results are complete."
+  },
+  "notebook_execution": "passed",
+  "executed_code_cells": 7,
+  "saved_notebook_png_outputs": 6,
+  "notebook_scope": "Entire current seven-cell report executed using raw-validated saved counts; historical raw report preserved in outputs/revisions/before_fixed_three_means_2026-11-14.",
+  "high_resolution_png_dpi": 600,
+  "scientific_figures_exported": 11,
+  "scientist_questions_pending": 0,
+  "strict_historical_pdf_mask_test_passed": false,
+  "strict_historical_method_status": "Preserved separately; not a prerequisite for current authorized analysis",
+  "browser_validation": {
+    "status": "passed",
+    "surface": "Local-only HTTP preview in actual in-app browser, normal zoom",
+    "checks": [
+      "Clean startup on100-unit grid; loaded-readiness indicator, all prepared images decoded before tabs opened",
+      "First-visit difference maps, full195150HK1 and114874PFKP point alignment overlays and four support maps visible without zoom correction",
+      "Repeated tab switching and250-to100 resolution changes retain fitted visible plots",
+      "Condition means use shared0\u201325 linear detail range and full-range restore0\u2013196.67 shared across both conditions and arms",
+      "Difference uses shared\u00b125 linear detail range;128HK1 and113PFKP saturated bins disclosed; exact values unchanged",
+      "Support-map click atHK1 X6300\u20136400,Y2100\u20132200 shows all six section counts and Homecage0,Running1/3,difference1/3,denominator3",
+      "Original twelve fixed transforms and identical historical alignment check retained"
+    ],
+    "proof_images": [
+      "outputs/comet_core/figures/fixed_three_difference_app_2026-11-14.png",
+      "outputs/comet_core/figures/fixed_three_mean_app_2026-11-14.png",
+      "outputs/comet_core/figures/fixed_alignment_app_2026-11-14.png",
+      "outputs/comet_core/figures/fixed_support_app_2026-11-14.png"
+    ]
+  },
+  "raw_inputs_modified": false,
+  "historical_project_modified": false,
+  "pushed_or_published": false
+}

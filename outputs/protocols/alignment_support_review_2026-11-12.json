@@ -1,0 +1,119 @@
+{
+  "recorded_utc": "2026-11-13T01:02:01.602736+00:00",
+  "local_date": "2026-11-12",
+  "timezone": "America/New_York",
+  "scope": "Presentation upgrades to alignment and observed support; scientist-facing question scope narrowed.",
+  "parameters": {
+    "local_date": "2026-11-12",
+    "timezone": "America/New_York",
+    "user_request": "Increase alignment and observed-support visual detail; limit scientist questions to scientific knowledge rather than code specifics.",
+    "presentation_only": true,
+    "raw_recomputed": false,
+    "bin_widths_export_units": [
+      1000,
+      500,
+      250,
+      100
+    ],
+    "all_pla_midpoints_available": 310024,
+    "saved_alignment_refitted": false,
+    "snapshot_sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30",
+    "frozen_check_sha256": "7587b1dc18669e834dab50295a72fead390b940dcff8ab1299dbaf6c7757b859",
+    "support_colors_by_N": [
+      "#eef2f6",
+      "#c49a55",
+      "#4c9b9b",
+      "#143e68"
+    ],
+    "support_interpretation": "N counts sections with detected PLA or ChAT objects; never verified tissue-mask coverage.",
+    "object_position_definition": "Bounding-box midpoint proxy; native and unchanged fixed-aligned coordinates.",
+    "three_dimensional_interpretation": "Layer spacing only; no physical Z or invented anatomy.",
+    "scientist_questions_count": 8,
+    "scientist_question_scope": "Biological aim, anatomy, source images/outlines, exclusions, object-center measurements, processing consistency, treatment, assay controls.",
+    "technical_work_owner": "Analysis team with imaging/HALO analyst; separate technical_handoff_requirements.md",
+    "notebook_refresh": {
+      "prior_raw_code_cells_unchanged": 12,
+      "additional_cached_review_cell_executed": 1,
+      "saved_png_outputs": 16
+    }
+  },
+  "raw_analysis_recomputed": false,
+  "prior_12_raw_notebook_code_sources_outputs_and_execution_counts_unchanged": true,
+  "prior_99_saved_numerical_run_files_hash_verified_unchanged": true,
+  "notebook_review_cell_executed": true,
+  "notebook_total_saved_pngs": 16,
+  "scientist_questions_count": 8,
+  "tests": {
+    "run": 97,
+    "failures": 0,
+    "errors": 0
+  },
+  "browser_checks": {
+    "flat_alignment_100_and_250_units": true,
+    "native_coordinate_alignment_view": true,
+    "three_dimensional_100_unit_layers": true,
+    "HK1_full_points": 195150,
+    "PFKP_full_points": 114874,
+    "categorical_support_four_maps_and_large_pair": true,
+    "selected_support_bin_section_membership": {
+      "arm": "HK1",
+      "x": [
+        11700,
+        11800
+      ],
+      "y": [
+        -2600,
+        -2500
+      ],
+      "homecage_n": 2,
+      "running_n": 2,
+      "homecage_mean": 13.5,
+      "running_mean": 1.0,
+      "difference": -12.5
+    },
+    "individual_support_section_23M_point_count_in_tested_window": 1255,
+    "support_point_clicked": {
+      "section": "23M_Hk1",
+      "object_id": "92899",
+      "source_row": 92901
+    },
+    "strict_mode_hides_exploratory_workspace_and_retains_pending_outputs": true,
+    "final_app_boot_and_both_arms_checked": true
+  },
+  "source_transforms_unchanged": true,
+  "original_alignment_check_unchanged": true,
+  "strict_pdf_results_remain_pending": true,
+  "raw_inputs_modified": false,
+  "pushed_or_published": false,
+  "files_sha256": {
+    "README.md": "ffce3e2d961ff12f2f053f639a2d32e57f66b1ca8f9526466419533903e5ab12",
+    "docs/scientist_questions.md": "3f55188e761c71d1cf1eb616b8a4d764a8b9e9e3ac3d493b7aebdf3976aec4de",
+    "docs/technical_handoff_requirements.md": "b39b5cf33ab43bc4c9494c24659032af216d24cbd401607148b9e3c51f949e97",
+    "docs/detailed_heatmaps.md": "371902dcb9257436e735d90dae307158354419e87209c6d3834d3674ceb63676",
+    "metadata/alignment_support_review_parameters.json": "b5ec8bd5ae89c8732567b341d51f52996d419eee01a0aec1c61e58cf46a575ac",
+    "scripts/comet_core_explorer.html": "159c942f0f3bbad28a18f07c810aa5a9929ed1366437d1daeecb4a9544bb6ee3",
+    "scripts/comet_alignment_detail.js": "a7031265b58721786dfd3ffbefc43f19da699ecb6563397f4644272a5cc0828a",
+    "scripts/comet_support_detail.js": "56f89523ff94f3063d883cb11111563587adb1e1ae87bbb05ca619c8e7e7e78a",
+    "scripts/build_comet_core_explorer.py": "3d4527eac65ec6bca4422284d7366318f0ec04549ba84567ba05084bb55bf0e6",
+    "scripts/build_review_figures.py": "4e5271833893aee69650f2358172ecadf9a357427236690ab719fc8bfb674a63",
+    "scripts/build_notebook.py": "cd783d70c910d4f71c5e811d1ff3c0b69b40e10ea4a9ed73f748f8050ee5e7ee",
+    "scripts/refresh_review_notebook.py": "96a74b47b0af9454ca9b3268598ea2086b1742b800a7860f7603520784ef4b28",
+    "tests/test_alignment_detail.py": "fe51b37de177d8f8ed3cb0d3d9c2ab379255332aefff6fc1d163126a0006977a",
+    "tests/test_core_explorer_build.py": "8fbcb14ab0dcfcec90bd8388167d2d4c55e922b4aff8812dbfd6b18121251410",
+    "TDP43_COMET_analysis.ipynb": "6bd6acb9894e5c90c9ba3c09f2b122ffc52c659b21685f6fabf293a011f1876c",
+    "outputs/app/index.html": "5eb7a3549b2d27d8c927ea2b434c99e5ad92a445f2379b957fd1d4882802661a",
+    "outputs/validation.json": "d99288553b4080be64efce0761b221b28ebcfa71c439efa3f5ce5f8014d42d73",
+    "outputs/test_log_alignment_support_2026-11-12.txt": "1707fbf98b0221e5cc19f95109ef99a478b19797988aede4b0cc61f886060031",
+    "outputs/comet_core/figures/alignment_detail_overlay_app.png": "9c8d7ada85982632e79b93ba1e6b8b77f80b0cdeab62ab5bacadbad0725aba26",
+    "outputs/comet_core/figures/alignment_detail_3d_app.png": "51629374e070efd83be14c0511fc73e996d851e207702b887cdd9c263e6d1f87",
+    "outputs/comet_core/figures/observed_support_detail_app.png": "067e3049380fecf4f9040d334ece64e50e6f850dc4c509c3afa10d6dbb6b8459",
+    "outputs/comet_core/figures/observed_support_section_app.png": "b87bdb27c2daeddfc333811d7b3321998f625e87ca05f8d2250bf02bd3d3223a",
+    "outputs/comet_core/detailed_review/alignment_detail_hk1.png": "2748bdc5a488815e8a0a60f87180c1df281a975457889b7a4b922b691077d8e1",
+    "outputs/comet_core/detailed_review/observed_support_detail_100.png": "ffa26b42d74c189e9eb37cea08e8dbf06888b429c5bf66cb747fa864a30938f2",
+    "outputs/comet_core/detailed_review/alignment_detail_hk1.svg": "96099aa1fc7c6a2bbad79629ce4c5bbeb18f400858e2e3c8472509326fe00926",
+    "outputs/comet_core/detailed_review/observed_support_detail_100.svg": "d1e9c92aeeb1f109689de15ee53f3a6c965755c0bf4114447ef8a60f07860894",
+    "outputs/comet_core/detailed_review/alignment_detail_pfkp.png": "504bd3df68bbc90a483e81f92f5f8b51e38230939e63d5840f29fa429c4e6b93",
+    "outputs/comet_core/detailed_review/manifest.json": "6c34b0ec3d70b7d6eaaf0fd60e4e66c4ecfb75e52f5be46707c25d5dfdbd162f",
+    "outputs/comet_core/detailed_review/alignment_detail_pfkp.svg": "69a274024dab1ba40df7c696b1bb6b4763ab1ab07f5a3eb04b243d9f02b9ce67"
+  }
+}

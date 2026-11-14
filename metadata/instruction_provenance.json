@@ -1,0 +1,11 @@
+{
+  "source_path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/COMET_Spatial_PLA_Heatmap_Codex_Instructions.pdf",
+  "filename": "COMET_Spatial_PLA_Heatmap_Codex_Instructions.pdf",
+  "sha256": "0d737c8ddea21e2e420b0bfa7eb0e762944f7e6735b4f56803bf52f0cdef697d",
+  "bytes": 72887,
+  "pages": 2,
+  "review": "Both complete rendered pages inspected; text and annotations extracted. No embedded experimental sample table, separate image figure or attached alignment/masks present.",
+  "user_reconfirmed_path": "User supplied the same PDF path when asked where the referenced assets reside; PDF supplies requirements, not transform/mask data.",
+  "review_date_local": "2026-11-09",
+  "timezone": "America/New_York"
+}

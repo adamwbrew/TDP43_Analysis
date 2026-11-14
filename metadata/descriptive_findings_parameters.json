@@ -1,0 +1,16 @@
+{
+  "candidate_pair_display_rule": "left fraction of distinct shared exported measurement signatures > 0.8; selected for review, not proof of section identity",
+  "area_distribution_intervals": [
+    0.01,
+    0.25,
+    0.5,
+    0.75,
+    0.99
+  ],
+  "area_intervals_meaning": "Object distribution quantiles, not confidence intervals or animal uncertainty",
+  "count_change_denominator": "PLA count of left export in each displayed pair",
+  "association_change_units": "Percentage points, right export minus left export",
+  "association_denominator": "All PLA-labelled rows of each export; no morphology exclusions",
+  "condition_aggregation": false,
+  "new_clustering": false
+}

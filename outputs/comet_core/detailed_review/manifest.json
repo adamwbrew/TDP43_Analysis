@@ -1,0 +1,55 @@
+{
+  "source_payload": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/section_means/20261114T175717494903Z_ab4d15ecc15b/view_payload.json",
+  "source_payload_sha256": "639f3d44858aeac80e78f5a5a42e6bfb1c16c5f31eef42eecb6ea91f7f4765de",
+  "source_objects": {
+    "source_rows": 3010776,
+    "pla_objects": 310024,
+    "chat_objects": 2700752,
+    "in_grid_objects": 3010776,
+    "outside_grid_objects": 0
+  },
+  "full_pla_point_count": 310024,
+  "strict_pdf_results": false,
+  "presentation_only": true,
+  "support_colors_N_0_1_2_3": [
+    "#eef2f6",
+    "#c49a55",
+    "#4c9b9b",
+    "#143e68"
+  ],
+  "figures": [
+    {
+      "id": "observed_support_detail_100",
+      "png": "observed_support_detail_100.png",
+      "svg": "observed_support_detail_100.svg",
+      "dpi": 600,
+      "pixel_dimensions": [
+        8169,
+        8181
+      ],
+      "caption": "Categorical N=0,1,2,3 with four discrete colors. N=0 means no exported object support; N=3 does not establish full-bin tissue coverage."
+    },
+    {
+      "id": "alignment_detail_hk1",
+      "png": "alignment_detail_hk1.png",
+      "svg": "alignment_detail_hk1.svg",
+      "dpi": 600,
+      "pixel_dimensions": [
+        9898,
+        7608
+      ],
+      "caption": "Six individual sections, Homecage above Running, in the unchanged saved frame. All selected PLA positions are drawn over faint observed PLA/ChAT-bin footprints. Footprints do not establish tissue boundaries."
+    },
+    {
+      "id": "alignment_detail_pfkp",
+      "png": "alignment_detail_pfkp.png",
+      "svg": "alignment_detail_pfkp.svg",
+      "dpi": 600,
+      "pixel_dimensions": [
+        9898,
+        7608
+      ],
+      "caption": "Six individual sections, Homecage above Running, in the unchanged saved frame. All selected PLA positions are drawn over faint observed PLA/ChAT-bin footprints. Footprints do not establish tissue boundaries."
+    }
+  ]
+}

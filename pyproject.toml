@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdp43-comet-spatial"
+version = "0.1.0"
+description = "Provenance-gated spatial PLA section-count comparisons"
+requires-python = ">=3.12"
+dependencies = ["numpy>=1.23", "shapely>=2.0,<3"]
+
+[project.optional-dependencies]
+report = ["pandas>=1.5", "matplotlib>=3.7", "nbformat>=5.7", "nbclient>=0.7", "ipykernel>=6", "plotly>=5", "scipy>=1.13", "pillow>=11"]
+
+[tool.setuptools.packages.find]
+include = ["comet_spatial*"]

@@ -1,0 +1,7 @@
+{
+  "canonical_user_repository": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis",
+  "staging_workspace": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis",
+  "data_directory": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data",
+  "background_repository": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis",
+  "data_policy": "Raw inputs remain in supplied Desktop path; inventory records exact source paths. In Desktop checkout use relative Initial Data. On another computer pass --data-dir to inventory and update manifest asset paths."
+}

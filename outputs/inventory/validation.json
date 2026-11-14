@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-11-10T01:31:08.167220+00:00",
+  "method_version": "1.1",
+  "status": "passed",
+  "source_sha256_verified_before_and_after_csv_scan": true,
+  "file_count": 8,
+  "column_profile_count": 160,
+  "profile_and_object_type_row_counts_reconcile": true,
+  "failures": [],
+  "scope": "Input audit consistency only; does not validate biological assignments, spatial alignment, calibration or analysis readiness."
+}

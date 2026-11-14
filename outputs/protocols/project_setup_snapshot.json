@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-11-10T01:39:22.330564+00:00",
+  "status": "setup_complete_scientific_maps_blocked",
+  "code_and_report_sha256": {
+    "README.md": "5060350144f7bdbd3c407f26a7035178b01be0a3a7b3cce49c5d7ab07f5259cf",
+    "TDP43_COMET_analysis.ipynb": "d2f219a505b7e715965e7d0b9483e08be5cababc94e17efee398c36b446aa448",
+    "comet_spatial/__init__.py": "170d16830b3ea425d48182eb9b6f1e95ba2c0d6605b1d35b106a9107f4ea3398",
+    "comet_spatial/core.py": "ad6635c5805d8af7c6962c498b1db4d8d725f7758c7a0e2fe03e6494311b5759",
+    "comet_spatial/manifest.py": "b2d6625de36d596c0caac7240ee859e3b54a1118fc3d6f4f4c6aaf438ae87cbc",
+    "pyproject.toml": "03a3a5cbe0310a8d966ce712e8e0ef205a8594d1e35304c2bbabd4985504606a",
+    "requirements-lock.txt": "d7429e23847282f1b11c88c429c4927ad454243186666afe27d860d4258b51b9",
+    "requirements.txt": "332cbd6807d9f157ace19be96c1671fd1a0016b1fcc065de313ee6cc60c036d3",
+    "scripts/build_notebook.py": "bbc108d9cbc2dec007270310ddd71ed17c6c995868bc653f0c24dcfdf2192df5",
+    "scripts/build_report.py": "a525de68a5039834f20ebf5289d92087015b286a1ec2ec7fe026190615a8ed20",
+    "scripts/execute_notebook.py": "196eec921aaa8a59898c245c0c6e82546e06170b1550c7a3580c2180b290cd95",
+    "scripts/inventory_data.py": "4b3e8b94f7f006fe8f4963163a25f47ddca5fa28d7d49ddba79e5510053aca34",
+    "scripts/run_analysis.py": "c255678659963fe21fed3703efafd33bc3dbf9293369d481b2b11ad3e24621b5",
+    "tests/test_inventory.py": "8e2a98212506ff6e5b7c432f638fee1fe19876e7772a875b6dd4b0049034a454",
+    "tests/test_manifest.py": "895d3c3b402cb23db2edbc0f0de55577a61aec92cc0b084a6459f8f467c9f3a5",
+    "tests/test_runner.py": "94c6b937121e0a395b73f347bbc90eae260707323c46911332b5906bc689dc1f",
+    "tests/test_spatial_core.py": "5d12a11a45ee697ea8bb52791f1a4dfb61684001a9cd3119eb3a5c06902c8b7a"
+  },
+  "validation": {
+    "analysis_status": "blocked",
+    "biological_maps_generated": false,
+    "input_hashes_verified": 8,
+    "all_input_hashes_match": true,
+    "tests_run": 48,
+    "test_failures": 0,
+    "test_errors": 0,
+    "scope": "Input-audit report and synthetic software tests only; no biological spatial computation.",
+    "notebook_execution": "passed",
+    "executed_code_cells": 8,
+    "saved_notebook": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/TDP43_COMET_analysis.ipynb"
+  },
+  "visual_checks": [
+    "Both complete instruction PDF pages visually inspected; no annotation assets",
+    "All three final audit figures inspected; legend overlap corrected",
+    "Offline Plotly app rendered and selection changed file-specific details",
+    "Synthetic-only strict boundary plot verifies white zero vs gray missing; no synthetic experimental result published"
+  ],
+  "raw_inputs_changed": false,
+  "publication_performed": false,
+  "historical_repository_modified": false,
+  "spatial_blockers": [
+    "Current sample/ROI/repeat relationships",
+    "Existing accepted numerical transformations and reference figure/recipe",
+    "Existing tissue masks with coordinate geometry",
+    "Authoritative centroid definition/source and shared grid/units/orientation"
+  ],
+  "notes": "Tests and notebook are executed; no biological comparison computed. Numerical future runner remains separate from accepted alignment figure reproduction."
+}

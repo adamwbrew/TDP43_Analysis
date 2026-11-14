@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "authorized",
+  "authorized_by": "user",
+  "recorded_utc": "2026-11-12T01:11:46.342179+00:00",
+  "local_date": "2026-11-11",
+  "timezone": "America/New_York",
+  "selected_cohort": "former_app_12_section_cohort_2026-11-11",
+  "authorization_text": "Add exploratory maps; keep the strict PDF results pending",
+  "question_accepted": "To add calculated maps now, should I include a clearly labeled exploratory version using the former app’s bounding-box midpoints and detected-object footprints? These cannot establish full tissue coverage, so they would not meet the PDF’s strict mask requirement.",
+  "scope": "Calculated exploratory aligned raw-count differences and observed-object support maps for the selected twelve completed sections.",
+  "scientific_constraints": {
+    "strict_pdf_results_remain_pending": true,
+    "strict_mask_inference_authorized": false,
+    "position_definition": "Bounding-box midpoint: x=(XMin+XMax)/2, y=(YMin+YMax)/2; reconstructed proxy, not measured centroid.",
+    "support_definition": "Observed all-object occupancy per aligned bin, including PLA and ChAT; never interpreted as full-bin tissue coverage.",
+    "alignment": "Apply saved fixed matrices unchanged; no fitting",
+    "physical_calibration_claimed": false,
+    "smoothing_interpolation_normalization_inference": false
+  }
+}

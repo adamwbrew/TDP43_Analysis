@@ -1,0 +1,222 @@
+[
+  {
+    "column": "Image Location",
+    "description": "Source image path text exported by HALO; image pixels are not included in the CSV.",
+    "units_or_representation": "path text",
+    "observed_types": "string",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": "",
+    "numeric_max_all_files": "",
+    "limitations": "Path agreement alone does not establish acquisition/processing provenance."
+  },
+  {
+    "column": "Analysis Region",
+    "description": "Analysis-region label embedded in the export, preserved verbatim.",
+    "units_or_representation": "label",
+    "observed_types": "string",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": "",
+    "numeric_max_all_files": "",
+    "limitations": "May suggest a sample/marker label; requires scientist confirmation for this study."
+  },
+  {
+    "column": "Algorithm Name",
+    "description": "Algorithm label/version exported by HALO.",
+    "units_or_representation": "label",
+    "observed_types": "string",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": "",
+    "numeric_max_all_files": "",
+    "limitations": "Parameters and segmentation validation are not encoded completely."
+  },
+  {
+    "column": "Object Id",
+    "description": "Object identifier within one export.",
+    "units_or_representation": "identifier",
+    "observed_types": "integer_valued",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 356744.0,
+    "limitations": "Not a cross-export specimen/object correspondence key."
+  },
+  {
+    "column": "Object Type",
+    "description": "Detected-object class reported by the export.",
+    "units_or_representation": "label",
+    "observed_types": "string",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": "",
+    "numeric_max_all_files": "",
+    "limitations": "A row is a detection, not an independent biological replicate or necessarily a cell/molecule."
+  },
+  {
+    "column": "Area in PLA and Chat coloc",
+    "description": "Exported colocalized area measurement.",
+    "units_or_representation": "not explicitly stated in this header",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 309.31308,
+    "limitations": "Do not assign calibration from related column labels."
+  },
+  {
+    "column": "% Area in PLA and Chat coloc",
+    "description": "Exported percent-area colocalization measurement.",
+    "units_or_representation": "% (export header)",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 100.0,
+    "limitations": "Algorithm denominator must be confirmed; not the requested section-normalized spatial count fraction."
+  },
+  {
+    "column": "Area (µm²)",
+    "description": "Exported area measurement with a header-labelled unit.",
+    "units_or_representation": "µm² (export header; calibration unverified)",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.003136,
+    "numeric_max_all_files": 2079.4597,
+    "limitations": "Header units do not independently validate X/Y calibration."
+  },
+  {
+    "column": "Inner Area (µm²)",
+    "description": "Exported area measurement with a header-labelled unit.",
+    "units_or_representation": "µm² (export header; calibration unverified)",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 25.925312,
+    "limitations": "Header units do not independently validate X/Y calibration."
+  },
+  {
+    "column": "Outer Area (µm²)",
+    "description": "Exported area measurement with a header-labelled unit.",
+    "units_or_representation": "µm² (export header; calibration unverified)",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.003136,
+    "numeric_max_all_files": 2079.4597,
+    "limitations": "Header units do not independently validate X/Y calibration."
+  },
+  {
+    "column": "Average Intensity",
+    "description": "Exported average object intensity.",
+    "units_or_representation": "not documented",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.01277,
+    "numeric_max_all_files": 0.663583,
+    "limitations": "Do not compare as calibrated fluorescence without acquisition/processing information."
+  },
+  {
+    "column": "Minimum Diameter (µm)",
+    "description": "Exported diameter measurement with a header-labelled unit.",
+    "units_or_representation": "µm (export header; calibration unverified)",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 52.528,
+    "limitations": "Header units do not independently validate X/Y calibration."
+  },
+  {
+    "column": "Maximum Diameter (µm)",
+    "description": "Exported diameter measurement with a header-labelled unit.",
+    "units_or_representation": "µm (export header; calibration unverified)",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 68.60373,
+    "limitations": "Header units do not independently validate X/Y calibration."
+  },
+  {
+    "column": "Median Diameter (µm)",
+    "description": "Exported diameter measurement with a header-labelled unit.",
+    "units_or_representation": "µm (export header; calibration unverified)",
+    "observed_types": "numeric",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 55.910557,
+    "limitations": "Header units do not independently validate X/Y calibration."
+  },
+  {
+    "column": "PLA - TRITC_E1 present",
+    "description": "Exported channel-presence indicator.",
+    "units_or_representation": "exported indicator",
+    "observed_types": "integer_valued",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 1.0,
+    "limitations": "Interpretation depends on acquisition, detection and colocalization settings."
+  },
+  {
+    "column": "ChAt-50 - FITC_E1 present",
+    "description": "Exported channel-presence indicator.",
+    "units_or_representation": "exported indicator",
+    "observed_types": "integer_valued",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 1.0,
+    "limitations": "Interpretation depends on acquisition, detection and colocalization settings."
+  },
+  {
+    "column": "XMin",
+    "description": "Native-axis bounding-box boundary reported by the export.",
+    "units_or_representation": "unverified coordinate units",
+    "observed_types": "integer_valued",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 1011.0,
+    "numeric_max_all_files": 44641.0,
+    "limitations": "No measured centroid fields are supplied. The accepted position proxy for the current 14 November 2026 scientist-directed analysis is the bounding-box midpoint: x=(XMin+XMax)/2, y=(YMin+YMax)/2. These reconstructed positions are not measured segmentation centroids; physical X/Y calibration remains unverified."
+  },
+  {
+    "column": "XMax",
+    "description": "Native-axis bounding-box boundary reported by the export.",
+    "units_or_representation": "unverified coordinate units",
+    "observed_types": "integer_valued",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 1012.0,
+    "numeric_max_all_files": 44643.0,
+    "limitations": "No measured centroid fields are supplied. The accepted position proxy for the current 14 November 2026 scientist-directed analysis is the bounding-box midpoint: x=(XMin+XMax)/2, y=(YMin+YMax)/2. These reconstructed positions are not measured segmentation centroids; physical X/Y calibration remains unverified."
+  },
+  {
+    "column": "YMin",
+    "description": "Native-axis bounding-box boundary reported by the export.",
+    "units_or_representation": "unverified coordinate units",
+    "observed_types": "integer_valued",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 0.0,
+    "numeric_max_all_files": 43124.0,
+    "limitations": "No measured centroid fields are supplied. The accepted position proxy for the current 14 November 2026 scientist-directed analysis is the bounding-box midpoint: x=(XMin+XMax)/2, y=(YMin+YMax)/2. These reconstructed positions are not measured segmentation centroids; physical X/Y calibration remains unverified."
+  },
+  {
+    "column": "YMax",
+    "description": "Native-axis bounding-box boundary reported by the export.",
+    "units_or_representation": "unverified coordinate units",
+    "observed_types": "integer_valued",
+    "missing_count_all_files": 0,
+    "nonfinite_count_all_files": 0,
+    "numeric_min_all_files": 2.0,
+    "numeric_max_all_files": 43125.0,
+    "limitations": "No measured centroid fields are supplied. The accepted position proxy for the current 14 November 2026 scientist-directed analysis is the bounding-box midpoint: x=(XMin+XMax)/2, y=(YMin+YMax)/2. These reconstructed positions are not measured segmentation centroids; physical X/Y calibration remains unverified."
+  }
+]

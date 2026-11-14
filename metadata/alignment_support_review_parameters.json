@@ -1,0 +1,36 @@
+{
+  "local_date": "2026-11-14",
+  "timezone": "America/New_York",
+  "user_request": "High-detail 2D fixed alignment, all-three-section mean differences, uncertain coverage and reliable initial plot loading.",
+  "presentation_only": false,
+  "raw_recomputed": false,
+  "bin_widths_export_units": [
+    1000,
+    500,
+    250,
+    100
+  ],
+  "all_pla_midpoints_available": 310024,
+  "saved_alignment_refitted": false,
+  "snapshot_sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30",
+  "frozen_check_sha256": "7587b1dc18669e834dab50295a72fead390b940dcff8ab1299dbaf6c7757b859",
+  "support_colors_by_N": [
+    "#eef2f6",
+    "#c49a55",
+    "#4c9b9b",
+    "#143e68"
+  ],
+  "support_interpretation": "N counts sections with detected PLA or ChAT objects; never verified tissue-mask coverage.",
+  "object_position_definition": "Bounding-box midpoint proxy; native and unchanged fixed-aligned coordinates.",
+  "three_dimensional_interpretation": "No 3D reconstruction; 2D inspection only.",
+  "scientist_questions_count": 0,
+  "scientist_question_scope": "Previous questions answered; no remaining gates for the current agreed analysis.",
+  "technical_work_owner": "Analysis team with imaging/HALO analyst; separate technical_handoff_requirements.md",
+  "notebook_refresh": {
+    "scope": "Current main notebook rewritten for the agreed policy; all seven code cells executed with saved validated raw counts. Prior report archived.",
+    "raw_csv_recomputed": false
+  },
+  "mean_rederived_from_saved_raw_counts": true,
+  "high_resolution_png_dpi": 600,
+  "scientist_policy": "metadata/scientist_directed_mean_policy.json"
+}

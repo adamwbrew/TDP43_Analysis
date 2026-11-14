@@ -1,0 +1,9 @@
+file_id,exported_analysis_region,rows_in_export_region,animal_id,condition,pla_arm,physical_section_id,roi_id,biological_replicate_id,technical_repeat_of,include_in_primary_analysis,approved_alignment_id,aligned_centroid_source,tissue_mask_source,coordinate_units,assignment_status,evidence
+input_001,22M_Pfkp-TDP43 PLA,186343,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
+input_002,24M_Pfkp-TDP43 PLA,297584,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
+input_003,22M_Hk1-TDP43 PLA,238084,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
+input_004,24M_Hk1-TDP43 PLA,356745,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
+input_005,22M_TDP43-Pfkp_tight,184684,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
+input_006,24M_TDP43-Pfkp_tight,295677,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
+input_007,22M_TDP43-Hk1_tight,237144,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
+input_008,24M_TDP43-Hk1_tight,349776,,,,,,,,pending,,,,unverified,unconfirmed_for_new_project,Analysis Region text observed in CSV; no transfer of historical assignments.
