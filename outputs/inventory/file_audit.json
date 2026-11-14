@@ -1,0 +1,3818 @@
+[
+  {
+    "file_id": "input_001",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4594PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4594PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 186343,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 186343,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 186343
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 186343,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "22M_Pfkp-TDP43 PLA"
+        ],
+        "categorical_counts": {
+          "22M_Pfkp-TDP43 PLA": 186343
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 186343,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 186343
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186343,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 186342.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 186343,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "ChAt-50 - FITC_E1",
+          "PLA - TRITC_E1"
+        ],
+        "categorical_counts": {
+          "ChAt-50 - FITC_E1": 177231,
+          "PLA - TRITC_E1": 9112
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 177658,
+        "zero_count": 177658,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 116.18566,
+        "examples": [
+          "0",
+          "1.806336",
+          "0.382592",
+          "0.009408",
+          "0.206976",
+          "0.304192"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 180368,
+        "zero_count": 177658,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "0",
+          "44.036697",
+          "12.592916",
+          "52.58621",
+          "14.50654",
+          "7.317073"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2025.3982,
+        "examples": [
+          "5.9584",
+          "1.041152",
+          "1.22304",
+          "2.223424",
+          "1.251264",
+          "1.03488"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186215,
+        "zero_count": 186215,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 17.119425,
+        "examples": [
+          "0",
+          "0.009408",
+          "0.012544",
+          "0.059584",
+          "0.232064",
+          "0.003136"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2025.3982,
+        "examples": [
+          "5.9584",
+          "1.041152",
+          "1.22304",
+          "2.223424",
+          "1.251264",
+          "1.03488"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.012837,
+        "numeric_max": 0.521122,
+        "examples": [
+          "0.015572",
+          "0.014319",
+          "0.015067",
+          "0.015351",
+          "0.014422",
+          "0.014551"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 2562,
+        "zero_count": 2556,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.528,
+        "examples": [
+          "1.907601",
+          "0.326533",
+          "0.56",
+          "1.028042",
+          "0.517722",
+          "0.563486"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1257,
+        "zero_count": 1240,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "3.764939",
+          "1.592994",
+          "1.930996",
+          "2.43972",
+          "2.132436",
+          "1.907337"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1590,
+        "zero_count": 1583,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "3.065773",
+          "0.979789",
+          "1.028042",
+          "1.591844",
+          "1.088701",
+          "1.087529"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186343,
+        "zero_count": 173926,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "0",
+          "1"
+        ],
+        "categorical_counts": {
+          "0": 173926,
+          "1": 12417
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186343,
+        "zero_count": 3732,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 182611,
+          "0": 3732
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186343,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 1554.0,
+        "numeric_max": 22775.0,
+        "examples": [
+          "5292",
+          "5288",
+          "5282",
+          "5236",
+          "5259",
+          "5905"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186343,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 1555.0,
+        "numeric_max": 22776.0,
+        "examples": [
+          "5305",
+          "5295",
+          "5288",
+          "5245",
+          "5267",
+          "5911"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186343,
+        "zero_count": 129,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 15669.0,
+        "examples": [
+          "94",
+          "101",
+          "107",
+          "109",
+          "138",
+          "140"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 186343,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 186343,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 2.0,
+        "numeric_max": 15676.0,
+        "examples": [
+          "109",
+          "106",
+          "113",
+          "115",
+          "145",
+          "74"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "ChAt-50 - FITC_E1": 177231,
+      "PLA - TRITC_E1": 9112
+    },
+    "analysis_region_counts": {
+      "22M_Pfkp-TDP43 PLA": 186343
+    },
+    "pla_row_count_by_export_label": 9112,
+    "chat_row_count_by_export_label": 177231,
+    "pla_rows_with_chat_present_equal_1": 5380,
+    "object_id_unique_count": 186343,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        1554.0,
+        22775.0
+      ],
+      "XMax": [
+        1555.0,
+        22776.0
+      ],
+      "YMin": [
+        0.0,
+        15669.0
+      ],
+      "YMax": [
+        2.0,
+        15676.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 186343,
+    "sha256": "83839e1e12719dd022d1e594a8effec80ba1059bcb3af2de3b2f6fd1430620a1",
+    "source_sha256_unchanged_during_audit": true
+  },
+  {
+    "file_id": "input_002",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4595PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4595PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 297584,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 297584,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 297584
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 297584,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "24M_Pfkp-TDP43 PLA"
+        ],
+        "categorical_counts": {
+          "24M_Pfkp-TDP43 PLA": 297584
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 297584,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 297584
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297584,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 297583.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 297584,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA - TRITC_E1",
+          "ChAt-50 - FITC_E1"
+        ],
+        "categorical_counts": {
+          "PLA - TRITC_E1": 7999,
+          "ChAt-50 - FITC_E1": 289585
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 287926,
+        "zero_count": 287926,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.609406,
+        "examples": [
+          "0.03136",
+          "0.48608",
+          "0",
+          "0.068992",
+          "0.128576",
+          "0.310464"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 290699,
+        "zero_count": 287926,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "100",
+          "0",
+          "95.652176",
+          "97.05882",
+          "90",
+          "97.87234"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2075.7686,
+        "examples": [
+          "0.03136",
+          "0.48608",
+          "0.006272",
+          "0.072128",
+          "0.128576",
+          "0.319872"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297464,
+        "zero_count": 297464,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 15.927744,
+        "examples": [
+          "0",
+          "0.009408",
+          "0.053312",
+          "0.119168",
+          "0.003136",
+          "0.006272"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2075.7686,
+        "examples": [
+          "0.03136",
+          "0.48608",
+          "0.006272",
+          "0.072128",
+          "0.128576",
+          "0.319872"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.01277,
+        "numeric_max": 0.401773,
+        "examples": [
+          "0.054579",
+          "0.05742",
+          "0.053968",
+          "0.057897",
+          "0.05591",
+          "0.064387"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 2423,
+        "zero_count": 2416,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.36,
+        "examples": [
+          "0",
+          "0.438392",
+          "0.112",
+          "0.500879",
+          "0.461788",
+          "0.237588"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1006,
+        "zero_count": 966,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "0.112",
+          "1.064",
+          "0",
+          "0.25044",
+          "0.532463",
+          "0.603138"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1231,
+        "zero_count": 1214,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "0.079196",
+          "0.672",
+          "0",
+          "0.224",
+          "0.204416",
+          "0.56"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297584,
+        "zero_count": 285439,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 12145,
+          "0": 285439
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297584,
+        "zero_count": 2487,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 295097,
+          "0": 2487
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297584,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 24705.0,
+        "numeric_max": 44640.0,
+        "examples": [
+          "30885",
+          "30994",
+          "31020",
+          "30958",
+          "30948",
+          "30955"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297584,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 24707.0,
+        "numeric_max": 44643.0,
+        "examples": [
+          "30886",
+          "30997",
+          "31021",
+          "30959",
+          "30949",
+          "30957"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297584,
+        "zero_count": 212,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 15766.0,
+        "examples": [
+          "5",
+          "9",
+          "11",
+          "12",
+          "15",
+          "70"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 297584,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 297584,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 3.0,
+        "numeric_max": 15770.0,
+        "examples": [
+          "6",
+          "13",
+          "11",
+          "12",
+          "14",
+          "17"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "PLA - TRITC_E1": 7999,
+      "ChAt-50 - FITC_E1": 289585
+    },
+    "analysis_region_counts": {
+      "24M_Pfkp-TDP43 PLA": 297584
+    },
+    "pla_row_count_by_export_label": 7999,
+    "chat_row_count_by_export_label": 289585,
+    "pla_rows_with_chat_present_equal_1": 5512,
+    "object_id_unique_count": 297584,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        24705.0,
+        44640.0
+      ],
+      "XMax": [
+        24707.0,
+        44643.0
+      ],
+      "YMin": [
+        0.0,
+        15766.0
+      ],
+      "YMax": [
+        3.0,
+        15770.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 297583,
+    "sha256": "8013fb5553aebe4457dccfa42d13f52bb5497f186df5443d8c46bd36af549afc",
+    "source_sha256_unchanged_during_audit": true
+  },
+  {
+    "file_id": "input_003",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4596PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4596PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 238084,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 238084,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 238084
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 238084,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "22M_Hk1-TDP43 PLA"
+        ],
+        "categorical_counts": {
+          "22M_Hk1-TDP43 PLA": 238084
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 238084,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 238084
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 238084,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 238083.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 238084,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA - TRITC_E1",
+          "ChAt-50 - FITC_E1"
+        ],
+        "categorical_counts": {
+          "PLA - TRITC_E1": 15282,
+          "ChAt-50 - FITC_E1": 222802
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 227046,
+        "zero_count": 227046,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 230.64026,
+        "examples": [
+          "0",
+          "0.81536",
+          "0.37632",
+          "0.0784",
+          "0.025088",
+          "0.103488"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 229799,
+        "zero_count": 227046,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "0",
+          "50.980392",
+          "85.2459",
+          "61.53846",
+          "16.949152",
+          "60.97561"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2030.6698,
+        "examples": [
+          "0.247744",
+          "0.4704",
+          "0.040768",
+          "0.58016",
+          "0.382592",
+          "0.241472"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237824,
+        "zero_count": 237824,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 14.955585,
+        "examples": [
+          "0",
+          "0.028224",
+          "0.119168",
+          "0.225792",
+          "0.385728",
+          "0.034496"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2030.6698,
+        "examples": [
+          "0.247744",
+          "0.4704",
+          "0.040768",
+          "0.58016",
+          "0.382592",
+          "0.241472"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.012885,
+        "numeric_max": 0.537147,
+        "examples": [
+          "0.065099",
+          "0.077154",
+          "0.055471",
+          "0.109911",
+          "0.089798",
+          "0.398126"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 4187,
+        "zero_count": 4180,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.528,
+        "examples": [
+          "0.448",
+          "0.336",
+          "0.056",
+          "0.702193",
+          "0.500879",
+          "0.392"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1999,
+        "zero_count": 1972,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "0.56",
+          "1.134401",
+          "0.23722",
+          "0.874748",
+          "0.702193",
+          "0.517588"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 2548,
+        "zero_count": 2540,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "0.475176",
+          "0.517588",
+          "0.135196",
+          "0.751319",
+          "0.616",
+          "0.407981"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 238084,
+        "zero_count": 218249,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 19835,
+          "0": 218249
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 238084,
+        "zero_count": 8797,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "0",
+          "1"
+        ],
+        "categorical_counts": {
+          "0": 8797,
+          "1": 229287
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 238084,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 1011.0,
+        "numeric_max": 21440.0,
+        "examples": [
+          "1222",
+          "1595",
+          "1601",
+          "1024",
+          "1038",
+          "1132"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 238084,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 1012.0,
+        "numeric_max": 21442.0,
+        "examples": [
+          "1224",
+          "1599",
+          "1602",
+          "1027",
+          "1041",
+          "1133"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 238084,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 22117.0,
+        "numeric_max": 42215.0,
+        "examples": [
+          "22117",
+          "22134",
+          "22136",
+          "22181",
+          "22310",
+          "22375"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 238084,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 238084,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 22119.0,
+        "numeric_max": 42216.0,
+        "examples": [
+          "22119",
+          "22136",
+          "22137",
+          "22184",
+          "22312",
+          "22376"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "PLA - TRITC_E1": 15282,
+      "ChAt-50 - FITC_E1": 222802
+    },
+    "analysis_region_counts": {
+      "22M_Hk1-TDP43 PLA": 238084
+    },
+    "pla_row_count_by_export_label": 15282,
+    "chat_row_count_by_export_label": 222802,
+    "pla_rows_with_chat_present_equal_1": 6485,
+    "object_id_unique_count": 238084,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        1011.0,
+        21440.0
+      ],
+      "XMax": [
+        1012.0,
+        21442.0
+      ],
+      "YMin": [
+        22117.0,
+        42215.0
+      ],
+      "YMax": [
+        22119.0,
+        42216.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 238083,
+    "sha256": "e1a16aada3ad0f589395f5567c64571d3a98c87d3771878bc6574d909bf12d3e",
+    "source_sha256_unchanged_during_audit": true
+  },
+  {
+    "file_id": "input_004",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4597PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4597PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 356745,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 356745,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 356745
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 356745,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "24M_Hk1-TDP43 PLA"
+        ],
+        "categorical_counts": {
+          "24M_Hk1-TDP43 PLA": 356745
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 356745,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 356745
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 356745,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 356744.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 356745,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA - TRITC_E1",
+          "ChAt-50 - FITC_E1"
+        ],
+        "categorical_counts": {
+          "PLA - TRITC_E1": 43918,
+          "ChAt-50 - FITC_E1": 312827
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 322314,
+        "zero_count": 322314,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 265.44046,
+        "examples": [
+          "0",
+          "0.790272",
+          "0.034496",
+          "0.225792",
+          "1.840832",
+          "0.021952"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 336007,
+        "zero_count": 322314,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "0",
+          "36.896046",
+          "5.722071",
+          "100",
+          "2.835052",
+          "16.981133"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2059.3235,
+        "examples": [
+          "0.216384",
+          "1.044288",
+          "2.141888",
+          "13.810945",
+          "0.241472",
+          "0.14112"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 355791,
+        "zero_count": 355791,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 15.667456,
+        "examples": [
+          "0",
+          "0.065856",
+          "0.087808",
+          "0.012544",
+          "5.042688",
+          "0.021952"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2059.3235,
+        "examples": [
+          "0.216384",
+          "1.044288",
+          "2.141888",
+          "13.810945",
+          "0.241472",
+          "0.14112"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.012825,
+        "numeric_max": 0.624027,
+        "examples": [
+          "0.20081",
+          "0.193615",
+          "0.193637",
+          "0.086164",
+          "0.093613",
+          "0.107139"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 14378,
+        "zero_count": 14362,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.528,
+        "examples": [
+          "0.392",
+          "0.672",
+          "0.967781",
+          "2.019228",
+          "0.28",
+          "0"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 7163,
+        "zero_count": 7123,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "0.475176",
+          "1.703574",
+          "2.445229",
+          "6.128868",
+          "0.517588",
+          "0.327131"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 9335,
+        "zero_count": 9318,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "0.407981",
+          "0.953668",
+          "1.363813",
+          "2.833958",
+          "0.302307",
+          "0"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 356745,
+        "zero_count": 302751,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 53994,
+          "0": 302751
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 356745,
+        "zero_count": 19563,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "0",
+          "1"
+        ],
+        "categorical_counts": {
+          "0": 19563,
+          "1": 337182
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 356745,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 24575.0,
+        "numeric_max": 44641.0,
+        "examples": [
+          "33045",
+          "34580",
+          "36098",
+          "33900",
+          "33897",
+          "33901"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 356745,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 24578.0,
+        "numeric_max": 44643.0,
+        "examples": [
+          "33046",
+          "34581",
+          "36099",
+          "33906",
+          "33905",
+          "33915"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 356745,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 21762.0,
+        "numeric_max": 43124.0,
+        "examples": [
+          "21765",
+          "21763",
+          "21762",
+          "22187",
+          "22203",
+          "22391"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 356745,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 356745,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 21763.0,
+        "numeric_max": 43125.0,
+        "examples": [
+          "21766",
+          "21764",
+          "21763",
+          "22189",
+          "22208",
+          "22210"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "PLA - TRITC_E1": 43918,
+      "ChAt-50 - FITC_E1": 312827
+    },
+    "analysis_region_counts": {
+      "24M_Hk1-TDP43 PLA": 356745
+    },
+    "pla_row_count_by_export_label": 43918,
+    "chat_row_count_by_export_label": 312827,
+    "pla_rows_with_chat_present_equal_1": 24355,
+    "object_id_unique_count": 356745,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        24575.0,
+        44641.0
+      ],
+      "XMax": [
+        24578.0,
+        44643.0
+      ],
+      "YMin": [
+        21762.0,
+        43124.0
+      ],
+      "YMax": [
+        21763.0,
+        43125.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 356743,
+    "sha256": "47a953163ff19d35e2c34ba3f483a9b38035b3dda29eb2312d0a77c68ff45950",
+    "source_sha256_unchanged_during_audit": true
+  },
+  {
+    "file_id": "input_005",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 184684,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 184684,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 184684
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 184684,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "22M_TDP43-Pfkp_tight"
+        ],
+        "categorical_counts": {
+          "22M_TDP43-Pfkp_tight": 184684
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 184684,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 184684
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184684,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 184683.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 184684,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "ChAt-50 - FITC_E1",
+          "PLA - TRITC_E1"
+        ],
+        "categorical_counts": {
+          "ChAt-50 - FITC_E1": 176272,
+          "PLA - TRITC_E1": 8412
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 176514,
+        "zero_count": 176514,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 125.941765,
+        "examples": [
+          "0",
+          "0.254016",
+          "0.087808",
+          "0.479808",
+          "0.003136",
+          "0.0784"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 178780,
+        "zero_count": 176514,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "0",
+          "94.18604",
+          "90.32258",
+          "0.035601",
+          "8.615385",
+          "3.333333"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2079.4597,
+        "examples": [
+          "0.937664",
+          "0.95648",
+          "1.103872",
+          "1.251264",
+          "1.03488",
+          "1678.9141"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184558,
+        "zero_count": 184558,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 17.119425,
+        "examples": [
+          "0",
+          "0.009408",
+          "0.012544",
+          "0.059584",
+          "0.232064",
+          "0.0784"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2079.4597,
+        "examples": [
+          "0.937664",
+          "0.95648",
+          "1.103872",
+          "1.251264",
+          "1.03488",
+          "1678.9141"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.012837,
+        "numeric_max": 0.507081,
+        "examples": [
+          "0.014302",
+          "0.014255",
+          "0.016013",
+          "0.014422",
+          "0.014551",
+          "0.017476"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 2293,
+        "zero_count": 2291,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.528,
+        "examples": [
+          "0.71715",
+          "0.504",
+          "0.528444",
+          "0.517722",
+          "0.563486",
+          "48.496"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1117,
+        "zero_count": 1100,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "1.758669",
+          "1.96",
+          "1.665427",
+          "2.132436",
+          "1.907337",
+          "63.44106"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1417,
+        "zero_count": 1409,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "0.796295",
+          "1.230462",
+          "1.028042",
+          "1.088701",
+          "1.087529",
+          "51.796734"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184684,
+        "zero_count": 172995,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "0",
+          "1"
+        ],
+        "categorical_counts": {
+          "0": 172995,
+          "1": 11689
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184684,
+        "zero_count": 3519,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 181165,
+          "0": 3519
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184684,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 2398.0,
+        "numeric_max": 22129.0,
+        "examples": [
+          "5341",
+          "5348",
+          "5386",
+          "5259",
+          "5905",
+          "12436"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184684,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 2404.0,
+        "numeric_max": 22152.0,
+        "examples": [
+          "5348",
+          "5356",
+          "5392",
+          "5267",
+          "5911",
+          "12624"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184684,
+        "zero_count": 109,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 13086.0,
+        "examples": [
+          "107",
+          "114",
+          "135",
+          "138",
+          "140",
+          "0"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 184684,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 184684,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 4.0,
+        "numeric_max": 13093.0,
+        "examples": [
+          "110",
+          "119",
+          "140",
+          "145",
+          "174",
+          "89"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "ChAt-50 - FITC_E1": 176272,
+      "PLA - TRITC_E1": 8412
+    },
+    "analysis_region_counts": {
+      "22M_TDP43-Pfkp_tight": 184684
+    },
+    "pla_row_count_by_export_label": 8412,
+    "chat_row_count_by_export_label": 176272,
+    "pla_rows_with_chat_present_equal_1": 4893,
+    "object_id_unique_count": 184684,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        2398.0,
+        22129.0
+      ],
+      "XMax": [
+        2404.0,
+        22152.0
+      ],
+      "YMin": [
+        0.0,
+        13086.0
+      ],
+      "YMax": [
+        4.0,
+        13093.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 184684,
+    "sha256": "9f77bd5d8f148edd95e8035445d2c22d46218ed9e5bc6fc9872616627dd44cf2",
+    "source_sha256_unchanged_during_audit": true
+  },
+  {
+    "file_id": "input_006",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 295677,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 295677,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 295677
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 295677,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "24M_TDP43-Pfkp_tight"
+        ],
+        "categorical_counts": {
+          "24M_TDP43-Pfkp_tight": 295677
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 295677,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 295677
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295677,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 295676.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 295677,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA - TRITC_E1",
+          "ChAt-50 - FITC_E1"
+        ],
+        "categorical_counts": {
+          "PLA - TRITC_E1": 7733,
+          "ChAt-50 - FITC_E1": 287944
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 286086,
+        "zero_count": 286086,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 74.19149,
+        "examples": [
+          "0.06272",
+          "0.0784",
+          "0.018816",
+          "0",
+          "0.097216",
+          "0.03136"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 288847,
+        "zero_count": 286086,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "86.95652",
+          "62.5",
+          "100",
+          "0",
+          "1.427552",
+          "0.057999"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2073.5168,
+        "examples": [
+          "0.072128",
+          "0.12544",
+          "0.018816",
+          "31.673601",
+          "76.311424",
+          "2.77536"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295564,
+        "zero_count": 295564,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 11.800768,
+        "examples": [
+          "0",
+          "0.144256",
+          "0.119168",
+          "0.003136",
+          "0.006272",
+          "0.025088"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2073.5168,
+        "examples": [
+          "0.072128",
+          "0.12544",
+          "0.018816",
+          "31.673601",
+          "76.311424",
+          "2.77536"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.01277,
+        "numeric_max": 0.40032,
+        "examples": [
+          "0.057737",
+          "0.055916",
+          "0.054253",
+          "0.018555",
+          "0.015784",
+          "0.014549"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 2365,
+        "zero_count": 2360,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.528,
+        "examples": [
+          "0.112",
+          "0.18122",
+          "0",
+          "1.68",
+          "7.107828",
+          "0.230894"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 969,
+        "zero_count": 933,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "0.25044",
+          "0.392",
+          "0.079196",
+          "17.36",
+          "15.075703",
+          "3.306005"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1193,
+        "zero_count": 1174,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "0.224",
+          "0.25044",
+          "0.056",
+          "2.507526",
+          "11.207001",
+          "1.749567"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295677,
+        "zero_count": 283823,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 11854,
+          "0": 283823
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295677,
+        "zero_count": 2263,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 293414,
+          "0": 2263
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295677,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 25902.0,
+        "numeric_max": 44640.0,
+        "examples": [
+          "25919",
+          "25917",
+          "25918",
+          "25913",
+          "25933",
+          "25956"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295677,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 25908.0,
+        "numeric_max": 44643.0,
+        "examples": [
+          "25920",
+          "25919",
+          "25928",
+          "25988",
+          "25963",
+          "25998"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295677,
+        "zero_count": 112,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 13688.0,
+        "examples": [
+          "80",
+          "130",
+          "136",
+          "0",
+          "3",
+          "23"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 295677,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 295677,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 3.0,
+        "numeric_max": 13690.0,
+        "examples": [
+          "81",
+          "131",
+          "136",
+          "63",
+          "44",
+          "12"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "PLA - TRITC_E1": 7733,
+      "ChAt-50 - FITC_E1": 287944
+    },
+    "analysis_region_counts": {
+      "24M_TDP43-Pfkp_tight": 295677
+    },
+    "pla_row_count_by_export_label": 7733,
+    "chat_row_count_by_export_label": 287944,
+    "pla_rows_with_chat_present_equal_1": 5470,
+    "object_id_unique_count": 295677,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        25902.0,
+        44640.0
+      ],
+      "XMax": [
+        25908.0,
+        44643.0
+      ],
+      "YMin": [
+        0.0,
+        13688.0
+      ],
+      "YMax": [
+        3.0,
+        13690.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 295676,
+    "sha256": "4a05d72249ab4b9f5a55ae90173078664f39fc8287c24f19ee1a1c5af3f5e748",
+    "source_sha256_unchanged_during_audit": true
+  },
+  {
+    "file_id": "input_007",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 237144,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 237144,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 237144
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 237144,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "22M_TDP43-Hk1_tight"
+        ],
+        "categorical_counts": {
+          "22M_TDP43-Hk1_tight": 237144
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 237144,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 237144
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237144,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 237143.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 237144,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA - TRITC_E1",
+          "ChAt-50 - FITC_E1"
+        ],
+        "categorical_counts": {
+          "PLA - TRITC_E1": 14984,
+          "ChAt-50 - FITC_E1": 222160
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 226213,
+        "zero_count": 226213,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 309.31308,
+        "examples": [
+          "0",
+          "0.81536",
+          "0.291648",
+          "0.664832",
+          "0.040768",
+          "0.012544"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 228935,
+        "zero_count": 226213,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "0",
+          "50.980392",
+          "85.2459",
+          "42.857143",
+          "21.330275",
+          "86.88525"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2064.4978,
+        "examples": [
+          "0.053312",
+          "1.028608",
+          "0.918848",
+          "2.596608",
+          "1.08192",
+          "1.671488"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 236887,
+        "zero_count": 236887,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 11.120256,
+        "examples": [
+          "0",
+          "0.028224",
+          "0.119168",
+          "0.225792",
+          "0.034496",
+          "0.385728"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2064.4978,
+        "examples": [
+          "0.053312",
+          "1.028608",
+          "0.918848",
+          "2.596608",
+          "1.08192",
+          "1.671488"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.012885,
+        "numeric_max": 0.569518,
+        "examples": [
+          "0.05789",
+          "0.015221",
+          "0.01601",
+          "0.01419",
+          "0.013926",
+          "0.015011"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 4150,
+        "zero_count": 4143,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.48392,
+        "examples": [
+          "0.112",
+          "0.655552",
+          "0.576706",
+          "1.229463",
+          "0.437374",
+          "0.595288"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1980,
+        "zero_count": 1954,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "0.204416",
+          "1.312204",
+          "1.612693",
+          "3.438443",
+          "1.758669",
+          "2.320532"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 2521,
+        "zero_count": 2515,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "0.158392",
+          "1.14218",
+          "0.912274",
+          "1.670764",
+          "1.022577",
+          "1.134069"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237144,
+        "zero_count": 217631,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 19513,
+          "0": 217631
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237144,
+        "zero_count": 8582,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "0",
+          "1"
+        ],
+        "categorical_counts": {
+          "0": 8582,
+          "1": 228562
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237144,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 1681.0,
+        "numeric_max": 21297.0,
+        "examples": [
+          "12707",
+          "12602",
+          "12674",
+          "13108",
+          "13041",
+          "13064"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237144,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 1691.0,
+        "numeric_max": 21301.0,
+        "examples": [
+          "12708",
+          "12607",
+          "12680",
+          "13116",
+          "13047",
+          "13072"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237144,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 23641.0,
+        "numeric_max": 40999.0,
+        "examples": [
+          "23678",
+          "23641",
+          "23663",
+          "23719",
+          "23720",
+          "23726"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 237144,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 237144,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 23645.0,
+        "numeric_max": 41008.0,
+        "examples": [
+          "23679",
+          "23645",
+          "23667",
+          "23731",
+          "23725",
+          "23732"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "PLA - TRITC_E1": 14984,
+      "ChAt-50 - FITC_E1": 222160
+    },
+    "analysis_region_counts": {
+      "22M_TDP43-Hk1_tight": 237144
+    },
+    "pla_row_count_by_export_label": 14984,
+    "chat_row_count_by_export_label": 222160,
+    "pla_rows_with_chat_present_equal_1": 6402,
+    "object_id_unique_count": 237144,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        1681.0,
+        21297.0
+      ],
+      "XMax": [
+        1691.0,
+        21301.0
+      ],
+      "YMin": [
+        23641.0,
+        40999.0
+      ],
+      "YMax": [
+        23645.0,
+        41008.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 237143,
+    "sha256": "2e4e329f0623bd2bb3407cf4a1cee8d28460d76308fe89d53386617e0e3d2226",
+    "source_sha256_unchanged_during_audit": true
+  },
+  {
+    "file_id": "input_008",
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+    "row_count": 349776,
+    "column_count": 20,
+    "columns": [
+      "Image Location",
+      "Analysis Region",
+      "Algorithm Name",
+      "Object Id",
+      "Object Type",
+      "Area in PLA and Chat coloc",
+      "% Area in PLA and Chat coloc",
+      "Area (µm²)",
+      "Inner Area (µm²)",
+      "Outer Area (µm²)",
+      "Average Intensity",
+      "Minimum Diameter (µm)",
+      "Maximum Diameter (µm)",
+      "Median Diameter (µm)",
+      "PLA - TRITC_E1 present",
+      "ChAt-50 - FITC_E1 present",
+      "XMin",
+      "XMax",
+      "YMin",
+      "YMax"
+    ],
+    "malformed_row_count": 0,
+    "column_profiles": {
+      "Image Location": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 349776,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff"
+        ],
+        "categorical_counts": {
+          "H:\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2\\20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff": 349776
+        },
+        "observed_type": "string"
+      },
+      "Analysis Region": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 349776,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "24M_TDP43-Hk1_tight"
+        ],
+        "categorical_counts": {
+          "24M_TDP43-Hk1_tight": 349776
+        },
+        "observed_type": "string"
+      },
+      "Algorithm Name": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 349776,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "PLA and ChaT Object Colocalization FL v3.0.0"
+        ],
+        "categorical_counts": {
+          "PLA and ChaT Object Colocalization FL v3.0.0": 349776
+        },
+        "observed_type": "string"
+      },
+      "Object Id": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 349776,
+        "zero_count": 1,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 349775.0,
+        "examples": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "Object Type": {
+        "missing_count": 0,
+        "numeric_count": 0,
+        "non_numeric_count": 349776,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "examples": [
+          "ChAt-50 - FITC_E1",
+          "PLA - TRITC_E1"
+        ],
+        "categorical_counts": {
+          "ChAt-50 - FITC_E1": 308539,
+          "PLA - TRITC_E1": 41237
+        },
+        "observed_type": "string"
+      },
+      "Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 317219,
+        "zero_count": 317219,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 246.24812,
+        "examples": [
+          "0",
+          "0.617792",
+          "0.003136",
+          "0.620928",
+          "0.097216",
+          "0.43904"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "% Area in PLA and Chat coloc": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 330046,
+        "zero_count": 317219,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 100.0,
+        "examples": [
+          "0",
+          "100",
+          "31.428572",
+          "48.4375",
+          "33.333332",
+          "96.666664"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2043.4208,
+        "examples": [
+          "93.35872",
+          "1.492736",
+          "5.807872",
+          "1.188544",
+          "1.737344",
+          "2.706368"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Inner Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 348886,
+        "zero_count": 348886,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 25.925312,
+        "examples": [
+          "0",
+          "0.012544",
+          "5.042688",
+          "0.06272",
+          "0.081536",
+          "0.006272"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Outer Area (µm²)": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 1,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.003136,
+        "numeric_max": 2043.4208,
+        "examples": [
+          "93.35872",
+          "1.492736",
+          "5.807872",
+          "1.188544",
+          "1.737344",
+          "2.706368"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Average Intensity": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 0.012825,
+        "numeric_max": 0.663583,
+        "examples": [
+          "0.015994",
+          "0.014176",
+          "0.015777",
+          "0.014971",
+          "0.022608",
+          "0.015335"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Minimum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 13507,
+        "zero_count": 13493,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 52.422943,
+        "examples": [
+          "7.918217",
+          "0.780226",
+          "1.907601",
+          "0.573067",
+          "0.792121",
+          "0.71715"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Maximum Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 6707,
+        "zero_count": 6676,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 68.60373,
+        "examples": [
+          "22.233137",
+          "1.950697",
+          "3.756012",
+          "2.108115",
+          "3.313498",
+          "16.73502"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "Median Diameter (µm)": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 8757,
+        "zero_count": 8744,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 55.910557,
+        "examples": [
+          "9.622228",
+          "1.181511",
+          "2.688",
+          "1.104553",
+          "1.4",
+          "1.383128"
+        ],
+        "categorical_counts": {},
+        "observed_type": "numeric"
+      },
+      "PLA - TRITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 349776,
+        "zero_count": 298692,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "0",
+          "1"
+        ],
+        "categorical_counts": {
+          "0": 298692,
+          "1": 51084
+        },
+        "observed_type": "integer_valued"
+      },
+      "ChAt-50 - FITC_E1 present": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 349776,
+        "zero_count": 18527,
+        "negative_count": 0,
+        "numeric_min": 0.0,
+        "numeric_max": 1.0,
+        "examples": [
+          "1",
+          "0"
+        ],
+        "categorical_counts": {
+          "1": 331249,
+          "0": 18527
+        },
+        "observed_type": "integer_valued"
+      },
+      "XMin": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 349776,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 26362.0,
+        "numeric_max": 44640.0,
+        "examples": [
+          "27762",
+          "27810",
+          "27814",
+          "27770",
+          "27940",
+          "27867"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "XMax": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 349776,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 26366.0,
+        "numeric_max": 44643.0,
+        "examples": [
+          "27844",
+          "27816",
+          "27825",
+          "27776",
+          "27946",
+          "27878"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMin": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 349776,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 26163.0,
+        "numeric_max": 42894.0,
+        "examples": [
+          "26298",
+          "26302",
+          "26303",
+          "26319",
+          "26234",
+          "26268"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      },
+      "YMax": {
+        "missing_count": 0,
+        "numeric_count": 349776,
+        "non_numeric_count": 0,
+        "non_finite_count": 0,
+        "integer_valued_count": 349776,
+        "zero_count": 0,
+        "negative_count": 0,
+        "numeric_min": 26173.0,
+        "numeric_max": 42911.0,
+        "examples": [
+          "26341",
+          "26307",
+          "26317",
+          "26324",
+          "26241",
+          "26277"
+        ],
+        "categorical_counts": {},
+        "observed_type": "integer_valued"
+      }
+    },
+    "object_type_counts": {
+      "ChAt-50 - FITC_E1": 308539,
+      "PLA - TRITC_E1": 41237
+    },
+    "analysis_region_counts": {
+      "24M_TDP43-Hk1_tight": 349776
+    },
+    "pla_row_count_by_export_label": 41237,
+    "chat_row_count_by_export_label": 308539,
+    "pla_rows_with_chat_present_equal_1": 22710,
+    "object_id_unique_count": 349776,
+    "duplicate_object_id_occurrences": 0,
+    "bbox_field_ranges": {
+      "XMin": [
+        26362.0,
+        44640.0
+      ],
+      "XMax": [
+        26366.0,
+        44643.0
+      ],
+      "YMin": [
+        26163.0,
+        42894.0
+      ],
+      "YMax": [
+        26173.0,
+        42911.0
+      ]
+    },
+    "invalid_bbox_order_count": 0,
+    "missing_or_nonfinite_bbox_count": 0,
+    "true_centroid_fields_present": [],
+    "exact_duplicate_row_occurrences": 0,
+    "measurement_signature_unique_count": 349773,
+    "sha256": "1ba6bbfc4ca4a37ac075783b31255795a0c2d6ebc708ca1a208077fc8fcb9371",
+    "source_sha256_unchanged_during_audit": true
+  }
+]

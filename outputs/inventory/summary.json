@@ -1,0 +1,147 @@
+{
+  "method_version": "1.1",
+  "started_utc": "2026-11-10T01:30:21.220158+00:00",
+  "completed_utc": "2026-11-10T01:31:08.167220+00:00",
+  "data_directory": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/Initial Data",
+  "reference_directories": [
+    "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/Initial Data",
+    "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/entire Chat dataset"
+  ],
+  "source_file_count": 8,
+  "source_csv_count": 8,
+  "source_bytes": 710775898,
+  "total_exported_rows_including_possible_repeats": 2146037,
+  "total_pla_rows_by_export_label_including_possible_repeats": 148677,
+  "total_chat_rows_by_export_label_including_possible_repeats": 1997360,
+  "source_files_identical_to_historical_reference": 8,
+  "all_csvs_missing_true_centroid_fields": true,
+  "malformed_rows": 0,
+  "invalid_bbox_rows": 0,
+  "row_overlap_audited": true,
+  "row_signature_algorithm": "BLAKE2b-128 over length-prefixed UTF-8 exported values; possible cryptographic collision is not a biological identity test.",
+  "measurement_signature_excluded_columns": [
+    "Analysis Region",
+    "Object Id"
+  ],
+  "sample_metadata_policy": "No assignments inferred from filename tokens, embedded labels, historical findings or duplicate status; generated observations do not overwrite curated metadata.",
+  "blockers": [
+    "No scientist-approved mapping of these exports to the new experiment, animals, conditions, PLA arms, physical sections and repeated analyses.",
+    "No centroid fields are supplied; the requested aligned-centroid definition is unresolved. Historical bounding-box midpoint proxies require explicit scientific clarification before use.",
+    "No approved alignment transforms/reference anatomy, aligned tissue masks, coordinate calibration or verified common grid supplied in the inventoried data directory.",
+    "Byte-identical historical copies and overlapping analyses are documented; current section mapping and ROI/rerun inclusion resolution remain needed."
+  ],
+  "files": [
+    {
+      "file_id": "input_001",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4594PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 186343,
+      "object_type_counts": {
+        "ChAt-50 - FITC_E1": 177231,
+        "PLA - TRITC_E1": 9112
+      },
+      "analysis_region_counts": {
+        "22M_Pfkp-TDP43 PLA": 186343
+      },
+      "pla_rows_with_chat_present_equal_1": 5380,
+      "historical_byte_identical_copy_count": 1
+    },
+    {
+      "file_id": "input_002",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4595PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 297584,
+      "object_type_counts": {
+        "PLA - TRITC_E1": 7999,
+        "ChAt-50 - FITC_E1": 289585
+      },
+      "analysis_region_counts": {
+        "24M_Pfkp-TDP43 PLA": 297584
+      },
+      "pla_rows_with_chat_present_equal_1": 5512,
+      "historical_byte_identical_copy_count": 1
+    },
+    {
+      "file_id": "input_003",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4596PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 238084,
+      "object_type_counts": {
+        "PLA - TRITC_E1": 15282,
+        "ChAt-50 - FITC_E1": 222802
+      },
+      "analysis_region_counts": {
+        "22M_Hk1-TDP43 PLA": 238084
+      },
+      "pla_rows_with_chat_present_equal_1": 6485,
+      "historical_byte_identical_copy_count": 1
+    },
+    {
+      "file_id": "input_004",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4597PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 356745,
+      "object_type_counts": {
+        "PLA - TRITC_E1": 43918,
+        "ChAt-50 - FITC_E1": 312827
+      },
+      "analysis_region_counts": {
+        "24M_Hk1-TDP43 PLA": 356745
+      },
+      "pla_rows_with_chat_present_equal_1": 24355,
+      "historical_byte_identical_copy_count": 1
+    },
+    {
+      "file_id": "input_005",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 184684,
+      "object_type_counts": {
+        "ChAt-50 - FITC_E1": 176272,
+        "PLA - TRITC_E1": 8412
+      },
+      "analysis_region_counts": {
+        "22M_TDP43-Pfkp_tight": 184684
+      },
+      "pla_rows_with_chat_present_equal_1": 4893,
+      "historical_byte_identical_copy_count": 2
+    },
+    {
+      "file_id": "input_006",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 295677,
+      "object_type_counts": {
+        "PLA - TRITC_E1": 7733,
+        "ChAt-50 - FITC_E1": 287944
+      },
+      "analysis_region_counts": {
+        "24M_TDP43-Pfkp_tight": 295677
+      },
+      "pla_rows_with_chat_present_equal_1": 5470,
+      "historical_byte_identical_copy_count": 2
+    },
+    {
+      "file_id": "input_007",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 237144,
+      "object_type_counts": {
+        "PLA - TRITC_E1": 14984,
+        "ChAt-50 - FITC_E1": 222160
+      },
+      "analysis_region_counts": {
+        "22M_TDP43-Hk1_tight": 237144
+      },
+      "pla_rows_with_chat_present_equal_1": 6402,
+      "historical_byte_identical_copy_count": 2
+    },
+    {
+      "file_id": "input_008",
+      "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "row_count": 349776,
+      "object_type_counts": {
+        "ChAt-50 - FITC_E1": 308539,
+        "PLA - TRITC_E1": 41237
+      },
+      "analysis_region_counts": {
+        "24M_TDP43-Hk1_tight": 349776
+      },
+      "pla_rows_with_chat_present_equal_1": 22710,
+      "historical_byte_identical_copy_count": 2
+    }
+  ]
+}

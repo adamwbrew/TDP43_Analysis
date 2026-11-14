@@ -1,0 +1,1519 @@
+{
+  "schema_version": 1,
+  "approval": {
+    "status": "documented",
+    "documented_by": "Codex: transcribed instruction PDF plus explicit user selection of former-app twelve-section cohort",
+    "documented_at": "2026-11-11T19:24:17.652179-05:00",
+    "evidence": {
+      "path": "../COMET_Spatial_PLA_Heatmap_Codex_Instructions.pdf",
+      "sha256": "0d737c8ddea21e2e420b0bfa7eb0e762944f7e6735b4f56803bf52f0cdef697d"
+    }
+  },
+  "confirmations": {
+    "sample_relationships": {
+      "confirmed": true,
+      "evidence": "metadata/cohort_selection.json: user selected the former-app twelve completed physical sections on 2026-11-11; source identities are exact SHA-256 matches to the historical app and section_metadata.csv.gz. Historical handoff PDF pp.1,8 supplies the now-selected animal/condition/arm assignments."
+    },
+    "centroid_measurements": {
+      "confirmed": false,
+      "evidence": "All thirteen newly supplied CSV headers contain XMin/XMax/YMin/YMax but no measured centroid fields. The prior app used bounding-box midpoints. Current core counting awaits measured centroids or an explicit applicable scientific amendment authorizing that proxy."
+    },
+    "existing_tissue_masks": {
+      "confirmed": false,
+      "evidence": "The supplied entire Chat dataset folder contains thirteen object-result CSV files and no tissue-boundary/mask files. Detection occupancy and internal-cavity anchor polygons are not tissue masks. Existing masks must be matched to these twelve section IDs."
+    },
+    "existing_fixed_alignment": {
+      "confirmed": true,
+      "evidence": "Instruction PDF p.1 sections1-3 requires unchanged prior alignment; user explicitly selected the former-app cohort/alignment on 2026-11-11. outputs/comet_core/alignment_snapshot.json preserves all twelve fixed matrices exactly. Historical proposed/unreviewed annotations remain provenance; no new fit or anatomical self-approval is performed."
+    },
+    "duplicate_resolution": {
+      "confirmed": true,
+      "evidence": "metadata/cohort_selection.json exclusion_policy and fresh_folder_inventory: twelve primary completed exports, one per animal per arm; interrupted job4978 is audit-only and superseded by job5403. Initial eight-file alternatives are not concatenated."
+    },
+    "grid_definition": {
+      "confirmed": true,
+      "evidence": "metadata/grid_parameters.json records shared grid edges, dimensions, source and rationale under PDF p.1 section2. This is configuration, not a new anatomical acceptance."
+    }
+  },
+  "study": {
+    "biological_experimental_unit": "animal",
+    "descriptive_averaging_unit": "physical_tissue_section",
+    "section_weighting": "equal",
+    "scientific_question": "Separate HK1 and PFKP Running minus Homecage equal-section mean raw PLA count per fully covered spatial bin, using the user-selected former-app twelve-section cohort and unchanged fixed alignment.",
+    "selected_design": {
+      "animals": 6,
+      "conditions": {
+        "Homecage": [
+          "21F",
+          "23M",
+          "24M"
+        ],
+        "Running": [
+          "22F",
+          "21M",
+          "22M"
+        ]
+      },
+      "pla_types": [
+        "HK1",
+        "PFKP"
+      ],
+      "physical_sections": 12,
+      "sections_per_animal_per_pla_type": 1,
+      "same_animals_across_arms": true,
+      "arms_are_distinct_physical_sections": true,
+      "biological_experimental_unit": "animal",
+      "initial_descriptive_average_unit": "physical_section",
+      "independent_animals_per_condition": 3
+    }
+  },
+  "grid": {
+    "x_edges": [
+      -8000.0,
+      -7000.0,
+      -6000.0,
+      -5000.0,
+      -4000.0,
+      -3000.0,
+      -2000.0,
+      -1000.0,
+      0.0,
+      1000.0,
+      2000.0,
+      3000.0,
+      4000.0,
+      5000.0,
+      6000.0,
+      7000.0,
+      8000.0,
+      9000.0,
+      10000.0,
+      11000.0,
+      12000.0,
+      13000.0,
+      14000.0,
+      15000.0,
+      16000.0,
+      17000.0
+    ],
+    "y_edges": [
+      -12000.0,
+      -11000.0,
+      -10000.0,
+      -9000.0,
+      -8000.0,
+      -7000.0,
+      -6000.0,
+      -5000.0,
+      -4000.0,
+      -3000.0,
+      -2000.0,
+      -1000.0,
+      0.0,
+      1000.0,
+      2000.0,
+      3000.0,
+      4000.0,
+      5000.0,
+      6000.0,
+      7000.0,
+      8000.0,
+      9000.0,
+      10000.0,
+      11000.0,
+      12000.0
+    ],
+    "coordinate_units": "HALO export units; physical calibration unverified",
+    "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+    "orientation": {
+      "x_positive": "increasing former-app aligned x; anatomical direction not additionally inferred",
+      "y_positive": "increasing former-app aligned y; anatomical direction not additionally inferred",
+      "display_x_increases_to": "right",
+      "display_y_increases_to": "down"
+    },
+    "provenance": "metadata/grid_parameters.json: one shared configurable 1000-export-unit grid, covering recovered fixed-aligned review-grid extents plus one bin of padding; no new alignment or mask inference. Independent arm references are preserved.",
+    "reference_frames_by_pla_type": {
+      "HK1": {
+        "reference_job": "4998",
+        "reference_animal": "21F",
+        "cross_arm_anatomical_registration_claimed": false
+      },
+      "PFKP": {
+        "reference_job": "5020",
+        "reference_animal": "21F",
+        "cross_arm_anatomical_registration_claimed": false
+      }
+    }
+  },
+  "alignment_reference": {
+    "path": "../outputs/comet_core/figures/alignment_check_reference.png",
+    "sha256": "7587b1dc18669e834dab50295a72fead390b940dcff8ab1299dbaf6c7757b859",
+    "figure_id": "19_feature_alignment_before_after",
+    "source_role": "Unchanged prior figure from the now user-selected former app; original proposed/unreviewed caption retained as provenance",
+    "reproduced_figure": "../outputs/comet_core/figures/alignment_check_reproduced.png",
+    "replay_validation": "../outputs/comet_core/alignment_replay_validation.json"
+  },
+  "source_relationships": [
+    {
+      "source_file_id": "historical_job_4998",
+      "job": "4998",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4998PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "3dc2fffe5a7369172f95578c11b5b8188e718922bcb687936ca02382463b1bd9",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5006",
+      "job": "5006",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5006PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "b36743617af5013290dc326bde525772098c6b31b2a0ae5eab2092550c8943ea",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_4997",
+      "job": "4997",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4997PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "2eeb66efe0a7918ed3b89066d94723f6944e53fdc68a084ba8824af6d3b282ef",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5001",
+      "job": "5001",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "2e4e329f0623bd2bb3407cf4a1cee8d28460d76308fe89d53386617e0e3d2226",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5007",
+      "job": "5007",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5007PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "7c7a087618700ccb3ea05306b4bfa7e166f0b114bc9f53107742152033204397",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5002",
+      "job": "5002",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "1ba6bbfc4ca4a37ac075783b31255795a0c2d6ebc708ca1a208077fc8fcb9371",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5020",
+      "job": "5020",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5020PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "aad88d53e52707b222e9386adf8e8b7d0dbfced87e37aa805e5f3cc16eca6c13",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5003",
+      "job": "5003",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5003PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "c3e33c682c1709daabfe5922b2dd707eef6cb783d8f34baa4779205656e34755",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5403",
+      "job": "5403",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5403PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "f56b395ae0825e5fdb05dafae7112be24277895cca467b7bda84480d702665e7",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_4999",
+      "job": "4999",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "9f77bd5d8f148edd95e8035445d2c22d46218ed9e5bc6fc9872616627dd44cf2",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5005",
+      "job": "5005",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5005PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "391641f73ddc1f6fa64c6cca5f9e16058fcaa9589af7a4c0823b2b50c0f71b6e",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_5000",
+      "job": "5000",
+      "relationship": "primary",
+      "included": true,
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "4a05d72249ab4b9f5a55ae90173078664f39fc8287c24f19ee1a1c5af3f5e748",
+      "evidence": "metadata/cohort_selection.json: one completed physical section per selected animal/PLA arm, exact current-folder byte identity with former app source."
+    },
+    {
+      "source_file_id": "historical_job_4978",
+      "job": "4978",
+      "relationship": "superseded",
+      "included": false,
+      "primary_source_file_id": "historical_job_5403",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4978PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "24eb76d091ba17a6ccd1fc8449c361943bf9c25c6d4df04acbee0686fd8b5867",
+      "evidence": "metadata/cohort_selection.json exclusion_policy: Documented interrupted export superseded by completedjob5403; exact rawsourcehash matches historical manifest. Retain for audit, exclude from primarysections/counts."
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "21F_Hk1",
+      "physical_section_id": "21F_Hk1",
+      "animal_id": "21F",
+      "condition": "Homecage",
+      "pla_type": "HK1",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4998PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "3dc2fffe5a7369172f95578c11b5b8188e718922bcb687936ca02382463b1bd9",
+        "source_file_id": "historical_job_4998",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 323082,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21F_TDP43-Hk1_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -30904.110003022062
+          ],
+          [
+            0,
+            1,
+            -35852.61408280447
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          30904.110003022062,
+          35852.61408280447
+        ],
+        "saved_flip": "none",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "4998"
+    },
+    {
+      "section_id": "21M_Hk1",
+      "physical_section_id": "21M_Hk1",
+      "animal_id": "21M",
+      "condition": "Running",
+      "pla_type": "HK1",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5006PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "b36743617af5013290dc326bde525772098c6b31b2a0ae5eab2092550c8943ea",
+        "source_file_id": "historical_job_5006",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 176423,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21M_TDP43-Hk1_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -4492.180149168101
+          ],
+          [
+            0,
+            1,
+            -33817.53298909925
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          4492.180149168101,
+          33817.53298909925
+        ],
+        "saved_flip": "none",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5006"
+    },
+    {
+      "section_id": "22F_Hk1",
+      "physical_section_id": "22F_Hk1",
+      "animal_id": "22F",
+      "condition": "Running",
+      "pla_type": "HK1",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4997PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "2eeb66efe0a7918ed3b89066d94723f6944e53fdc68a084ba8824af6d3b282ef",
+        "source_file_id": "historical_job_4997",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 163549,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22F_Hk1-TDP43_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -5868.1547619047615
+          ],
+          [
+            0,
+            -1,
+            35945.23809523809
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          5868.1547619047615,
+          35945.23809523809
+        ],
+        "saved_flip": "vertical",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "4997"
+    },
+    {
+      "section_id": "22M_Hk1",
+      "physical_section_id": "22M_Hk1",
+      "animal_id": "22M",
+      "condition": "Running",
+      "pla_type": "HK1",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "2e4e329f0623bd2bb3407cf4a1cee8d28460d76308fe89d53386617e0e3d2226",
+        "source_file_id": "historical_job_5001",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 237144,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22M_TDP43-Hk1_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -7453.948462177888
+          ],
+          [
+            0,
+            -1,
+            33127.09891936825
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          7453.948462177888,
+          33127.09891936825
+        ],
+        "saved_flip": "vertical",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5001"
+    },
+    {
+      "section_id": "23M_Hk1",
+      "physical_section_id": "23M_Hk1",
+      "animal_id": "23M",
+      "condition": "Homecage",
+      "pla_type": "HK1",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5007PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "7c7a087618700ccb3ea05306b4bfa7e166f0b114bc9f53107742152033204397",
+        "source_file_id": "historical_job_5007",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 306291,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "23M_TDP43-Hk1_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -29605.787037037036
+          ],
+          [
+            0,
+            1,
+            -35299.1512345679
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          29605.787037037036,
+          35299.1512345679
+        ],
+        "saved_flip": "none",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5007"
+    },
+    {
+      "section_id": "24M_Hk1",
+      "physical_section_id": "24M_Hk1",
+      "animal_id": "24M",
+      "condition": "Homecage",
+      "pla_type": "HK1",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "1ba6bbfc4ca4a37ac075783b31255795a0c2d6ebc708ca1a208077fc8fcb9371",
+        "source_file_id": "historical_job_5002",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 349776,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "24M_TDP43-Hk1_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -32361.684981684983
+          ],
+          [
+            0,
+            1,
+            -33262.820512820515
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          32361.684981684983,
+          33262.820512820515
+        ],
+        "saved_flip": "none",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5002"
+    },
+    {
+      "section_id": "21F_Pfkp",
+      "physical_section_id": "21F_Pfkp",
+      "animal_id": "21F",
+      "condition": "Homecage",
+      "pla_type": "PFKP",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5020PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "aad88d53e52707b222e9386adf8e8b7d0dbfced87e37aa805e5f3cc16eca6c13",
+        "source_file_id": "historical_job_5020",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 240702,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21F_TDP43-Pfkp_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -30305.378401360544
+          ],
+          [
+            0,
+            1,
+            -8037.670068027211
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          30305.378401360544,
+          8037.670068027211
+        ],
+        "saved_flip": "none",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5020"
+    },
+    {
+      "section_id": "21M_Pfkp",
+      "physical_section_id": "21M_Pfkp",
+      "animal_id": "21M",
+      "condition": "Running",
+      "pla_type": "PFKP",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5003PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "c3e33c682c1709daabfe5922b2dd707eef6cb783d8f34baa4779205656e34755",
+        "source_file_id": "historical_job_5003",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 193552,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21M_TDP43-Pfkp_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -4968.27430293896
+          ],
+          [
+            0,
+            1,
+            -9409.41974378297
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          4968.27430293896,
+          9409.41974378297
+        ],
+        "saved_flip": "none",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5003"
+    },
+    {
+      "section_id": "22F_Pfkp",
+      "physical_section_id": "22F_Pfkp",
+      "animal_id": "22F",
+      "condition": "Running",
+      "pla_type": "PFKP",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5403PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "f56b395ae0825e5fdb05dafae7112be24277895cca467b7bda84480d702665e7",
+        "source_file_id": "historical_job_5403",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 190915,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22F_TDP43-Pfkp_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -6198.573573573573
+          ],
+          [
+            0,
+            -1,
+            8728.340840840841
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          6198.573573573573,
+          8728.340840840841
+        ],
+        "saved_flip": "vertical",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5403"
+    },
+    {
+      "section_id": "22M_Pfkp",
+      "physical_section_id": "22M_Pfkp",
+      "animal_id": "22M",
+      "condition": "Running",
+      "pla_type": "PFKP",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "9f77bd5d8f148edd95e8035445d2c22d46218ed9e5bc6fc9872616627dd44cf2",
+        "source_file_id": "historical_job_4999",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 184684,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22M_TDP43-Pfkp_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -8464.542124542124
+          ],
+          [
+            0,
+            -1,
+            3529.1849816849817
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          8464.542124542124,
+          3529.1849816849817
+        ],
+        "saved_flip": "vertical",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "4999"
+    },
+    {
+      "section_id": "23M_Pfkp",
+      "physical_section_id": "23M_Pfkp",
+      "animal_id": "23M",
+      "condition": "Homecage",
+      "pla_type": "PFKP",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5005PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "391641f73ddc1f6fa64c6cca5f9e16058fcaa9589af7a4c0823b2b50c0f71b6e",
+        "source_file_id": "historical_job_5005",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 348981,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "23M_TDP43-Pfkp_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -29861.387478849407
+          ],
+          [
+            0,
+            1,
+            -7791.370558375635
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          29861.387478849407,
+          7791.370558375635
+        ],
+        "saved_flip": "none",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5005"
+    },
+    {
+      "section_id": "24M_Pfkp",
+      "physical_section_id": "24M_Pfkp",
+      "animal_id": "24M",
+      "condition": "Homecage",
+      "pla_type": "PFKP",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "4a05d72249ab4b9f5a55ae90173078664f39fc8287c24f19ee1a1c5af3f5e748",
+        "source_file_id": "historical_job_5000",
+        "format": "csv",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "centroid_x_column": null,
+        "centroid_y_column": null,
+        "centroid_definition": {
+          "kind": "measured_centroid",
+          "confirmed": false,
+          "evidence": "No measured centroid columns in this source CSV. XMin/XMax/YMin/YMax define only bounding boxes; do not silently substitute their midpoint."
+        },
+        "pla_object_type": {
+          "kind": "classified_mixed_source",
+          "classification_column": "Object Type",
+          "accepted_values": [
+            "PLA - TRITC_E1"
+          ],
+          "evidence": "Exact exported Object Type value and former source parser bio_visuals/data.py OBJECT_TYPES; marker rows ChAt-50 - FITC_E1 are excluded."
+        },
+        "object_selection": {
+          "mode": "column_equals",
+          "predicates": {
+            "Object Type": "PLA - TRITC_E1"
+          }
+        },
+        "basis": "consolidated_object_measurements",
+        "rows_all_object_types": 295677,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "24M_TDP43-Pfkp_tight",
+        "available_position_fields": [
+          "XMin",
+          "XMax",
+          "YMin",
+          "YMax"
+        ],
+        "unapproved_position_proxy": {
+          "definition": "x=(XMin+XMax)/2; y=(YMin+YMax)/2",
+          "meaning": "bounding-box midpoint, not measured centroid",
+          "authorized_for_core_counting": false
+        }
+      },
+      "mask": {
+        "path": null,
+        "sha256": null,
+        "format": null,
+        "coordinate_space": null,
+        "coordinate_units": null,
+        "reference_space": null,
+        "basis": "existing_tissue_mask",
+        "status": "awaiting_existing_tissue_mask_or_boundary_for_this_section"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -32152.6588845655
+          ],
+          [
+            0,
+            -1,
+            3475.8662219751714
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "accepted": true,
+        "approved_by": "User instruction to reuse the exact former-app alignment, documented in cohort_selection.json; no new anatomical verification asserted",
+        "native_units": "HALO export units; physical calibration unverified",
+        "aligned_units": "HALO export units; physical calibration unverified",
+        "reference_space": "former_app_fixed_cavity_origin_axes_separate_by_PLA_type",
+        "evidence": {
+          "path": "../outputs/comet_core/alignment_snapshot.json",
+          "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30"
+        },
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "saved_center": [
+          32152.6588845655,
+          3475.8662219751714
+        ],
+        "saved_flip": "vertical",
+        "applied_without_refit": true,
+        "historical_anatomical_review_ready": false,
+        "reuse_authority": "Current instruction PDF p.1 plus explicit user selection of the former app cohort/alignment on 2026-11-11"
+      },
+      "assignment_evidence": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz; current applicability documented by metadata/cohort_selection.json",
+      "job": "5000"
+    }
+  ],
+  "notes": [
+    "Current user selection resolves the twelve-section cohort, animal assignments, completed-versus-interrupted export policy and applicable unchanged fixed transformations; these are no longer listed as unknown.",
+    "Raw source files are the thirteen newly supplied CSVs in the new project entire Chat dataset folder. Twelve completed exports are primary; interrupted4978 is excluded in favor of5403. Initial eight-file audit remains separate.",
+    "The same six animals occur in both arms, with distinct physical sections. Arms are processed separately and are not independent biological replications.",
+    "Coordinate units are recorded HALO export units with unverified physical calibration. Area-column micrometer labels do not establish x/y calibration.",
+    "Independent per-arm 21F/cavity reference frames are preserved. Shared numeric grid boundaries do not assert cross-arm anatomical correspondence.",
+    "Historical proposal/unreviewed annotations are preserved as provenance. The current user/PDF directs fixed reuse; no transforms are refit and no anatomy is self-approved.",
+    "Mask assets and centroid definitions remain deliberately unresolved. Internal cavity polygons and detection-occupancy support must not become tissue masks.",
+    "Asset paths resolve relative to this manifest directory unless absolute. Do not publish raw sources or push changes without user request."
+  ],
+  "cohort_selection": {
+    "path": "cohort_selection.json",
+    "sha256": "a710f0c4617f4a4c64efdd871828c9ee5b1cb895de914e067392c49b53a90bdc"
+  },
+  "current_selection_id": "former_app_12_section_cohort_2026-11-11",
+  "pending_inputs": [
+    {
+      "id": "existing_tissue_masks",
+      "scope": "twelve selected physical sections",
+      "required": "Existing tissue-boundary polygons including holes, or raster masks with full cell coordinate geometry, matched to section IDs; native/aligned frame and export-unit mapping documented.",
+      "why": "Strict 100% full-bin inclusion and condition-specific valid-section N cannot be determined from detection occupancy."
+    },
+    {
+      "id": "centroid_definition",
+      "scope": "selected PLA objects",
+      "required": "Measured centroid coordinates linked to each source object, or an explicit applicable scientific amendment accepting the recorded bounding-box midpoint proxy.",
+      "why": "Current raw files contain bounding-box edges but no measured centroid columns. No proxy is silently approved or used."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Display-only starting values for the saved native atlas; no effect on raw analysis or biological inclusion.",
+  "default_export": "input_004",
+  "default_metric": "PLA detections per bin",
+  "default_view": "2D native map",
+  "bin_width_native_units": 128,
+  "count_colour_transform": "log(1 + raw count)",
+  "count_colour_palette": "Magma-style sequential scale for PLA; amber for ChAT; shared class/bin limits; zero-count bins blank with unknown tissue status",
+  "minimum_PLA_per_association_bin": 10,
+  "minimum_support_interpretation": "Interactive display filter for a descriptive fraction; not a validated cutoff or transferred historical parameter.",
+  "overlay_PLA_marker_size": 2.5,
+  "overlay_ChAT_marker_size_multiplier": 0.68,
+  "overlay_opacity": 0.65,
+  "coordinate_display": "Native Y increases downward; units and anatomical orientation unverified.",
+  "scale_policy": "Identical colour limits across all exports for each object class, bin width and transform.",
+  "point_sampling": "Use the deterministic samples recorded in the native-atlas analysis payload; all eligible rows feed count maps."
+}

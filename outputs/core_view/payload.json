@@ -1,0 +1,89 @@
+{
+  "schema_version": "comet-core-view-v1",
+  "status": "blocked",
+  "blockers": [
+    "Existing tissue-boundary polygons including holes, or raster masks with full cell coordinate geometry, matched to section IDs; native/aligned frame and export-unit mapping documented. Strict 100% full-bin inclusion and condition-specific valid-section N cannot be determined from detection occupancy.",
+    "Measured centroid coordinates linked to each source object, or an explicit applicable scientific amendment accepting the recorded bounding-box midpoint proxy. Current raw files contain bounding-box edges but no measured centroid columns. No proxy is silently approved or used."
+  ],
+  "warnings": [],
+  "grid": null,
+  "color_scale": null,
+  "arms": {},
+  "sections": [],
+  "validation": {
+    "core_payload_verified": false,
+    "scientific_acceptance_passed": false,
+    "preflight": {
+      "status": "blocked",
+      "blockers": [
+        "Existing tissue-boundary polygons including holes, or raster masks with full cell coordinate geometry, matched to section IDs; native/aligned frame and export-unit mapping documented. Strict 100% full-bin inclusion and condition-specific valid-section N cannot be determined from detection occupancy.",
+        "Measured centroid coordinates linked to each source object, or an explicit applicable scientific amendment accepting the recorded bounding-box midpoint proxy. Current raw files contain bounding-box edges but no measured centroid columns. No proxy is silently approved or used."
+      ],
+      "checks": [
+        "approval.evidence exists and SHA-256 matches",
+        "alignment_reference exists and SHA-256 matches",
+        "sections[0].source exists and SHA-256 matches",
+        "sections[0].transform.evidence exists and SHA-256 matches",
+        "sections[1].source exists and SHA-256 matches",
+        "sections[1].transform.evidence exists and SHA-256 matches",
+        "sections[2].source exists and SHA-256 matches",
+        "sections[2].transform.evidence exists and SHA-256 matches",
+        "sections[3].source exists and SHA-256 matches",
+        "sections[3].transform.evidence exists and SHA-256 matches",
+        "sections[4].source exists and SHA-256 matches",
+        "sections[4].transform.evidence exists and SHA-256 matches",
+        "sections[5].source exists and SHA-256 matches",
+        "sections[5].transform.evidence exists and SHA-256 matches",
+        "sections[6].source exists and SHA-256 matches",
+        "sections[6].transform.evidence exists and SHA-256 matches",
+        "sections[7].source exists and SHA-256 matches",
+        "sections[7].transform.evidence exists and SHA-256 matches",
+        "sections[8].source exists and SHA-256 matches",
+        "sections[8].transform.evidence exists and SHA-256 matches",
+        "sections[9].source exists and SHA-256 matches",
+        "sections[9].transform.evidence exists and SHA-256 matches",
+        "sections[10].source exists and SHA-256 matches",
+        "sections[10].transform.evidence exists and SHA-256 matches",
+        "sections[11].source exists and SHA-256 matches",
+        "sections[11].transform.evidence exists and SHA-256 matches"
+      ],
+      "schema_version": 1,
+      "detailed_diagnostics_file": "outputs/preflight.json"
+    }
+  },
+  "views": {
+    "differences": {
+      "available": false,
+      "fulfilled": false,
+      "blockers": [
+        "Existing tissue-boundary polygons including holes, or raster masks with full cell coordinate geometry, matched to section IDs; native/aligned frame and export-unit mapping documented. Strict 100% full-bin inclusion and condition-specific valid-section N cannot be determined from detection occupancy.",
+        "Measured centroid coordinates linked to each source object, or an explicit applicable scientific amendment accepting the recorded bounding-box midpoint proxy. Current raw files contain bounding-box edges but no measured centroid columns. No proxy is silently approved or used."
+      ]
+    },
+    "coverage": {
+      "available": false,
+      "fulfilled": false,
+      "blockers": [
+        "Existing tissue-boundary polygons including holes, or raster masks with full cell coordinate geometry, matched to section IDs; native/aligned frame and export-unit mapping documented. Strict 100% full-bin inclusion and condition-specific valid-section N cannot be determined from detection occupancy.",
+        "Measured centroid coordinates linked to each source object, or an explicit applicable scientific amendment accepting the recorded bounding-box midpoint proxy. Current raw files contain bounding-box edges but no measured centroid columns. No proxy is silently approved or used."
+      ]
+    },
+    "alignment": {
+      "available": false,
+      "fulfilled": false,
+      "blockers": [
+        "Existing tissue-boundary polygons including holes, or raster masks with full cell coordinate geometry, matched to section IDs; native/aligned frame and export-unit mapping documented. Strict 100% full-bin inclusion and condition-specific valid-section N cannot be determined from detection occupancy.",
+        "Measured centroid coordinates linked to each source object, or an explicit applicable scientific amendment accepting the recorded bounding-box midpoint proxy. Current raw files contain bounding-box edges but no measured centroid columns. No proxy is silently approved or used."
+      ]
+    }
+  },
+  "alignment": {
+    "status": "unavailable",
+    "reference": null,
+    "sections": [],
+    "blockers": [
+      "Existing tissue-boundary polygons including holes, or raster masks with full cell coordinate geometry, matched to section IDs; native/aligned frame and export-unit mapping documented. Strict 100% full-bin inclusion and condition-specific valid-section N cannot be determined from detection occupancy.",
+      "Measured centroid coordinates linked to each source object, or an explicit applicable scientific amendment accepting the recorded bounding-box midpoint proxy. Current raw files contain bounding-box edges but no measured centroid columns. No proxy is silently approved or used."
+    ]
+  }
+}

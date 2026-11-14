@@ -1,0 +1,79 @@
+{
+  "verified_utc": "2026-11-14T17:51:06.873694+00:00",
+  "current_12_raw_source_hashes_checked": [
+    {
+      "section_id": "21F_Hk1",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4998PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "3dc2fffe5a7369172f95578c11b5b8188e718922bcb687936ca02382463b1bd9",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "21M_Hk1",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5006PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "b36743617af5013290dc326bde525772098c6b31b2a0ae5eab2092550c8943ea",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "22F_Hk1",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4997PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "2eeb66efe0a7918ed3b89066d94723f6944e53fdc68a084ba8824af6d3b282ef",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "22M_Hk1",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "2e4e329f0623bd2bb3407cf4a1cee8d28460d76308fe89d53386617e0e3d2226",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "23M_Hk1",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5007PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "7c7a087618700ccb3ea05306b4bfa7e166f0b114bc9f53107742152033204397",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "24M_Hk1",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "1ba6bbfc4ca4a37ac075783b31255795a0c2d6ebc708ca1a208077fc8fcb9371",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "21F_Pfkp",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5020PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "aad88d53e52707b222e9386adf8e8b7d0dbfced87e37aa805e5f3cc16eca6c13",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "21M_Pfkp",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5003PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "c3e33c682c1709daabfe5922b2dd707eef6cb783d8f34baa4779205656e34755",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "22F_Pfkp",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5403PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "f56b395ae0825e5fdb05dafae7112be24277895cca467b7bda84480d702665e7",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "22M_Pfkp",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "9f77bd5d8f148edd95e8035445d2c22d46218ed9e5bc6fc9872616627dd44cf2",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "23M_Pfkp",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5005PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "391641f73ddc1f6fa64c6cca5f9e16058fcaa9589af7a4c0823b2b50c0f71b6e",
+      "matches_saved_count_source": true
+    },
+    {
+      "section_id": "24M_Pfkp",
+      "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+      "sha256": "4a05d72249ab4b9f5a55ae90173078664f39fc8287c24f19ee1a1c5af3f5e748",
+      "matches_saved_count_source": true
+    }
+  ],
+  "historical_numerical_files_hash_verified_unchanged": 99,
+  "raw_counts_recomputed": false
+}

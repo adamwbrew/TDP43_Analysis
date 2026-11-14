@@ -1,0 +1,362 @@
+{
+  "reviewed_local_date": "2026-11-09",
+  "timezone": "America/New_York",
+  "recorded_utc": "2026-11-10T01:29:25.004081+00:00",
+  "role": "historical background and reusable implementation patterns; no new experiment assignments or conclusions inferred",
+  "source_repository": "https://github.com/adamwbrew/Bio_Data_Analysis",
+  "local_source_root": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis",
+  "local_source_head": "f7fda4e36774b456c0e7b6df24f9666332198586",
+  "local_source_status": [
+    "?? docs/NEW_PROJECT_PROMPT.txt",
+    "?? output/"
+  ],
+  "remote_main": {
+    "commit": "4631e1517f85de2c4bfb59879bf44f406770a903",
+    "verification": "Connected GitHub verification by parent task on 2026-11-09; distinct from inspected local HEAD"
+  },
+  "source_files": [
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/README.md",
+      "relative_path": "README.md",
+      "bytes": 11065,
+      "sha256": "25391fbe754f0615eb430cc715ecdf74450f8516f456b0a95e9dd95743b45380"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/docs/results_guide.md",
+      "relative_path": "docs/results_guide.md",
+      "bytes": 10717,
+      "sha256": "a13f1d94f1846e042dbcf3bc367d711a75ff46f85906485e80487f74d2e4a139"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/docs/quickstart.md",
+      "relative_path": "docs/quickstart.md",
+      "bytes": 8845,
+      "sha256": "7070caf84891a5d59677f1224837c2ae6def176d00bd8fe3ee138cb740dd7dc0"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/abstract.txt",
+      "relative_path": "abstract.txt",
+      "bytes": 1148,
+      "sha256": "2a1e288f35a7038c13ff44a91ba99a145f54d3731188ccead8b3725b15bd695a"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/HALO_spatial_analysis_raw_data_handoff.pdf",
+      "relative_path": "HALO_spatial_analysis_raw_data_handoff.pdf",
+      "bytes": 293760,
+      "sha256": "47d7e76f75e55b000d953c6ea2ec95a7410cff32f233836af904c45becdbbb73"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/PLA_ChAT_scientific_analysis.ipynb",
+      "relative_path": "PLA_ChAT_scientific_analysis.ipynb",
+      "bytes": 40228267,
+      "sha256": "526100eace16843c1313c6da3b000dd232bccc4916155f71495133e683c6c694"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/PLA_ChAT_spatial_handoff_analysis.ipynb",
+      "relative_path": "PLA_ChAT_spatial_handoff_analysis.ipynb",
+      "bytes": 76308990,
+      "sha256": "8fc6b9eb643b561c09603f95739a6b2a94a7aba9737c09aa3631bcc95c3abcc0"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/docs/research_methods.md",
+      "relative_path": "docs/research_methods.md",
+      "bytes": 19273,
+      "sha256": "2f8633afb3e182ec263f4d3f36b6f76b3856ffcf1cd532c03cbf99f03d7f552a"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/metadata/handoff_section_reviews.json",
+      "relative_path": "metadata/handoff_section_reviews.json",
+      "bytes": 27262,
+      "sha256": "7b2e2cbeabfec51ec75744345f36d576d187ca5f7c9dfb02a1e7442450cb167f"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/metadata/handoff_landmark_proposals.json",
+      "relative_path": "metadata/handoff_landmark_proposals.json",
+      "bytes": 13701,
+      "sha256": "6f791881faae75f03a49b4d2a0e1bfaf6806b5a4310e62b7f66454c49acadd7f"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/metadata/complete_sample_metadata.tsv",
+      "relative_path": "metadata/complete_sample_metadata.tsv",
+      "bytes": 999,
+      "sha256": "d6261e3c7b41b904878f1053f11f69b4f4a6ceed439315610ce969b90a5cb0e0"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/validation.json",
+      "relative_path": "outputs/spatial_handoff/validation.json",
+      "bytes": 11395,
+      "sha256": "6b9e1c35e17fcc42e8885d403d4a84a2d1bf27e53d1c2835a547fc2847ac2aba"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/latest_protocol.txt",
+      "relative_path": "outputs/spatial_handoff/latest_protocol.txt",
+      "bytes": 35,
+      "sha256": "0160bca2c21c6f7836f9c8ff176f1a9d414defefde4a7efc15af9a3975040600"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/section_metadata.csv.gz",
+      "relative_path": "outputs/spatial_handoff/tables/section_metadata.csv.gz",
+      "bytes": 1972,
+      "sha256": "212ea793fdf82e026e351db8ab1eb872723f6a7d47cd8ba7182c722208067e4a"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/input_manifest.csv.gz",
+      "relative_path": "outputs/spatial_handoff/tables/input_manifest.csv.gz",
+      "bytes": 1869,
+      "sha256": "a6bfde5c30fa9be5e219cd1fdfddd6afba8496482f788004be4e30ff4deac782"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/interrupted_repeat_audit.csv.gz",
+      "relative_path": "outputs/spatial_handoff/tables/interrupted_repeat_audit.csv.gz",
+      "bytes": 140,
+      "sha256": "b35a6d934392239f0e2d93290bc2f5e86f485ba11bb96ecab74b0ad66a101fbf"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/alignment_proposals.json",
+      "relative_path": "outputs/spatial_handoff/tables/alignment_proposals.json",
+      "bytes": 22810,
+      "sha256": "f4c9f2881a978cd74c77da926f2ce052e6c9f7089e269b95cc6f8cb4110c2826"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/alignment_flip_scores.csv.gz",
+      "relative_path": "outputs/spatial_handoff/tables/alignment_flip_scores.csv.gz",
+      "bytes": 2544,
+      "sha256": "5ca5d551c567b2dc9f02e5d0b044c71350e588bd52b178e94d5b43a955217e22"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/alignment_geometry_diagnostics.csv.gz",
+      "relative_path": "outputs/spatial_handoff/tables/alignment_geometry_diagnostics.csv.gz",
+      "bytes": 878,
+      "sha256": "95356f8889e1639ca4a7f01026918884008af787c5752285e3d1be434f57e14a"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/figures/19_feature_alignment_before_after.png",
+      "relative_path": "outputs/spatial_handoff/figures/19_feature_alignment_before_after.png",
+      "bytes": 1550046,
+      "sha256": "7587b1dc18669e834dab50295a72fead390b940dcff8ab1299dbaf6c7757b859"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/bio_visuals/data.py",
+      "relative_path": "bio_visuals/data.py",
+      "bytes": 16222,
+      "sha256": "8885d606b40ad50dca714ce693e3e9fd0f82c11f2abbc1f84114ef4fb0f3effc"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/bio_visuals/entire_dataset.py",
+      "relative_path": "bio_visuals/entire_dataset.py",
+      "bytes": 16879,
+      "sha256": "b310c20b2889ecaddfa9188622f2b8cf7d351e68ade6dfdd0dd1e3a4d34c40b0"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/bio_visuals/handoff.py",
+      "relative_path": "bio_visuals/handoff.py",
+      "bytes": 25743,
+      "sha256": "7adb2b1a67b7c8bb7e621b0d75b974c4917cd7ae73e4de9afdd9afe4eaeba3ec"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/bio_visuals/handoff_plots.py",
+      "relative_path": "bio_visuals/handoff_plots.py",
+      "bytes": 30671,
+      "sha256": "0c3be854711918657d076b67a75ad14e85702941fd4b2fb1b2fded2bdbba2356"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/bio_visuals/feature_alignment.py",
+      "relative_path": "bio_visuals/feature_alignment.py",
+      "bytes": 9034,
+      "sha256": "4f64b097601267a6b8adbcdaf6026b41703a146b3491020172db3cba5f60e388"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/bio_visuals/notebook_validation.py",
+      "relative_path": "bio_visuals/notebook_validation.py",
+      "bytes": 2694,
+      "sha256": "a05e24ccb07e545371ba93373f421db39ceddc72cfdbd368e6b40b6b09500a4c"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/bio_visuals/standalone_app.py",
+      "relative_path": "bio_visuals/standalone_app.py",
+      "bytes": 25660,
+      "sha256": "31f78bc429c0e52bea5a35bf5b5f9e6b82263d658509a50a180acd9c82e04b48"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/scripts/execute_spatial_handoff_notebook.py",
+      "relative_path": "scripts/execute_spatial_handoff_notebook.py",
+      "bytes": 1429,
+      "sha256": "5f816b7a33d5c4f569c000dc538d1870ef80f177f6b8023c089b0a2b1f5d9953"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/tests/test_entire_dataset.py",
+      "relative_path": "tests/test_entire_dataset.py",
+      "bytes": 7097,
+      "sha256": "e6c5c597502f79307f73ed635549c0249815f74e7280a3485ed18b60b6d47c94"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/tests/test_handoff.py",
+      "relative_path": "tests/test_handoff.py",
+      "bytes": 6288,
+      "sha256": "eb30cace4697c120a88f2eb243429f1499813d4d466724ec4d4f47c674aec109"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/tests/test_normalization_alignment.py",
+      "relative_path": "tests/test_normalization_alignment.py",
+      "bytes": 5000,
+      "sha256": "bbbc4910d350adc31aa0f6fc81459c780d639c434927ceb6c4d67e79273b8216"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/tests/test_notebook_outputs.py",
+      "relative_path": "tests/test_notebook_outputs.py",
+      "bytes": 3831,
+      "sha256": "3144dd5036a593226d3195fb4fc139cecbc11a5debac541293ecf7b55c88a55d"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.0.0_17360009272e.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.0.0_17360009272e.json",
+      "bytes": 37137,
+      "sha256": "e599ea4721cc160d9a994f24006fa2c3f707afc48c06998442ac54a71cf3ed06"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.0.0_d54f16e13e13.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.0.0_d54f16e13e13.json",
+      "bytes": 37137,
+      "sha256": "01361f3f518eb1fba01314a3f8dd6e9edbb4fff331a4b4b5853e63d9fd2a877f"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.1.0_ce55edf001fa.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.1.0_ce55edf001fa.json",
+      "bytes": 39678,
+      "sha256": "8dc59d88c2bbcf9053b4b79143ecb4b7bec6eedfccecd212fb24ff18f87dad99"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.1.1_03a71a920dbe.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.1.1_03a71a920dbe.json",
+      "bytes": 39822,
+      "sha256": "24d2082a2e09430a2419966fba3ab852931ebde7d65ba15ddb02264f93a69a02"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.2.0_091d0f1818b0.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.2.0_091d0f1818b0.json",
+      "bytes": 42559,
+      "sha256": "4ba2ae632767a45645bb25b5a4446ed2b61f90071f23d1d916a3191af1a75683"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.3.0_1ad711eaf12e.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.3.0_1ad711eaf12e.json",
+      "bytes": 46480,
+      "sha256": "894f30116038ce3cd9ef93baf75f89dd72491b38bdf0a5f05f6810afe05e4a58"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.4.0_e0ba18c24cd2.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.4.0_e0ba18c24cd2.json",
+      "bytes": 45448,
+      "sha256": "1e90a6d390093090efac4bf7b19e39cadd5b92937ecbe9f2627441710719bca9"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/protocols/v1.4.1_1061c0df7f19.json",
+      "relative_path": "outputs/spatial_handoff/protocols/v1.4.1_1061c0df7f19.json",
+      "bytes": 45957,
+      "sha256": "b5937f216697a94ab06fafc054d6b68df53a1d976286ba467127e5e597459d3e"
+    }
+  ],
+  "new_instruction_pdf": {
+    "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/COMET_Spatial_PLA_Heatmap_Codex_Instructions.pdf",
+    "bytes": 72887,
+    "sha256": "0d737c8ddea21e2e420b0bfa7eb0e762944f7e6735b4f56803bf52f0cdef697d",
+    "pages": 2,
+    "annotations": 0
+  },
+  "historical_pdf_review": {
+    "pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "pages_rendered_and_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "annotations_found": 0,
+    "temporary_render_directory": "/private/tmp/tdp43_background_pdf"
+  },
+  "notebook_saved_output_inspection": [
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/PLA_ChAT_scientific_analysis.ipynb",
+      "code_cells": 27,
+      "executed_code_cells": 27,
+      "error_outputs": 0,
+      "png_outputs": 17,
+      "review": "Markdown, source structure and selected saved text outputs; static alignment figure reviewed; no historical recomputation"
+    },
+    {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/PLA_ChAT_spatial_handoff_analysis.ipynb",
+      "code_cells": 44,
+      "executed_code_cells": 44,
+      "error_outputs": 0,
+      "png_outputs": 31,
+      "review": "Markdown, source structure and selected saved text outputs; static alignment figure reviewed; no historical recomputation"
+    }
+  ],
+  "historical_alignment_record_audit": {
+    "section_records": 12,
+    "landmark_reviewed": 0,
+    "orientation_reviewed": 0,
+    "common_scale_confirmed": 0,
+    "support_reviewed": 0,
+    "reviewed_polygons_present": 0,
+    "computed_proposals": 12,
+    "computed_proposals_approved": 0,
+    "interpretation": "Newer PDF says alignment was accepted; available historical records do not identify the matching accepted numerical assets. Do not require repeat approval; locate and match those assets."
+  },
+  "asset_search": [
+    {
+      "root": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis",
+      "project_files_searched": 608,
+      "excluded_directories": [
+        ".git",
+        ".venv*",
+        "__pycache__",
+        "node_modules",
+        ".ipynb_checkpoints"
+      ],
+      "finding": "No supplied tissue-boundary geometry, tissue mask raster, original microscopy image or newer accepted alignment record identified in searched project files."
+    },
+    {
+      "root": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis",
+      "project_files_searched": 10,
+      "excluded_directories": [
+        ".git",
+        ".venv*",
+        "__pycache__",
+        "node_modules",
+        ".ipynb_checkpoints"
+      ],
+      "finding": "No supplied tissue-boundary geometry, tissue mask raster, original microscopy image or newer accepted alignment record identified in searched project files."
+    }
+  ],
+  "historical_validation_record": "Past execution and test claims were read from validation.json; historical tests and raw analysis were not rerun in this review.",
+  "source_changed": false,
+  "historical_data_copied": false,
+  "historical_results_reused": false,
+  "scientific_parameters_transferred": false,
+  "outputs_generated": [
+    "docs/background_reuse.md",
+    "metadata/background_provenance.json"
+  ]
+}

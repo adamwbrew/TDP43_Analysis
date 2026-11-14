@@ -1,0 +1,23 @@
+{
+  "local_date": "2026-11-14",
+  "timezone": "America/New_York",
+  "authority": "Scientist answers relayed by the user, plus explicit user answer on empty section-bins",
+  "sections_per_condition": 3,
+  "empty_bin_policy": "zero",
+  "exact_user_confirmation": "Average all three, treating empty section-bins as zero; label coverage as uncertain",
+  "comparison": "Running mean minus Homecage mean, separately for HK1 and PFKP",
+  "alignment": "Reuse the previous fixed transforms, without fitting",
+  "anatomy": "User relays scientist confirmation of comparable anatomical regions and sufficient previous alignment for the current exploratory comparison",
+  "display_domain": "Per-arm union of observed PLA/ChAT bins across all six sections; blank outside that union",
+  "coverage_verified": false,
+  "original_images_required_for_current_analysis": false,
+  "tissue_outlines_required_for_current_analysis": false,
+  "physical_distance_labels_or_scale_bars_requested": false,
+  "serial_sections_available": false,
+  "three_dimensional_reconstruction_requested": false,
+  "strict_historical_pdf_mask_test_passed": false,
+  "smoothing": false,
+  "interpolation": false,
+  "normalization": false,
+  "inferential_tests": false
+}

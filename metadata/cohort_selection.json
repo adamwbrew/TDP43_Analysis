@@ -1,0 +1,1022 @@
+{
+  "schema_version": 1,
+  "selection_id": "former_app_12_section_cohort_2026-11-11",
+  "selected_local_date": "2026-11-11",
+  "timezone": "America/New_York",
+  "recorded_utc": "2026-11-12T00:23:01.629986+00:00",
+  "selection_authority": {
+    "type": "user_instruction_in_current_chat",
+    "instruction_summary": "Use the former app 12-section cohort and its unchanged saved alignment for the three COMET core views; user subsequently supplied the expanded raw folder inside the new project.",
+    "additional_approval_required_for_cohort_selection": false
+  },
+  "scope": "Current selected cohort is now resolved by explicit user instruction and exact byte identity with historical sources. Do not leave these twelve assignments unknown merely because the initial eight-file audit was incomplete. No tissue masks or measured centroids are implied by this cohort selection.",
+  "canonical_source_directory": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset",
+  "source_assets": {
+    "historical_handoff": {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/HALO_spatial_analysis_raw_data_handoff.pdf",
+      "sha256": "47d7e76f75e55b000d953c6ea2ec95a7410cff32f233836af904c45becdbbb73",
+      "bytes": 293760
+    },
+    "section_metadata": {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/section_metadata.csv.gz",
+      "sha256": "212ea793fdf82e026e351db8ab1eb872723f6a7d47cd8ba7182c722208067e4a",
+      "bytes": 1972
+    },
+    "input_manifest": {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/input_manifest.csv.gz",
+      "sha256": "a6bfde5c30fa9be5e219cd1fdfddd6afba8496482f788004be4e30ff4deac782",
+      "bytes": 1869
+    },
+    "alignment_snapshot": {
+      "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/comet_core/alignment_snapshot.json",
+      "sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30",
+      "bytes": 2424804
+    },
+    "recorded_alignment_proposals": {
+      "path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/tables/alignment_proposals.json",
+      "sha256": "f4c9f2881a978cd74c77da926f2ce052e6c9f7089e269b95cc6f8cb4110c2826",
+      "bytes": 22810
+    }
+  },
+  "expected_design": {
+    "animals": 6,
+    "conditions": {
+      "Homecage": [
+        "21F",
+        "23M",
+        "24M"
+      ],
+      "Running": [
+        "22F",
+        "21M",
+        "22M"
+      ]
+    },
+    "pla_types": [
+      "HK1",
+      "PFKP"
+    ],
+    "physical_sections": 12,
+    "sections_per_animal_per_pla_type": 1,
+    "same_animals_across_arms": true,
+    "arms_are_distinct_physical_sections": true,
+    "biological_experimental_unit": "animal",
+    "initial_descriptive_average_unit": "physical_section",
+    "independent_animals_per_condition": 3
+  },
+  "exclusion_policy": {
+    "primary_jobs": [
+      "4998",
+      "5006",
+      "4997",
+      "5001",
+      "5007",
+      "5002",
+      "5020",
+      "5003",
+      "5403",
+      "4999",
+      "5005",
+      "5000"
+    ],
+    "excluded_jobs": [
+      {
+        "job": "4978",
+        "reason": "Documented interrupted export superseded by completed job 5403; exact raw source hash matches historical manifest. Retain for audit, exclude from primary sections/counts.",
+        "replacement_job": "5403",
+        "source": {
+          "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4978PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+          "sha256": "24eb76d091ba17a6ccd1fc8449c361943bf9c25c6d4df04acbee0686fd8b5867",
+          "bytes": 31191227,
+          "relative_path": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4978PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+          "format": "csv",
+          "job": "4978",
+          "historical_manifest_sha256": "24eb76d091ba17a6ccd1fc8449c361943bf9c25c6d4df04acbee0686fd8b5867",
+          "identical_to_recorded_source": true,
+          "rows_from_identical_source": 94409,
+          "is_primary": false,
+          "duplicate_status": "interrupted_superseded",
+          "replacement_job": "5403"
+        }
+      }
+    ],
+    "initial_eight_file_audit": "Preserve metadata/sample_metadata.csv as the initial eight-export audit; do not concatenate those alternative box/outline exports with this selected expanded cohort.",
+    "object_identity": "source file identifier plus Object Id within section; no pooling repeated exports or arms"
+  },
+  "fresh_folder_inventory": {
+    "file_count": 13,
+    "csv_count": 13,
+    "non_csv_files": [],
+    "existing_mask_assets_found": false,
+    "all13csv_hashes_match_historical_manifest": true,
+    "rows_all13_from_identical_sources": 3105185,
+    "rows_primary12_from_identical_sources": 3010776,
+    "files": [
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4978PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "24eb76d091ba17a6ccd1fc8449c361943bf9c25c6d4df04acbee0686fd8b5867",
+        "bytes": 31191227,
+        "relative_path": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4978PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "4978",
+        "historical_manifest_sha256": "24eb76d091ba17a6ccd1fc8449c361943bf9c25c6d4df04acbee0686fd8b5867",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 94409,
+        "is_primary": false,
+        "duplicate_status": "interrupted_superseded",
+        "replacement_job": "5403"
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4997PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "2eeb66efe0a7918ed3b89066d94723f6944e53fdc68a084ba8824af6d3b282ef",
+        "bytes": 54217890,
+        "relative_path": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4997PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "4997",
+        "historical_manifest_sha256": "2eeb66efe0a7918ed3b89066d94723f6944e53fdc68a084ba8824af6d3b282ef",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 163549,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4998PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "3dc2fffe5a7369172f95578c11b5b8188e718922bcb687936ca02382463b1bd9",
+        "bytes": 107524602,
+        "relative_path": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4998PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "4998",
+        "historical_manifest_sha256": "3dc2fffe5a7369172f95578c11b5b8188e718922bcb687936ca02382463b1bd9",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 323082,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5020PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "aad88d53e52707b222e9386adf8e8b7d0dbfced87e37aa805e5f3cc16eca6c13",
+        "bytes": 79943038,
+        "relative_path": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5020PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5020",
+        "historical_manifest_sha256": "aad88d53e52707b222e9386adf8e8b7d0dbfced87e37aa805e5f3cc16eca6c13",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 240702,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5403PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "f56b395ae0825e5fdb05dafae7112be24277895cca467b7bda84480d702665e7",
+        "bytes": 63327026,
+        "relative_path": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5403PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5403",
+        "historical_manifest_sha256": "f56b395ae0825e5fdb05dafae7112be24277895cca467b7bda84480d702665e7",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 190915,
+        "is_primary": true,
+        "duplicate_status": "primary_replacement",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "9f77bd5d8f148edd95e8035445d2c22d46218ed9e5bc6fc9872616627dd44cf2",
+        "bytes": 61192544,
+        "relative_path": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "4999",
+        "historical_manifest_sha256": "9f77bd5d8f148edd95e8035445d2c22d46218ed9e5bc6fc9872616627dd44cf2",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 184684,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "4a05d72249ab4b9f5a55ae90173078664f39fc8287c24f19ee1a1c5af3f5e748",
+        "bytes": 98176902,
+        "relative_path": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5000",
+        "historical_manifest_sha256": "4a05d72249ab4b9f5a55ae90173078664f39fc8287c24f19ee1a1c5af3f5e748",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 295677,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "2e4e329f0623bd2bb3407cf4a1cee8d28460d76308fe89d53386617e0e3d2226",
+        "bytes": 78774493,
+        "relative_path": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5001",
+        "historical_manifest_sha256": "2e4e329f0623bd2bb3407cf4a1cee8d28460d76308fe89d53386617e0e3d2226",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 237144,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "1ba6bbfc4ca4a37ac075783b31255795a0c2d6ebc708ca1a208077fc8fcb9371",
+        "bytes": 116417417,
+        "relative_path": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5002",
+        "historical_manifest_sha256": "1ba6bbfc4ca4a37ac075783b31255795a0c2d6ebc708ca1a208077fc8fcb9371",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 349776,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5003PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "c3e33c682c1709daabfe5922b2dd707eef6cb783d8f34baa4779205656e34755",
+        "bytes": 64007254,
+        "relative_path": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5003PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5003",
+        "historical_manifest_sha256": "c3e33c682c1709daabfe5922b2dd707eef6cb783d8f34baa4779205656e34755",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 193552,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5005PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "391641f73ddc1f6fa64c6cca5f9e16058fcaa9589af7a4c0823b2b50c0f71b6e",
+        "bytes": 115974593,
+        "relative_path": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5005PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5005",
+        "historical_manifest_sha256": "391641f73ddc1f6fa64c6cca5f9e16058fcaa9589af7a4c0823b2b50c0f71b6e",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 348981,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5006PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "b36743617af5013290dc326bde525772098c6b31b2a0ae5eab2092550c8943ea",
+        "bytes": 58388369,
+        "relative_path": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5006PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5006",
+        "historical_manifest_sha256": "b36743617af5013290dc326bde525772098c6b31b2a0ae5eab2092550c8943ea",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 176423,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      },
+      {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5007PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "7c7a087618700ccb3ea05306b4bfa7e166f0b114bc9f53107742152033204397",
+        "bytes": 101736758,
+        "relative_path": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5007PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "format": "csv",
+        "job": "5007",
+        "historical_manifest_sha256": "7c7a087618700ccb3ea05306b4bfa7e166f0b114bc9f53107742152033204397",
+        "identical_to_recorded_source": true,
+        "rows_from_identical_source": 306291,
+        "is_primary": true,
+        "duplicate_status": "primary",
+        "replacement_job": null
+      }
+    ]
+  },
+  "unresolved_for_scientific_count_maps": [
+    "Actual existing tissue masks/outlines including holes matched to all 12 sections, with their native/aligned coordinate mapping and common export-coordinate scale",
+    "Measured centroid coordinates or clarification accepting the former bounding-box midpoint proxy for the initial count maps"
+  ],
+  "sections": [
+    {
+      "section_id": "21F_Hk1",
+      "physical_section_id": "21F_Hk1",
+      "animal_id": "21F",
+      "condition": "Homecage",
+      "pla_type": "HK1",
+      "pla_arm": "TDP43\u2013HK1",
+      "job": "4998",
+      "source_file_id": "historical_job_4998",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4998PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "3dc2fffe5a7369172f95578c11b5b8188e718922bcb687936ca02382463b1bd9",
+        "filename": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4998PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 323082,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21F_TDP43-Hk1_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -30904.110003022062
+          ],
+          [
+            0,
+            1,
+            -35852.61408280447
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          30904.110003022062,
+          35852.61408280447
+        ],
+        "saved_flip": "none",
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job4998",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "21M_Hk1",
+      "physical_section_id": "21M_Hk1",
+      "animal_id": "21M",
+      "condition": "Running",
+      "pla_type": "HK1",
+      "pla_arm": "TDP43\u2013HK1",
+      "job": "5006",
+      "source_file_id": "historical_job_5006",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5006PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "b36743617af5013290dc326bde525772098c6b31b2a0ae5eab2092550c8943ea",
+        "filename": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5006PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 176423,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21M_TDP43-Hk1_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -4492.180149168101
+          ],
+          [
+            0,
+            1,
+            -33817.53298909925
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          4492.180149168101,
+          33817.53298909925
+        ],
+        "saved_flip": "none",
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5006",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "22F_Hk1",
+      "physical_section_id": "22F_Hk1",
+      "animal_id": "22F",
+      "condition": "Running",
+      "pla_type": "HK1",
+      "pla_arm": "TDP43\u2013HK1",
+      "job": "4997",
+      "source_file_id": "historical_job_4997",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4997PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "2eeb66efe0a7918ed3b89066d94723f6944e53fdc68a084ba8824af6d3b282ef",
+        "filename": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job4997PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 163549,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22F_Hk1-TDP43_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -5868.1547619047615
+          ],
+          [
+            0,
+            -1,
+            35945.23809523809
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          5868.1547619047615,
+          35945.23809523809
+        ],
+        "saved_flip": "vertical",
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job4997",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "22M_Hk1",
+      "physical_section_id": "22M_Hk1",
+      "animal_id": "22M",
+      "condition": "Running",
+      "pla_type": "HK1",
+      "pla_arm": "TDP43\u2013HK1",
+      "job": "5001",
+      "source_file_id": "historical_job_5001",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "2e4e329f0623bd2bb3407cf4a1cee8d28460d76308fe89d53386617e0e3d2226",
+        "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5001PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 237144,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22M_TDP43-Hk1_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -7453.948462177888
+          ],
+          [
+            0,
+            -1,
+            33127.09891936825
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          7453.948462177888,
+          33127.09891936825
+        ],
+        "saved_flip": "vertical",
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5001",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "23M_Hk1",
+      "physical_section_id": "23M_Hk1",
+      "animal_id": "23M",
+      "condition": "Homecage",
+      "pla_type": "HK1",
+      "pla_arm": "TDP43\u2013HK1",
+      "job": "5007",
+      "source_file_id": "historical_job_5007",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5007PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "7c7a087618700ccb3ea05306b4bfa7e166f0b114bc9f53107742152033204397",
+        "filename": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5007PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 306291,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "23M_TDP43-Hk1_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -29605.787037037036
+          ],
+          [
+            0,
+            1,
+            -35299.1512345679
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          29605.787037037036,
+          35299.1512345679
+        ],
+        "saved_flip": "none",
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5007",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "24M_Hk1",
+      "physical_section_id": "24M_Hk1",
+      "animal_id": "24M",
+      "condition": "Homecage",
+      "pla_type": "HK1",
+      "pla_arm": "TDP43\u2013HK1",
+      "job": "5002",
+      "source_file_id": "historical_job_5002",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "1ba6bbfc4ca4a37ac075783b31255795a0c2d6ebc708ca1a208077fc8fcb9371",
+        "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5002PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 349776,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "24M_TDP43-Hk1_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -32361.684981684983
+          ],
+          [
+            0,
+            1,
+            -33262.820512820515
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          32361.684981684983,
+          33262.820512820515
+        ],
+        "saved_flip": "none",
+        "reference_job": "4998",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5002",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "21F_Pfkp",
+      "physical_section_id": "21F_Pfkp",
+      "animal_id": "21F",
+      "condition": "Homecage",
+      "pla_type": "PFKP",
+      "pla_arm": "TDP43\u2013PFKP",
+      "job": "5020",
+      "source_file_id": "historical_job_5020",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5020PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "aad88d53e52707b222e9386adf8e8b7d0dbfced87e37aa805e5f3cc16eca6c13",
+        "filename": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5020PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 240702,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21F_TDP43-Pfkp_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -30305.378401360544
+          ],
+          [
+            0,
+            1,
+            -8037.670068027211
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          30305.378401360544,
+          8037.670068027211
+        ],
+        "saved_flip": "none",
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5020",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "21M_Pfkp",
+      "physical_section_id": "21M_Pfkp",
+      "animal_id": "21M",
+      "condition": "Running",
+      "pla_type": "PFKP",
+      "pla_arm": "TDP43\u2013PFKP",
+      "job": "5003",
+      "source_file_id": "historical_job_5003",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5003PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "c3e33c682c1709daabfe5922b2dd707eef6cb783d8f34baa4779205656e34755",
+        "filename": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5003PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 193552,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "21M_TDP43-Pfkp_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -4968.27430293896
+          ],
+          [
+            0,
+            1,
+            -9409.41974378297
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          4968.27430293896,
+          9409.41974378297
+        ],
+        "saved_flip": "none",
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5003",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "22F_Pfkp",
+      "physical_section_id": "22F_Pfkp",
+      "animal_id": "22F",
+      "condition": "Running",
+      "pla_type": "PFKP",
+      "pla_arm": "TDP43\u2013PFKP",
+      "job": "5403",
+      "source_file_id": "historical_job_5403",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5403PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "f56b395ae0825e5fdb05dafae7112be24277895cca467b7bda84480d702665e7",
+        "filename": "20260515_173745_1_ZAbMVm_Ellie_PLA_05152026_1_backSUB.ome.ome.tiff_job5403PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 190915,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22F_TDP43-Pfkp_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -6198.573573573573
+          ],
+          [
+            0,
+            -1,
+            8728.340840840841
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          6198.573573573573,
+          8728.340840840841
+        ],
+        "saved_flip": "vertical",
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5403",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "22M_Pfkp",
+      "physical_section_id": "22M_Pfkp",
+      "animal_id": "22M",
+      "condition": "Running",
+      "pla_type": "PFKP",
+      "pla_arm": "TDP43\u2013PFKP",
+      "job": "4999",
+      "source_file_id": "historical_job_4999",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "9f77bd5d8f148edd95e8035445d2c22d46218ed9e5bc6fc9872616627dd44cf2",
+        "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job4999PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 184684,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "22M_TDP43-Pfkp_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -8464.542124542124
+          ],
+          [
+            0,
+            -1,
+            3529.1849816849817
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          8464.542124542124,
+          3529.1849816849817
+        ],
+        "saved_flip": "vertical",
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job4999",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "23M_Pfkp",
+      "physical_section_id": "23M_Pfkp",
+      "animal_id": "23M",
+      "condition": "Homecage",
+      "pla_type": "PFKP",
+      "pla_arm": "TDP43\u2013PFKP",
+      "job": "5005",
+      "source_file_id": "historical_job_5005",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5005PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "391641f73ddc1f6fa64c6cca5f9e16058fcaa9589af7a4c0823b2b50c0f71b6e",
+        "filename": "20260515_173746_3_G9eDHt_Ellie_PLA_05152026_3_backSUB.ome.ome.tiff_job5005PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 348981,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "23M_TDP43-Pfkp_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -29861.387478849407
+          ],
+          [
+            0,
+            1,
+            -7791.370558375635
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          29861.387478849407,
+          7791.370558375635
+        ],
+        "saved_flip": "none",
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5005",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    },
+    {
+      "section_id": "24M_Pfkp",
+      "physical_section_id": "24M_Pfkp",
+      "animal_id": "24M",
+      "condition": "Homecage",
+      "pla_type": "PFKP",
+      "pla_arm": "TDP43\u2013PFKP",
+      "job": "5000",
+      "source_file_id": "historical_job_5000",
+      "marker_panel": "ChAT",
+      "assignment_status": "resolved_for_user_selected_former_app_cohort",
+      "historical_assignment_source": "HALO_spatial_analysis_raw_data_handoff.pdf pp.1,8; source section_metadata.csv.gz",
+      "current_selection_authority": "User requested the former app 12-section cohort in this chat on 2026-11-11",
+      "source": {
+        "path": "/Users/adambrewer/Desktop/Coding/TDP43_Analysis/entire Chat dataset/20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "sha256": "4a05d72249ab4b9f5a55ae90173078664f39fc8287c24f19ee1a1c5af3f5e748",
+        "filename": "20260515_173745_2_jqw0p1_Ellie_PLA_05152026_2_backSUB.ome.ome.tiff_job5000PLA and ChaT Object Colocalization FL v3.0.0_object_results.csv",
+        "rows": 295677,
+        "algorithm": "PLA and ChaT Object Colocalization FL v3.0.0",
+        "exported_analysis_region": "24M_TDP43-Pfkp_tight",
+        "coordinate_units": "HALO export units; physical calibration unverified",
+        "object_id_column": "Object Id",
+        "pla_object_type": "PLA - TRITC_E1",
+        "centroid_columns_supplied": false,
+        "available_position_proxy": "x=(XMin+XMax)/2; y=(YMin+YMax)/2; bounding-box midpoint, not measured centroid"
+      },
+      "transform": {
+        "matrix": [
+          [
+            1,
+            0,
+            -32152.6588845655
+          ],
+          [
+            0,
+            -1,
+            3475.8662219751714
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "saved_center": [
+          32152.6588845655,
+          3475.8662219751714
+        ],
+        "saved_flip": "vertical",
+        "reference_job": "5020",
+        "reference_frame": "Independent per-arm cavity-origin / historical 21F orientation frame; not a validated global anatomical registration",
+        "source_app_path": "/Users/adambrewer/Desktop/Coding/Bio_Data_Analysis/outputs/spatial_handoff/app/index.html",
+        "source_app_sha256": "cf2ff4aae7091ec377daf0ba8655575c14fb2296abc538e73bbefe31bf727c99",
+        "source_record": "outputs/spatial_handoff/tables/alignment_proposals.json job5000",
+        "applied_without_refit": true,
+        "historical_review_ready": false
+      },
+      "tissue_mask_status": "Existing tissue mask/boundary not supplied in canonical expandedfolder; detectionoccupancy not substitute"
+    }
+  ],
+  "configured_shared_grid": {
+    "path": "metadata/grid_parameters.json",
+    "bin_width_export_units": 1000,
+    "shape_y_x": [
+      24,
+      25
+    ],
+    "physical_calibration_claimed": false
+  }
+}

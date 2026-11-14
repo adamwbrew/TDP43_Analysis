@@ -1,0 +1,305 @@
+{
+  "recorded_utc": "2026-11-10T02:06:56.953308+00:00",
+  "scope": "Native spatial evidence upgrade; full raw-row computation; separately labeled historical context; no new aligned condition contrast",
+  "notebook_code_cells": 15,
+  "notebook_saved_images": 10,
+  "notebook_errors": 0,
+  "full_validation": {
+    "aligned_condition_analysis_status": "blocked",
+    "aligned_condition_maps_generated": false,
+    "native_export_maps_generated": true,
+    "native_exports_computed": 8,
+    "input_hashes_verified": 8,
+    "all_input_hashes_match": true,
+    "tests_run": 58,
+    "test_failures": 0,
+    "test_errors": 0,
+    "scope": "Full native object reconstructions and descriptive export measurements; historical results retained as context; no new aligned condition contrast.",
+    "notebook_execution": "passed",
+    "executed_code_cells": 15,
+    "saved_notebook": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/TDP43_COMET_analysis.ipynb"
+  },
+  "native_validation": {
+    "schema_version": "1.0",
+    "all_export_rows_reconciled_to_inventory": true,
+    "all_grids_count_conserved": true,
+    "inputs_opened_read_only": true,
+    "raw_hashes": "Reused full SHA-256 inventory records; this run checked sizes and row counts without redundant input rehash.",
+    "tissue_masks_generated": false,
+    "transforms_fitted": false,
+    "conditions_assigned": false,
+    "biological_comparisons_performed": false,
+    "all_morphology_exclusions_retained_in_counts": true,
+    "morphology_review_selected_from_full_exports": true,
+    "morphology_review_selection_records": 64,
+    "payload_bytes": 11978754
+  },
+  "native_bin_review_records": 88,
+  "morphology_object_review_records": 64,
+  "historical_figures_copied": 4,
+  "figure_exports": [
+    {
+      "path": "outputs/native_atlas/figures/export_morphology_quality.png",
+      "size": [
+        3634,
+        1834
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "path": "outputs/native_atlas/figures/export_signal_profiles.png",
+      "size": [
+        3634,
+        1834
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "path": "outputs/native_atlas/figures/overlapping_export_sensitivity.png",
+      "size": [
+        3634,
+        1534
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "path": "outputs/native_atlas/figures/native_layer_overlay_atlas.png",
+      "size": [
+        5400,
+        3210
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "path": "outputs/native_atlas/figures/native_pla_count_atlas.png",
+      "size": [
+        5400,
+        3210
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  ],
+  "browser_checks": [
+    "2D full-count map and layer overlay",
+    "256-unit bin selection",
+    "3D count surface",
+    "native association with explicit denominator support",
+    "Clicked bin native bounds,37PLA,52ChAT,25positive",
+    "Synchronized zoom updates both coordinate ranges",
+    "Paired-export maps and deltas",
+    "Current findings and distinctly historical figures",
+    "Final perceptual count colors and upload control disabled"
+  ],
+  "presentation_refresh": "After full notebook execution, disabled optional Plotly cloud-sharing control; rebuilt offline HTML, reran2assemblytests and browser-checked. Measured payloads and notebook result outputs unchanged.",
+  "scientific_parameters": {
+    "native_atlas_parameters.json": {
+      "version": "1.0.0",
+      "bin_widths": [
+        64,
+        128,
+        256
+      ],
+      "bin_width_selection": "Exploratory display choices in unverified native units; not transferred physical calibration or the accepted COMET grid.",
+      "grid_origin": "Integer multiples of each width enclosing all exported bounding boxes; each export has independent native extents.",
+      "point_caps": {
+        "PLA": 4000,
+        "ChAT": 3000
+      },
+      "sampling": "Fixed seeded uniform sample without replacement within each export/class, sorted back to source row order. Class caps avoid overwhelming PLA by the much larger ChAT class; samples are not prevalence estimates.",
+      "area_hist_log10_edges": [
+        -3.0,
+        -2.875,
+        -2.75,
+        -2.625,
+        -2.5,
+        -2.375,
+        -2.25,
+        -2.125,
+        -2.0,
+        -1.875,
+        -1.75,
+        -1.625,
+        -1.5,
+        -1.375,
+        -1.25,
+        -1.125,
+        -1.0,
+        -0.875,
+        -0.75,
+        -0.625,
+        -0.5,
+        -0.375,
+        -0.25,
+        -0.125,
+        0.0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0,
+        1.125,
+        1.25,
+        1.375,
+        1.5,
+        1.625,
+        1.75,
+        1.875,
+        2.0,
+        2.125,
+        2.25,
+        2.375,
+        2.5,
+        2.625,
+        2.75,
+        2.875,
+        3.0,
+        3.125,
+        3.25,
+        3.375,
+        3.5,
+        3.625,
+        3.75,
+        3.875,
+        4.0
+      ],
+      "ratio_hist_edges": [
+        0.0,
+        0.025,
+        0.05,
+        0.07500000000000001,
+        0.1,
+        0.125,
+        0.15000000000000002,
+        0.17500000000000002,
+        0.2,
+        0.225,
+        0.25,
+        0.275,
+        0.30000000000000004,
+        0.325,
+        0.35000000000000003,
+        0.375,
+        0.4,
+        0.42500000000000004,
+        0.45,
+        0.47500000000000003,
+        0.5,
+        0.525,
+        0.55,
+        0.5750000000000001,
+        0.6000000000000001,
+        0.625,
+        0.65,
+        0.675,
+        0.7000000000000001,
+        0.7250000000000001,
+        0.75,
+        0.775,
+        0.8,
+        0.8250000000000001,
+        0.8500000000000001,
+        0.875,
+        0.9,
+        0.925,
+        0.9500000000000001,
+        0.9750000000000001,
+        1.0
+      ],
+      "review_targets": {
+        "bin_width": 128,
+        "top_count_bins_per_export": 5,
+        "low_high_flag_bins_per_export": 3,
+        "minimum_PLA_per_flag_bin": 20,
+        "meaning": "Native windows for manual source-image review only; selected extremes are not prevalence estimates or spatial inference."
+      },
+      "morphology_object_review_targets": {
+        "invalid_ratio_per_export": 4,
+        "valid_zero_minimum_per_export": 2,
+        "minimum_positive_area_per_export": 1,
+        "maximum_area_per_export": 1,
+        "selection": "Select PLA source records from the full parsed export before display downsampling. Preserve source order within diameter-QC categories; stable source-order ties for minimum/maximum positive finite area. An object may appear under several review reasons.",
+        "meaning": "At most eight targeted selection records per export, not representative samples or unique-object counts. Every reviewed object remains in the raw PLA and ChAT-flag denominators. Ratio-ineligible objects remain eligible for area review when area is finite and positive."
+      },
+      "diameter_ratio": "minimum / maximum, finite min>=0 and max>0 and min<=max; zero minimum with positive maximum retained.",
+      "orientation": "Native screen convention: x increases right and y increases down; no anatomical labels.",
+      "boundary_rule": "Lower inclusive, upper exclusive except final maximum edge inclusive; internal boundaries enter the next bin.",
+      "zero_semantics": "0 means no selected exported detection midpoint in this rectangular search bin. It is not a tissue-valid zero or evidence of absent tissue.",
+      "raw_counts": "All finite ordered boxes contribute once per source row. No smoothing, tissue-area normalization, registration or cross-export pooling.",
+      "scientific_status": "Exploratory export QC; not accepted aligned COMET condition-difference maps."
+    },
+    "explorer_display_parameters.json": {
+      "scope": "Display-only starting values for the saved native atlas; no effect on raw analysis or biological inclusion.",
+      "default_export": "input_004",
+      "default_metric": "PLA detections per bin",
+      "default_view": "2D native map",
+      "bin_width_native_units": 128,
+      "count_colour_transform": "log(1 + raw count)",
+      "count_colour_palette": "Magma-style sequential scale for PLA; amber for ChAT; shared class/bin limits; zero-count bins blank with unknown tissue status",
+      "minimum_PLA_per_association_bin": 10,
+      "minimum_support_interpretation": "Interactive display filter for a descriptive fraction; not a validated cutoff or transferred historical parameter.",
+      "overlay_PLA_marker_size": 2.5,
+      "overlay_ChAT_marker_size_multiplier": 0.68,
+      "overlay_opacity": 0.65,
+      "coordinate_display": "Native Y increases downward; units and anatomical orientation unverified.",
+      "scale_policy": "Identical colour limits across all exports for each object class, bin width and transform.",
+      "point_sampling": "Use the deterministic samples recorded in the native-atlas analysis payload; all eligible rows feed count maps."
+    },
+    "descriptive_findings_parameters.json": {
+      "candidate_pair_display_rule": "left fraction of distinct shared exported measurement signatures > 0.8; selected for review, not proof of section identity",
+      "area_distribution_intervals": [
+        0.01,
+        0.25,
+        0.5,
+        0.75,
+        0.99
+      ],
+      "area_intervals_meaning": "Object distribution quantiles, not confidence intervals or animal uncertainty",
+      "count_change_denominator": "PLA count of left export in each displayed pair",
+      "association_change_units": "Percentage points, right export minus left export",
+      "association_denominator": "All PLA-labelled rows of each export; no morphology exclusions",
+      "condition_aggregation": false,
+      "new_clustering": false
+    }
+  },
+  "source_code_sha256": {
+    "comet_spatial/__init__.py": "170d16830b3ea425d48182eb9b6f1e95ba2c0d6605b1d35b106a9107f4ea3398",
+    "comet_spatial/core.py": "ad6635c5805d8af7c6962c498b1db4d8d725f7758c7a0e2fe03e6494311b5759",
+    "comet_spatial/manifest.py": "b2d6625de36d596c0caac7240ee859e3b54a1118fc3d6f4f4c6aaf438ae87cbc",
+    "comet_spatial/native_atlas.py": "2e93ac3b1fe1cd3ce93f104ccdb183245ee1b021e8685c1a8a2c72fb6ea27d6e",
+    "scripts/build_findings.py": "334c091762dc85fa99ff0274b524e3f50ba4f79b49f9e3a6f0c4b8f05dc58663",
+    "scripts/build_notebook.py": "281df73d95340bfe16af5e9cc4452ab403e53b7011fb7211e6bc1f8e1cb3385a",
+    "scripts/build_report.py": "2cdfd67ac72e4a411dc943c36dd139d76a9210946e4556519a5b30f060ee10a3",
+    "scripts/build_spatial_explorer.py": "c36cdd65aa0c08149e046d8123dc4cbf2e74efef3726ab642dd9d05e3c97c051",
+    "scripts/execute_notebook.py": "196eec921aaa8a59898c245c0c6e82546e06170b1550c7a3580c2180b290cd95",
+    "scripts/inventory_data.py": "4b3e8b94f7f006fe8f4963163a25f47ddca5fa28d7d49ddba79e5510053aca34",
+    "scripts/run_analysis.py": "c255678659963fe21fed3703efafd33bc3dbf9293369d481b2b11ad3e24621b5",
+    "scripts/spatial_explorer.html": "e79571271d6ada0d33ccc48089bae2602ce694ffab5307467c015d4c107991ee",
+    "tests/test_explorer_payload.py": "659c1fff45c5033f1acc0c8a1be470250fb5736982b30159558fc16aecb42aae",
+    "tests/test_inventory.py": "8e2a98212506ff6e5b7c432f638fee1fe19876e7772a875b6dd4b0049034a454",
+    "tests/test_manifest.py": "895d3c3b402cb23db2edbc0f0de55577a61aec92cc0b084a6459f8f467c9f3a5",
+    "tests/test_native_atlas.py": "a71fd4f2ea7b1929674250422544f32798ec19b062a01eefc4c63f9d15adecfc",
+    "tests/test_runner.py": "94c6b937121e0a395b73f347bbc90eae260707323c46911332b5906bc689dc1f",
+    "tests/test_spatial_core.py": "5d12a11a45ee697ea8bb52791f1a4dfb61684001a9cd3119eb3a5c06902c8b7a"
+  },
+  "raw_inputs_modified": false,
+  "new_alignment_or_mask_created": false,
+  "published_or_pushed": false
+}

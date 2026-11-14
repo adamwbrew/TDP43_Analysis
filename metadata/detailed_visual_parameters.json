@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "local_date": "2026-11-14",
+  "timezone": "America/New_York",
+  "user_request": "Scientist-directed all-three-section averages and differences; very detailed 2D maps and reliable boot loading.",
+  "scope": "Fixed-three PLA count means; empty section-bins assumed zero; coverage uncertain.",
+  "bin_widths_export_units": [
+    1000,
+    500,
+    250,
+    100
+  ],
+  "default_bin_width_export_units": 100,
+  "field_x": [
+    -8000,
+    17000
+  ],
+  "field_y": [
+    -12000,
+    12000
+  ],
+  "rationale": "Round subdivisions of the original common extent, selected to expose resolution sensitivity and permit finer source-object review, without optimizing a condition effect.",
+  "same_grid_each_section_and_arm_at_each_resolution": true,
+  "saved_transforms_unchanged": true,
+  "smoothing": false,
+  "interpolation": false,
+  "normalization": false,
+  "statistical_tests": false,
+  "physical_calibration_claimed": false,
+  "strict_tissue_masks_inferred": false,
+  "signed_scale": "Symmetric linear, centered at zero and shared across both arms within each resolution; limits may differ between resolutions.",
+  "signed_display_half_ranges": [
+    "full",
+    100,
+    50,
+    25,
+    10
+  ],
+  "supplementary_detail_figure_display_half_range": 25,
+  "display_saturation_policy": "Beyond-range bins use endpoint colors and are counted explicitly; exact arrays and hover values remain uncapped. Full-range figures retained.",
+  "support_definition": "Per-section bin has at least one exported PLA or ChAT object; observed support does not establish full tissue coverage.",
+  "point_display": "All selected PLA bounding-box midpoints, filtered only by requested section and displayed review window; never original fluorescence pixels or cell centroids.",
+  "biological_sample_size": "Three animals per condition; the same six animals occur in both PLA arms.",
+  "default_signed_display_half_range": 25,
+  "high_resolution_export_dpi": 600,
+  "mean_denominator": 3,
+  "three_dimensional_reconstruction": false,
+  "scientist_questions_pending": 0,
+  "default_signed_range_rationale": "A labeled \u00b125 linear display exposes small count contrasts compressed by extreme bins. Saturated bin counts are explicit; uncapped values and full-range restore are retained.",
+  "previous_policy_record": "outputs/revisions/before_fixed_three_means_2026-11-14/detailed_visual_parameters.json",
+  "default_sequential_mean_display_range": [
+    0,
+    25
+  ],
+  "mean_scale_policy": "Shared linear range across both conditions and both arms; capped view discloses saturated bins and preserves exact values; full-range restore uses shared full maximum."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "saved_alignment_replayed_without_refitting",
+  "sections": 12,
+  "transforms_unchanged": true,
+  "all_fixed_matrices_match_former_transform_formula": true,
+  "geometry": "Original saved 250-unit object-occupancy grids; identical former boundary display renderer. Not a tissue mask.",
+  "scientific_scope": "The user selected these twelve completed former-app sections. Current expanded copies match their saved source hashes; initial eight-file audit matches remain separate provenance. No new count contrast or mask is inferred by this replay.",
+  "anatomical_acceptance": "PDF says reuse accepted alignment; former snapshot metadata still label these transforms proposed. This replay does not change either record.",
+  "snapshot_sha256": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30",
+  "reference_sha256": "7587b1dc18669e834dab50295a72fead390b940dcff8ab1299dbaf6c7757b859",
+  "reproduced_png_sha256": "7587b1dc18669e834dab50295a72fead390b940dcff8ab1299dbaf6c7757b859",
+  "renderer_sha256": "3b64c650352650891b1d54231f0f7cdc8e4db3123d21315ba2b720a18feb3047",
+  "reference_pixel_shape": [
+    3580,
+    5070,
+    4
+  ],
+  "reproduced_pixel_shape": [
+    3580,
+    5070,
+    4
+  ],
+  "pixel_identical_to_saved_reference": true,
+  "pixel_comparison_note": "Rendering-library/font versions can change pixels without changing saved geometry or transforms.",
+  "versions": {
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4",
+    "scipy": "1.13.1",
+    "Pillow": "11.3.0"
+  },
+  "figure_files": [
+    "figures/alignment_check_reference.png",
+    "figures/alignment_check_reproduced.png",
+    "figures/alignment_check_reproduced.svg"
+  ],
+  "cohort_selection_sha256": "a710f0c4617f4a4c64efdd871828c9ee5b1cb895de914e067392c49b53a90bdc",
+  "selected_current_sections": 12
+}

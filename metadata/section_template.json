@@ -1,0 +1,53 @@
+{
+  "section_id": null,
+  "physical_section_id": null,
+  "animal_id": null,
+  "condition": null,
+  "pla_type": null,
+  "source": {
+    "path": null,
+    "sha256": null,
+    "source_file_id": null,
+    "format": "csv",
+    "coordinate_units": null,
+    "object_id_column": null,
+    "centroid_x_column": null,
+    "centroid_y_column": null,
+    "centroid_definition": {
+      "kind": "measured_centroid",
+      "confirmed": false,
+      "evidence": null
+    },
+    "pla_object_type": {
+      "kind": null,
+      "classification_column": null,
+      "accepted_values": null,
+      "evidence": null
+    },
+    "object_selection": {
+      "mode": "all_rows"
+    },
+    "basis": "consolidated_object_measurements"
+  },
+  "mask": {
+    "path": null,
+    "sha256": null,
+    "format": null,
+    "coordinate_space": null,
+    "coordinate_units": null,
+    "reference_space": null,
+    "basis": "existing_tissue_mask"
+  },
+  "transform": {
+    "matrix": null,
+    "accepted": false,
+    "approved_by": null,
+    "native_units": null,
+    "aligned_units": null,
+    "reference_space": null,
+    "evidence": {
+      "path": null,
+      "sha256": null
+    }
+  }
+}
