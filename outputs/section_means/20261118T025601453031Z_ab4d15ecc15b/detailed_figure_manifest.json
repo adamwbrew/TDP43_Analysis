@@ -1,0 +1,113 @@
+{
+  "source_payload": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/section_means/20261118T025601453031Z_ab4d15ecc15b/view_payload.json",
+  "source_payload_sha256": "fed14133d6cc23b7d67bd25c80f105fbee8a9b495d6fb0045c40ebabfc780902",
+  "fixed_section_denominator": 3,
+  "empty_bin_policy": "zero",
+  "coverage_verified": false,
+  "figures": [
+    {
+      "id": "section_mean_differences_250",
+      "path": "figures/section_mean_differences_250.png",
+      "svg": "figures/section_mean_differences_250.svg",
+      "title": "Three-section differences \u00b7 250",
+      "caption": "Fixed denominator three; blank outside all-six-section object-support union. Coverage uncertain. Shared full symmetric linear range.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        9010,
+        5316
+      ],
+      "sha256": "990a98ad4ef8d4f6bda1cc1f747e487a8377c76b62d52a87ae1ab82f42eb9651"
+    },
+    {
+      "id": "section_mean_differences_contrast_250",
+      "path": "figures/section_mean_differences_contrast_250.png",
+      "svg": "figures/section_mean_differences_contrast_250.svg",
+      "title": "Three-section differences \u00b7 250 contrast",
+      "caption": "Fixed denominator three; blank outside all-six-section object-support union. Coverage uncertain. Display range \u00b125; uncapped numerical values retained.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        8957,
+        5316
+      ],
+      "sha256": "29141d8851fbdd50b130c87096a486ce3cde2632f22140b927f79938e3a1f0b7"
+    },
+    {
+      "id": "section_means_and_difference_250",
+      "path": "figures/section_means_and_difference_250.png",
+      "svg": "figures/section_means_and_difference_250.svg",
+      "title": "Condition means and differences \u00b7 250 full range",
+      "caption": "Means share one sequential range across both conditions and both arms; differences share one symmetric range. No interpolation. Coverage uncertain.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        11255,
+        8754
+      ],
+      "sha256": "5af59f1682498306f560d30b6b3df04e0038af46d0ab2efb36300113dc6494e7"
+    },
+    {
+      "id": "section_means_and_difference_contrast_250",
+      "path": "figures/section_means_and_difference_contrast_250.png",
+      "svg": "figures/section_means_and_difference_contrast_250.svg",
+      "title": "Condition means and differences \u00b7 250 detail contrast",
+      "caption": "Means share one sequential range across both conditions and both arms; differences share one symmetric range. Endpoint saturation is labeled and counted; exact values unchanged. No interpolation. Coverage uncertain.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        11202,
+        8754
+      ],
+      "sha256": "8ac0f7c0b8e9305581a5d46cd38c3cfc55599673c3a7265c728ecc3a2256276e"
+    },
+    {
+      "id": "section_mean_differences_100",
+      "path": "figures/section_mean_differences_100.png",
+      "svg": "figures/section_mean_differences_100.svg",
+      "title": "Three-section differences \u00b7 100",
+      "caption": "Fixed denominator three; blank outside all-six-section object-support union. Coverage uncertain. Shared full symmetric linear range.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        9010,
+        5316
+      ],
+      "sha256": "03060d34c781c9cca9c70792b86bb0c358e5299129e9fc73df4dba514b6444e0"
+    },
+    {
+      "id": "section_mean_differences_contrast_100",
+      "path": "figures/section_mean_differences_contrast_100.png",
+      "svg": "figures/section_mean_differences_contrast_100.svg",
+      "title": "Three-section differences \u00b7 100 contrast",
+      "caption": "Fixed denominator three; blank outside all-six-section object-support union. Coverage uncertain. Display range \u00b125; uncapped numerical values retained.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        8957,
+        5316
+      ],
+      "sha256": "79497756557f49dc10f8bd0de74b38b76a4e68e344361c34d98a7b3cbaa5404e"
+    },
+    {
+      "id": "section_means_and_difference_100",
+      "path": "figures/section_means_and_difference_100.png",
+      "svg": "figures/section_means_and_difference_100.svg",
+      "title": "Condition means and differences \u00b7 100 full range",
+      "caption": "Means share one sequential range across both conditions and both arms; differences share one symmetric range. No interpolation. Coverage uncertain.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        11255,
+        8754
+      ],
+      "sha256": "5e7fc0e1c9eb20f086949b53035bd1e52245b9e22835cfb4f1e37a8f4746cd1b"
+    },
+    {
+      "id": "section_means_and_difference_contrast_100",
+      "path": "figures/section_means_and_difference_contrast_100.png",
+      "svg": "figures/section_means_and_difference_contrast_100.svg",
+      "title": "Condition means and differences \u00b7 100 detail contrast",
+      "caption": "Means share one sequential range across both conditions and both arms; differences share one symmetric range. Endpoint saturation is labeled and counted; exact values unchanged. No interpolation. Coverage uncertain.",
+      "dpi": 600,
+      "pixel_dimensions": [
+        11202,
+        8754
+      ],
+      "sha256": "deccabdebe48181d8bb20fa310031d52cb1a47f8f27db5b234260b96b05266b0"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "recorded_utc": "2026-11-19T22:23:22.023Z",
+  "browser": "Isolated headless Chrome automated test; not the connected in-app browser",
+  "checks": [
+    "Clean startup at normal zoom; all views loaded and nineteen measurement choices present.",
+    "All nineteen measurements render with persistent vector outlines, including sparse/undefined statistics.",
+    "Outline toggle leaves every selected measurement value and missing mask unchanged.",
+    "Fine detail computes 100/50/25/10-unit grids and six individual section panels; source points remain present.",
+    "Actual whole-field and fine-window SVG/PNG downloads completed, at 8,000 and 12,000 pixel widths.",
+    "Alignment and observed-support tabs are visible on first visit without zoom correction."
+  ],
+  "page_errors": [],
+  "downloads": [
+    {
+      "format": "svg",
+      "scope": "whole",
+      "width": "8000",
+      "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/whole_8000_COMET_HK1_mean_pla_area_absolute_difference_100_units_whole_cutoff_0.1_marker_chat.svg",
+      "retained_path": "outputs/comet_core/figures/mean_area_whole_field_vector_2026-11-19.svg",
+      "sha256": "09b1853559b285051c1ba5011e8aed79e275dceaaaad2656efcf16a74f0ab3a8"
+    },
+    {
+      "format": "png",
+      "scope": "whole",
+      "width": "8000",
+      "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/whole_8000_COMET_HK1_mean_pla_area_absolute_difference_100_units_whole_cutoff_0.1_marker_chat.png",
+      "retained_path": "outputs/comet_core/figures/high_resolution_mean_area_8000px_2026-11-19.png",
+      "sha256": "ca74e8b54c29ded95d2e873e834f7dc8eba0670df53c24d594c9dad98d87c738"
+    },
+    {
+      "format": "svg",
+      "scope": "detail",
+      "width": "8000",
+      "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/detail_8000_COMET_HK1_mean_pla_area_absolute_difference_10_units_detail_cutoff_0.1_marker_chat.svg",
+      "retained_path": "outputs/comet_core/figures/fine_detail_mean_area_vector_2026-11-19.svg",
+      "sha256": "55f7ce9b29bc6dc0707039aad9ea36671510ea0161e48f47b1338ca347d17c41"
+    },
+    {
+      "format": "png",
+      "scope": "detail",
+      "width": "12000",
+      "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/detail_12000_COMET_HK1_mean_pla_area_absolute_difference_10_units_detail_cutoff_0.1_marker_chat.png",
+      "retained_path": "outputs/comet_core/figures/high_resolution_detail_12000px_2026-11-19.png",
+      "sha256": "4f89fac349df1351203bac619736f5c933b77c84c70171e8e87f5cb4730c8ce5"
+    }
+  ],
+  "proof_images": [
+    "outputs/comet_core/figures/spatial_outline_heatmaps_2026-11-19.png",
+    "outputs/comet_core/figures/spatial_controls_2026-11-19.png"
+  ],
+  "test_script_sha256": "9c7365088e3149ea6f4587319749fd09c80db1f51a34a552a3fca4f157bf7cc9",
+  "png_dimensions_verified": {
+    "whole_8000": [
+      8000,
+      8126
+    ],
+    "detail_12000": [
+      12000,
+      12600
+    ]
+  },
+  "svg_downloads_have_no_raster_images": true
+}

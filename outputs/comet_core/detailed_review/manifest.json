@@ -1,6 +1,6 @@
 {
-  "source_payload": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/section_means/20261114T175717494903Z_ab4d15ecc15b/view_payload.json",
-  "source_payload_sha256": "639f3d44858aeac80e78f5a5a42e6bfb1c16c5f31eef42eecb6ea91f7f4765de",
+  "source_payload": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/section_means/20261119T221951584723Z_ab4d15ecc15b/view_payload.json",
+  "source_payload_sha256": "4adcf19fac8f6ad5257b2262ff0bdf3d72493b9cc987be160fa4351f698939b5",
   "source_objects": {
     "source_rows": 3010776,
     "pla_objects": 310024,

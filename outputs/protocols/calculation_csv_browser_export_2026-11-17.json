@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "rows": 60000,
+  "measurement": "mean_pla_area",
+  "comparison": "percent_change",
+  "arm": "HK1",
+  "bin_width": 100,
+  "area_cutoff": 0.1,
+  "marker": "chat",
+  "numeric_fields_verified": [
+    "homecage_mean",
+    "running_mean",
+    "absolute_difference",
+    "selected_comparison",
+    "homecage_defined_measurement_sections",
+    "running_defined_measurement_sections"
+  ],
+  "finite_masks_exact": true,
+  "rtol": 1e-12,
+  "atol": 1e-12,
+  "source_csv_filename": "COMET_HK1_mean_pla_area_percent_change_100_cutoff_0.1_marker_chat.csv",
+  "saved_run": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/calculation_functions/20261118T025635444707Z_fed14133d6cc"
+}

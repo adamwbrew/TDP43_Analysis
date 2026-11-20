@@ -1,0 +1,10 @@
+...........................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 171 tests in 9.750s
+
+OK
+BLOCKED: 29 unresolved input requirements; see /var/folders/r9/3d86v6nd76996zj5cnm3qvb80000gn/T/tmpvwqzqts3/preflight.json
+NUMERICAL RUN COMPLETE: /private/var/folders/r9/3d86v6nd76996zj5cnm3qvb80000gn/T/tmp2y5mzxkp/generated/20261119T222142066616Z_ea76fd88c30d; final scientific acceptance pending alignment comparison.
+BLOCKED: Selected non-PLA object classification at CSV row 3; explicit object_selection must select only the declared PLA values
+NUMERICAL RUN COMPLETE: /private/var/folders/r9/3d86v6nd76996zj5cnm3qvb80000gn/T/tmp_ugegzbl/generated/20261119T222143752783Z_b5b00d9972cd; final scientific acceptance pending alignment comparison.
+READY: supplied input attestations and file hashes pass preflight; scientific alignment inspection remains separate.

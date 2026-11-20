@@ -1,0 +1,457 @@
+bin_width,measurement,comparison,arm,units,area_cutoff,marker,eligible_bins,defined_comparison_bins,undefined_eligible_bins,negative_bins,positive_bins,equal_bins,minimum,maximum,homecage_metric_N_0,running_metric_N_0
+1000,pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,354,354,0,271,71,12,-1136.0,96.33333333333334,0,0
+1000,pla_count,percent_change,HK1,%,0.1,chat,354,323,31,271,50,2,-100.00000000000001,4575.0,0,0
+1000,pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,256,50,2,-6.933690654952234,5.546894459887637,0,0
+1000,pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,359,359,0,196,154,9,-1854.3333333333333,892.3333333333333,0,0
+1000,pla_count,percent_change,PFKP,%,0.1,chat,359,295,64,196,97,2,-100.0,7000.000000000001,0,0
+1000,pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,180,97,2,-6.066089190457772,6.149747119504682,0,0
+1000,large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,354,354,0,266,72,16,-338.0,30.666666666666668,0,0
+1000,large_pla_count,percent_change,HK1,%,0.1,chat,354,321,33,266,53,2,-100.0,9200.000000000002,0,0
+1000,large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,354,307,47,252,53,2,-6.159871336778389,6.539158811108031,0,0
+1000,large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,359,359,0,191,155,13,-488.66666666666663,260.0,0,0
+1000,large_pla_count,percent_change,PFKP,%,0.1,chat,359,292,67,191,98,3,-100.00000000000001,3600.0,0,0
+1000,large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,276,83,175,98,3,-5.539158811108032,5.20945336562895,0,0
+1000,small_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,354,354,0,276,64,14,-798.0,106.66666666666666,0,0
+1000,small_pla_count,percent_change,HK1,%,0.1,chat,354,321,33,276,42,3,-100.00000000000001,3900.0,0,0
+1000,small_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,354,304,50,259,42,3,-7.938599455335857,5.321928094887363,0,0
+1000,small_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,359,359,0,194,150,15,-1365.6666666666667,632.3333333333333,0,0
+1000,small_pla_count,percent_change,PFKP,%,0.1,chat,359,287,72,194,90,3,-100.0,9984.21052631579,0,0
+1000,small_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,272,87,179,90,3,-7.29308841200738,6.655954332292595,0,0
+1000,large_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,354,308,46,93,213,2,-0.5,0.7222222222222222,31,25
+1000,large_pla_fraction,percent_change,HK1,%,0.1,chat,354,307,47,93,212,2,-72.31206121322079,511.1111111111112,31,25
+1000,large_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,354,307,47,93,212,2,-1.8526704378158492,2.6114347120823473,31,25
+1000,large_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,359,279,80,123,156,0,-0.86,0.6331521739130435,64,23
+1000,large_pla_fraction,percent_change,PFKP,%,0.1,chat,359,278,81,123,155,0,-100.0,433.3333333333333,64,23
+1000,large_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,276,83,121,155,0,-2.0,2.415037499278844,64,23
+1000,mean_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,354,308,46,177,131,0,-8.11658301754386,10.201530288888886,31,25
+1000,mean_pla_area,percent_change,HK1,%,0.1,chat,354,308,46,177,131,0,-97.07555599005642,2196.3060686015824,31,25
+1000,mean_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,177,131,0,-5.095693821605701,4.521243042748061,31,25
+1000,mean_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,359,279,80,157,122,0,-13.540014294528993,5.768130428571429,64,23
+1000,mean_pla_area,percent_change,PFKP,%,0.1,chat,359,279,80,157,122,0,-98.17991964538861,1873.939393939394,64,23
+1000,mean_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,157,122,0,-5.779854044493439,4.303005790150087,64,23
+1000,median_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,354,308,46,108,196,4,-1.878464166666667,2.976064,31,25
+1000,median_pla_area,percent_change,HK1,%,0.1,chat,354,308,46,108,196,4,-96.63888170792825,5272.222222222223,31,25
+1000,median_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,108,196,4,-4.894914871650638,5.747447078034529,31,25
+1000,median_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,359,279,80,120,158,1,-5.732085333333334,1.0244266666666668,64,23
+1000,median_pla_area,percent_change,PFKP,%,0.1,chat,359,279,80,120,158,1,-99.24012158054711,1452.2727272727273,64,23
+1000,median_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,120,158,1,-7.040015678847879,3.956310149652793,64,23
+1000,p90_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,354,308,46,153,155,0,-35.60828773333333,28.156575999999998,31,25
+1000,p90_pla_area,percent_change,HK1,%,0.1,chat,354,308,46,153,155,0,-98.46965252587366,2014.3691588785066,31,25
+1000,p90_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,153,155,0,-6.029996927521391,4.402155381346518,31,25
+1000,p90_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,359,279,80,152,127,0,-53.42615179999999,19.863424000000002,64,23
+1000,p90_pla_area,percent_change,PFKP,%,0.1,chat,359,279,80,152,127,0,-98.95391051996654,4276.0,64,23
+1000,p90_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,152,127,0,-6.578849928171498,5.451540833017832,64,23
+1000,total_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,354,354,0,256,88,10,-1253.4268020000013,361.9080023333334,0,0
+1000,total_pla_area,percent_change,HK1,%,0.1,chat,354,323,31,256,67,0,-100.0,22279.245283018867,0,0
+1000,total_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,241,67,0,-8.686826228740282,7.8060175735061215,0,0
+1000,total_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,359,359,0,189,163,7,-732.7222206666648,622.5660430000014,0,0
+1000,total_pla_area,percent_change,PFKP,%,0.1,chat,359,295,64,189,106,0,-100.0,65039.99999999999,0,0
+1000,total_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,173,106,0,-8.933722040744952,9.34739990950854,0,0
+1000,mean_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,354,308,46,94,214,0,-0.16878486666666667,0.16895613866653053,31,25
+1000,mean_pla_intensity,percent_change,HK1,%,0.1,chat,354,308,46,94,214,0,-70.86450552530995,288.1184230152021,31,25
+1000,mean_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,94,214,0,-1.7791502992139832,1.9564969158902916,31,25
+1000,mean_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,359,279,80,101,178,0,-0.15905938095238098,0.08832395980707397,64,23
+1000,mean_pla_intensity,percent_change,PFKP,%,0.1,chat,359,279,80,101,178,0,-71.56519943146297,151.07270067568376,64,23
+1000,mean_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,101,178,0,-1.8142704091058017,1.3281051718157384,64,23
+1000,marker_associated_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,354,354,0,293,34,27,-1033.3333333333333,110.66666666666669,0,0
+1000,marker_associated_pla_count,percent_change,HK1,%,0.1,chat,354,317,37,293,19,5,-100.00000000000001,2550.0,0,0
+1000,marker_associated_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,354,294,60,270,19,5,-7.392317422778761,4.7279204545632,0,0
+1000,marker_associated_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,359,359,0,212,125,22,-1731.0,843.3333333333334,0,0
+1000,marker_associated_pla_count,percent_change,PFKP,%,0.1,chat,359,281,78,212,65,4,-100.0,10541.666666666668,0,0
+1000,marker_associated_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,262,97,193,65,4,-8.177419537989236,6.733580308981567,0,0
+1000,marker_associated_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,354,308,46,262,45,1,-0.9583333333333334,0.491421568627451,31,25
+1000,marker_associated_pla_fraction,percent_change,HK1,%,0.1,chat,354,304,50,262,42,0,-100.0,534.6666666666667,31,25
+1000,marker_associated_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,354,294,60,252,42,0,-4.584962500721156,2.665999072812063,31,25
+1000,marker_associated_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,359,279,80,241,37,1,-0.9333333333333333,0.8,64,23
+1000,marker_associated_pla_fraction,percent_change,PFKP,%,0.1,chat,359,268,91,241,27,0,-100.00000000000001,135.03311491580354,64,23
+1000,marker_associated_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,262,97,235,27,0,-3.9068905956085187,1.2328640391692063,64,23
+1000,marker_associated_large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,354,354,0,286,40,28,-324.66666666666663,14.333333333333334,0,0
+1000,marker_associated_large_pla_count,percent_change,HK1,%,0.1,chat,354,313,41,286,24,3,-100.0,700.0,0,0
+1000,marker_associated_large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,354,290,64,263,24,3,-6.6293566200796095,3.0,0,0
+1000,marker_associated_large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,359,359,0,200,127,32,-482.6666666666667,253.00000000000003,0,0
+1000,marker_associated_large_pla_count,percent_change,PFKP,%,0.1,chat,359,277,82,200,74,3,-100.0,4464.705882352941,0,0
+1000,marker_associated_large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,259,100,182,74,3,-6.812300744662406,5.512450000936789,0,0
+1000,marker_associated_pla_mean_area,absolute_difference,HK1,µm² (exported),0.1,chat,354,294,60,159,135,0,-23.484906666666664,10.145904359444451,37,45
+1000,marker_associated_pla_mean_area,percent_change,HK1,%,0.1,chat,354,294,60,159,135,0,-98.4876002004008,9916.666666666666,37,45
+1000,marker_associated_pla_mean_area,log2_fold_change,HK1,log2 ratio,0.1,chat,354,294,60,159,135,0,-6.047016626501487,6.646258679990029,37,45
+1000,marker_associated_pla_mean_area,absolute_difference,PFKP,µm² (exported),0.1,chat,359,262,97,134,128,0,-9.811322144940476,81.34260933333334,78,37
+1000,marker_associated_pla_mean_area,percent_change,PFKP,%,0.1,chat,359,262,97,134,128,0,-98.00182128357247,11754.531144028611,78,37
+1000,marker_associated_pla_mean_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,262,97,134,128,0,-5.64517056671791,6.889294794006621,78,37
+1000,section_pla_share,absolute_difference,HK1,percentage points,0.1,chat,354,354,0,149,195,10,-2.8735660135236074,0.7148470065204795,0,0
+1000,section_pla_share,percent_change,HK1,%,0.1,chat,354,323,31,149,174,0,-100.0,15278.190123195829,0,0
+1000,section_pla_share,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,134,174,0,-4.8824478001793965,7.264741910633914,0,0
+1000,section_pla_share,absolute_difference,PFKP,percentage points,0.1,chat,359,359,0,154,198,7,-7.672229202973675,4.986498304209265,0,0
+1000,section_pla_share,percent_change,PFKP,%,0.1,chat,359,295,64,154,141,0,-100.00000000000001,27544.602640434896,0,0
+1000,section_pla_share,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,138,141,0,-5.1788208288749775,8.110854024521332,0,0
+1000,marker_associated_pla_area_fraction,absolute_difference,HK1,fraction,0.1,chat,354,308,46,245,62,1,-0.9666666666666667,0.6151998685484475,31,25
+1000,marker_associated_pla_area_fraction,percent_change,HK1,%,0.1,chat,354,304,50,245,59,0,-100.00000000000001,7418.515831693805,31,25
+1000,marker_associated_pla_area_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,354,294,60,235,59,0,-7.890013620183979,6.232375994346147,31,25
+1000,marker_associated_pla_area_fraction,absolute_difference,PFKP,fraction,0.1,chat,359,279,80,222,56,1,-0.9856704196519959,0.9316886257440199,64,23
+1000,marker_associated_pla_area_fraction,percent_change,PFKP,%,0.1,chat,359,268,91,222,46,0,-100.00000000000001,116131.88355087017,64,23
+1000,marker_associated_pla_area_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,262,97,216,46,0,-6.236875671873287,10.182790153157232,64,23
+1000,median_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,354,308,46,73,235,0,-0.16896150000000004,0.16762466666666664,31,25
+1000,median_pla_intensity,percent_change,HK1,%,0.1,chat,354,308,46,73,235,0,-71.61737434962754,296.6003326530853,31,25
+1000,median_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,73,235,0,-1.8169200369352232,1.987685887644308,31,25
+1000,median_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,359,279,80,102,177,0,-0.16489399999999999,0.07545575000000002,64,23
+1000,median_pla_intensity,percent_change,PFKP,%,0.1,chat,359,279,80,102,177,0,-75.06509823916092,136.55419222903888,64,23
+1000,median_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,102,177,0,-2.003761575839798,1.2421707286130623,64,23
+1000,pla_area_iqr,absolute_difference,HK1,µm² (exported),0.1,chat,354,308,46,143,165,0,-3.826704,1.6362080000000006,31,25
+1000,pla_area_iqr,percent_change,HK1,%,0.1,chat,354,307,47,143,164,0,-100.0,1783.7606837606843,31,25
+1000,pla_area_iqr,log2_fold_change,HK1,log2 ratio,0.1,chat,354,305,49,141,164,0,-4.805645905027479,4.235543788987753,31,25
+1000,pla_area_iqr,absolute_difference,PFKP,µm² (exported),0.1,chat,359,279,80,134,144,1,-13.769653833333331,3.749872,64,23
+1000,pla_area_iqr,percent_change,PFKP,%,0.1,chat,359,273,86,134,138,1,-100.0,1968.3127572016458,64,23
+1000,pla_area_iqr,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,271,88,132,138,1,-6.100935608203331,4.370382452274875,64,23
+1000,pla_area_cv,absolute_difference,HK1,dimensionless CV,0.1,chat,354,305,49,236,69,0,-8.56028838908192,4.331673404250132,33,29
+1000,pla_area_cv,percent_change,HK1,%,0.1,chat,354,305,49,236,69,0,-87.44710750747362,287.23101994583135,33,29
+1000,pla_area_cv,log2_fold_change,HK1,log2 ratio,0.1,chat,354,305,49,236,69,0,-2.9939082602883675,1.9531945273270808,33,29
+1000,pla_area_cv,absolute_difference,PFKP,dimensionless CV,0.1,chat,359,271,88,181,90,0,-10.302613101245747,2.9639286219742607,71,26
+1000,pla_area_cv,percent_change,PFKP,%,0.1,chat,359,271,88,181,90,0,-85.69491961253942,543.7473488209384,71,26
+1000,pla_area_cv,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,271,88,181,90,0,-2.8054004899725182,2.686494585667474,71,26
+1000,mean_pla_nearest_neighbor_distance,absolute_difference,HK1,exported coordinate units,0.1,chat,354,308,46,51,257,0,-194.9984290541742,324.4794854213086,31,25
+1000,mean_pla_nearest_neighbor_distance,percent_change,HK1,%,0.1,chat,354,308,46,51,257,0,-80.70065005677552,3716.486390494281,31,25
+1000,mean_pla_nearest_neighbor_distance,log2_fold_change,HK1,log2 ratio,0.1,chat,354,308,46,51,257,0,-2.3733758406313434,5.254173141607455,31,25
+1000,mean_pla_nearest_neighbor_distance,absolute_difference,PFKP,exported coordinate units,0.1,chat,359,279,80,90,189,0,-421.22903670664425,205.6917304106064,64,23
+1000,mean_pla_nearest_neighbor_distance,percent_change,PFKP,%,0.1,chat,359,279,80,90,189,0,-84.36360082315684,2034.831269168065,64,23
+1000,mean_pla_nearest_neighbor_distance,log2_fold_change,PFKP,log2 ratio,0.1,chat,359,279,80,90,189,0,-2.677019774557784,4.416050142834248,64,23
+500,pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,1344,1344,0,993,299,52,-758.0,147.66666666666666,0,0
+500,pla_count,percent_change,HK1,%,0.1,chat,1344,1199,145,993,190,16,-100.0,8100.0,0,0
+500,pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,924,190,16,-7.451211111832329,6.357552004618084,0,0
+500,pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,1340,1340,0,723,570,47,-1007.6666666666667,822.6666666666666,0,0
+500,pla_count,percent_change,PFKP,%,0.1,chat,1340,1075,265,723,340,12,-100.00000000000001,27422.22222222222,0,0
+500,pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,650,340,12,-7.584962500721156,8.104453151804051,0,0
+500,large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,1344,1344,0,955,308,81,-234.33333333333334,20.666666666666668,0,0
+500,large_pla_count,percent_change,HK1,%,0.1,chat,1344,1184,160,955,203,26,-100.00000000000001,3700.0,0,0
+500,large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1107,237,878,203,26,-6.523561956057013,5.247927513443585,0,0
+500,large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,1340,1340,0,691,558,91,-266.0,248.0,0,0
+500,large_pla_count,percent_change,PFKP,%,0.1,chat,1340,1054,286,691,326,37,-100.00000000000001,14880.0,0,0
+500,large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,971,369,608,326,37,-6.554588851677638,7.2268938135713885,0,0
+500,small_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,1344,1344,0,990,261,93,-523.6666666666666,126.99999999999999,0,0
+500,small_pla_count,percent_change,HK1,%,0.1,chat,1344,1177,167,990,175,12,-100.0,4100.0,0,0
+500,small_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1099,245,912,175,12,-8.453270634010623,5.392317422778761,0,0
+500,small_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,1340,1340,0,705,534,101,-741.6666666666666,574.6666666666666,0,0
+500,small_pla_count,percent_change,PFKP,%,0.1,chat,1340,1038,302,705,306,27,-100.00000000000001,43100.0,0,0
+500,small_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,942,398,609,306,27,-7.906890595608519,8.754887502163468,0,0
+500,large_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,1344,1130,214,443,680,7,-0.9166666666666667,1.0,145,105
+500,large_pla_fraction,percent_change,HK1,%,0.1,chat,1344,1121,223,443,671,7,-100.0,500.0,145,105
+500,large_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1107,237,429,671,7,-2.584962500721156,2.584962500721156,145,105
+500,large_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,1340,1002,338,463,533,6,-1.0,0.8909090909090909,265,108
+500,large_pla_fraction,percent_change,PFKP,%,0.1,chat,1340,988,352,463,521,4,-100.00000000000001,816.6666666666667,265,108
+500,large_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,971,369,446,521,4,-3.6045026871168013,3.1963972128035034,265,108
+500,mean_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,1344,1130,214,656,474,0,-11.855240205128204,17.664462486519096,145,105
+500,mean_pla_area,percent_change,HK1,%,0.1,chat,1344,1130,214,656,474,0,-99.31320716951282,6503.915912374456,145,105
+500,mean_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,656,474,0,-7.1859093057102,6.045249845427342,145,105
+500,mean_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,1340,1002,338,561,441,0,-51.440200000000004,23.64110686842105,265,108
+500,mean_pla_area,percent_change,PFKP,%,0.1,chat,1340,1002,338,561,441,0,-99.66918374685365,26106.018518518515,265,108
+500,mean_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,561,441,0,-8.239754168177036,8.033754371372588,265,108
+500,median_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,1344,1130,214,440,686,4,-8.391936333333332,10.482864,145,105
+500,median_pla_area,percent_change,HK1,%,0.1,chat,1344,1130,214,440,686,4,-98.8088148159431,6772.8816261674165,145,105
+500,median_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,440,686,4,-6.391458474849316,6.102843206468202,145,105
+500,median_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,1340,1002,338,465,536,1,-51.988608,23.772447499999995,265,108
+500,median_pla_area,percent_change,PFKP,%,0.1,chat,1340,1002,338,465,536,1,-99.67532467532467,84227.77600623581,265,108
+500,median_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,465,536,1,-8.266786540694902,9.719864096223102,265,108
+500,p90_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,1344,1130,214,627,503,0,-43.872324733333336,62.083812533333315,145,105
+500,p90_pla_area,percent_change,HK1,%,0.1,chat,1344,1130,214,627,503,0,-99.58202034367199,10939.657818367714,145,105
+500,p90_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,627,503,0,-7.902351558693085,6.7865516452789745,145,105
+500,p90_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,1340,1002,338,557,445,0,-91.2786112,51.373168,265,108
+500,p90_pla_area,percent_change,PFKP,%,0.1,chat,1340,1002,338,557,445,0,-99.88758278550306,61148.33333333336,265,108
+500,p90_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,557,445,0,-9.796921311667823,9.2585267763479,265,108
+500,total_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,1344,1344,0,933,375,36,-1099.7324890000023,380.68218900000005,0,0
+500,total_pla_area,percent_change,HK1,%,0.1,chat,1344,1199,145,933,266,0,-100.00000000000001,82333.33333333336,0,0
+500,total_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,864,266,0,-11.668703728810323,9.687084023668781,0,0
+500,total_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,1340,1340,0,716,589,35,-577.5759543333339,615.7546510000008,0,0
+500,total_pla_area,percent_change,PFKP,%,0.1,chat,1340,1075,265,716,359,0,-100.00000000000001,467749.99999999994,0,0
+500,total_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,643,359,0,-10.824716668898192,12.191830338095308,0,0
+500,mean_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,1344,1130,214,476,654,0,-0.244075,0.19537413927754355,145,105
+500,mean_pla_intensity,percent_change,HK1,%,0.1,chat,1344,1130,214,476,654,0,-76.34593402519504,340.0547184979294,145,105
+500,mean_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,476,654,0,-2.0798399004347883,2.1376829264712662,145,105
+500,mean_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,1340,1002,338,426,576,0,-0.3244505714285714,0.3089149285714286,265,108
+500,mean_pla_intensity,percent_change,PFKP,%,0.1,chat,1340,1002,338,426,576,0,-84.63493736284089,429.83013754177995,265,108
+500,mean_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,426,576,0,-2.702274446659082,2.40552990872351,265,108
+500,marker_associated_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,1344,1344,0,1039,161,144,-693.0,148.33333333333334,0,0
+500,marker_associated_pla_count,percent_change,HK1,%,0.1,chat,1344,1156,188,1039,94,23,-100.00000000000001,2119.0476190476193,0,0
+500,marker_associated_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1002,342,885,94,23,-9.782998208920414,4.47186872187552,0,0
+500,marker_associated_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,1340,1340,0,771,418,151,-913.0,779.6666666666666,0,0
+500,marker_associated_pla_count,percent_change,PFKP,%,0.1,chat,1340,1014,326,771,221,22,-100.00000000000001,58474.99999999999,0,0
+500,marker_associated_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,901,439,658,221,22,-8.615760988089496,9.194141238863136,0,0
+500,marker_associated_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,1344,1130,214,883,238,9,-1.0,0.75,145,105
+500,marker_associated_pla_fraction,percent_change,HK1,%,0.1,chat,1344,1103,241,883,218,2,-100.00000000000001,1356.79012345679,145,105
+500,marker_associated_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1002,342,782,218,2,-6.137503523749935,3.864721141364579,145,105
+500,marker_associated_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,1340,1002,338,802,183,17,-1.0,1.0,265,108
+500,marker_associated_pla_fraction,percent_change,PFKP,%,0.1,chat,1340,961,379,802,154,5,-100.00000000000001,842.4723424723426,265,108
+500,marker_associated_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,901,439,742,154,5,-4.98268022462664,3.2364502820805523,265,108
+500,marker_associated_large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,1344,1344,0,1002,179,163,-229.0,21.0,0,0
+500,marker_associated_large_pla_count,percent_change,HK1,%,0.1,chat,1344,1141,203,1002,110,29,-100.00000000000001,1200.0,0,0
+500,marker_associated_large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,976,368,837,110,29,-7.94251450533924,3.700439718141092,0,0
+500,marker_associated_large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,1340,1340,0,731,414,195,-257.6666666666667,241.33333333333331,0,0
+500,marker_associated_large_pla_count,percent_change,PFKP,%,0.1,chat,1340,988,352,731,226,31,-100.00000000000001,18100.0,0,0
+500,marker_associated_large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,869,471,612,226,31,-7.870364719583405,7.507794640198696,0,0
+500,marker_associated_pla_mean_area,absolute_difference,HK1,µm² (exported),0.1,chat,1344,1002,342,544,458,0,-35.293888,74.76066133576198,188,275
+500,marker_associated_pla_mean_area,percent_change,HK1,%,0.1,chat,1344,1002,342,544,458,0,-99.6093056516753,14946.193718779861,188,275
+500,marker_associated_pla_mean_area,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1002,342,544,458,0,-7.99974389861302,7.233254759978457,188,275
+500,marker_associated_pla_mean_area,absolute_difference,PFKP,µm² (exported),0.1,chat,1340,901,439,453,448,0,-61.922201599999994,94.46943351401869,326,242
+500,marker_associated_pla_mean_area,percent_change,PFKP,%,0.1,chat,1340,901,439,453,448,0,-99.59198474973611,118804.53965677183,326,242
+500,marker_associated_pla_mean_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,901,439,453,448,0,-7.937161208276839,10.215588081455385,326,242
+500,section_pla_share,absolute_difference,HK1,percentage points,0.1,chat,1344,1344,0,571,737,36,-2.0710161535327276,0.7698152846756482,0,0
+500,section_pla_share,percent_change,HK1,%,0.1,chat,1344,1199,145,571,628,0,-100.00000000000001,25520.488086241512,0,0
+500,section_pla_share,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,502,628,0,-5.905422136453218,8.001154149954393,0,0
+500,section_pla_share,absolute_difference,PFKP,percentage points,0.1,chat,1340,1340,0,580,725,35,-4.192357443514609,4.565756417761189,0,0
+500,section_pla_share,percent_change,PFKP,%,0.1,chat,1340,1075,265,580,495,0,-100.00000000000001,43075.41514674802,0,0
+500,section_pla_share,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,507,495,0,-5.623855595704505,8.754066239614046,0,0
+500,marker_associated_pla_area_fraction,absolute_difference,HK1,fraction,0.1,chat,1344,1130,214,879,244,7,-1.0,0.9431524547803618,145,105
+500,marker_associated_pla_area_fraction,percent_change,HK1,%,0.1,chat,1344,1103,241,879,224,0,-100.00000000000001,7872.232419903442,145,105
+500,marker_associated_pla_area_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1002,342,778,224,0,-11.943127251450708,6.316911865545301,145,105
+500,marker_associated_pla_area_fraction,absolute_difference,PFKP,fraction,0.1,chat,1340,1002,338,757,232,13,-1.0,1.0,265,108
+500,marker_associated_pla_area_fraction,percent_change,PFKP,%,0.1,chat,1340,961,379,757,203,1,-100.00000000000001,223054.90950187205,265,108
+500,marker_associated_pla_area_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,901,439,697,203,1,-7.363100607590641,11.123829831498728,265,108
+500,median_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,1344,1130,214,352,778,0,-0.244075,0.1737223333333333,145,105
+500,median_pla_intensity,percent_change,HK1,%,0.1,chat,1344,1130,214,352,778,0,-75.52473895835136,309.22910331528584,145,105
+500,median_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,352,778,0,-2.0306038478680506,2.0329087494712916,145,105
+500,median_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,1340,1002,338,402,600,0,-0.328119,0.3245921666666667,265,108
+500,median_pla_intensity,percent_change,PFKP,%,0.1,chat,1340,1002,338,402,600,0,-85.59186963451441,577.650073705847,265,108
+500,median_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,402,600,0,-2.7950449548944514,2.7605404839056153,265,108
+500,pla_area_iqr,absolute_difference,HK1,µm² (exported),0.1,chat,1344,1130,214,584,544,2,-17.65176,14.639632,145,105
+500,pla_area_iqr,percent_change,HK1,%,0.1,chat,1344,1117,227,584,533,0,-100.0,12328.57142857143,145,105
+500,pla_area_iqr,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1097,247,564,533,0,-9.422064766172813,6.957516668678487,145,105
+500,pla_area_iqr,absolute_difference,PFKP,µm² (exported),0.1,chat,1340,1002,338,552,447,3,-51.182655999999994,24.773094166666663,265,108
+500,pla_area_iqr,percent_change,PFKP,%,0.1,chat,1340,975,365,552,423,0,-100.00000000000001,43595.651249630275,265,108
+500,pla_area_iqr,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,950,390,527,423,0,-8.189824558880018,8.771345894379687,265,108
+500,pla_area_cv,absolute_difference,HK1,dimensionless CV,0.1,chat,1344,1097,247,842,255,0,-7.07891216903853,10.437745605736714,168,158
+500,pla_area_cv,percent_change,HK1,%,0.1,chat,1344,1097,247,842,255,0,-92.30534253476407,400.6649597039081,168,158
+500,pla_area_cv,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1097,247,842,255,0,-3.6999990846903197,2.323845488314853,168,158
+500,pla_area_cv,absolute_difference,PFKP,dimensionless CV,0.1,chat,1340,951,389,623,328,0,-10.588839080035827,3.678151236194899,300,156
+500,pla_area_cv,percent_change,PFKP,%,0.1,chat,1340,951,389,623,328,0,-100.0,6414.267007148089,300,156
+500,pla_area_cv,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,950,390,622,328,0,-5.008952195032121,6.025530949099812,300,156
+500,mean_pla_nearest_neighbor_distance,absolute_difference,HK1,exported coordinate units,0.1,chat,1344,1130,214,288,842,0,-321.55683571799,497.4488323628301,145,105
+500,mean_pla_nearest_neighbor_distance,percent_change,HK1,%,0.1,chat,1344,1130,214,288,842,0,-92.49605047975915,4840.0201028783,145,105
+500,mean_pla_nearest_neighbor_distance,log2_fold_change,HK1,log2 ratio,0.1,chat,1344,1130,214,288,842,0,-3.73620606703113,5.626445007600923,145,105
+500,mean_pla_nearest_neighbor_distance,absolute_difference,PFKP,exported coordinate units,0.1,chat,1340,1002,338,363,639,0,-455.35415002280536,464.713664234972,265,108
+500,mean_pla_nearest_neighbor_distance,percent_change,PFKP,%,0.1,chat,1340,1002,338,363,639,0,-97.65292939715931,12378.227110577162,265,108
+500,mean_pla_nearest_neighbor_distance,log2_fold_change,PFKP,log2 ratio,0.1,chat,1340,1002,338,363,639,0,-5.4129949491764755,6.963269162398782,265,108
+250,pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,5135,5135,0,3483,1220,432,-622.0,154.33333333333334,0,0
+250,pla_count,percent_change,HK1,%,0.1,chat,5135,4440,695,3483,806,151,-100.00000000000001,5144.444444444444,0,0
+250,pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,3028,806,151,-8.507794640198696,5.712718047919529,0,0
+250,pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,5181,5181,0,2560,1988,633,-540.0,313.0,0,0
+250,pla_count,percent_change,PFKP,%,0.1,chat,5181,3820,1361,2560,1080,180,-100.00000000000001,27250.000000000004,0,0
+250,pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,2054,1080,180,-7.948367231584678,8.095397022792557,0,0
+250,large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,5135,5135,0,3225,1235,675,-205.33333333333334,24.666666666666668,0,0
+250,large_pla_count,percent_change,HK1,%,0.1,chat,5135,4272,863,3225,820,227,-100.00000000000001,2300.0000000000005,0,0
+250,large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3595,1540,2548,820,227,-6.348728154231078,4.584962500721156,0,0
+250,large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,5181,5181,0,2358,1848,975,-145.66666666666666,97.33333333333333,0,0
+250,large_pla_count,percent_change,PFKP,%,0.1,chat,5181,3557,1624,2358,934,265,-100.00000000000001,14700.0,0,0
+250,large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2860,2321,1661,934,265,-6.870364719583405,7.20945336562895,0,0
+250,small_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,5135,5135,0,3348,1116,671,-416.6666666666667,129.66666666666669,0,0
+250,small_pla_count,percent_change,HK1,%,0.1,chat,5135,4199,936,3348,698,153,-100.00000000000001,7780.0,0,0
+250,small_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3466,1669,2615,698,153,-8.071462362556625,6.300123724569014,0,0
+250,small_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,5181,5181,0,2375,1729,1077,-394.3333333333333,215.66666666666666,0,0
+250,small_pla_count,percent_change,PFKP,%,0.1,chat,5181,3461,1720,2375,848,238,-100.00000000000001,44200.0,0,0
+250,small_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2647,2534,1561,848,238,-8.626925793824848,8.791162888555018,0,0
+250,large_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,5135,3985,1150,1762,2116,107,-1.0,1.0,695,736
+250,large_pla_fraction,percent_change,HK1,%,0.1,chat,5135,3876,1259,1762,2029,85,-100.00000000000001,1459.9999999999998,695,736
+250,large_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3595,1540,1481,2029,85,-4.534391989144349,3.9634741239748856,695,736
+250,large_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,5181,3314,1867,1508,1664,142,-1.0,1.0,1361,959
+250,large_pla_fraction,percent_change,PFKP,%,0.1,chat,5181,3124,2057,1508,1495,121,-100.00000000000001,3100.0,1361,959
+250,large_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2860,2321,1244,1495,121,-3.3219280948873626,5.0,1361,959
+250,mean_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,5135,3985,1150,2339,1646,0,-66.86249339682541,144.02654178882068,695,736
+250,mean_pla_area,percent_change,HK1,%,0.1,chat,5135,3985,1150,2339,1646,0,-99.60334950909564,101035.04904171995,695,736
+250,mean_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,2339,1646,0,-7.977915950159012,9.982067344374116,695,736
+250,mean_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,5181,3314,1867,1759,1553,2,-124.30477,82.82731796021505,1361,959
+250,mean_pla_area,percent_change,PFKP,%,0.1,chat,5181,3314,1867,1759,1553,2,-99.93696896453113,56810.40010906086,1361,959
+250,mean_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,1759,1553,2,-10.631650016142617,9.152548512160903,1361,959
+250,median_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,5135,3985,1150,1822,2159,4,-52.02127366666667,96.254814,695,736
+250,median_pla_area,percent_change,HK1,%,0.1,chat,5135,3985,1150,1822,2159,4,-99.84184722441879,361099.99249699875,695,736
+250,median_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,1822,2159,4,-9.304465409286633,11.818582147512577,695,736
+250,median_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,5181,3314,1867,1627,1678,9,-124.30477,82.8520755,1361,959
+250,median_pla_area,percent_change,PFKP,%,0.1,chat,5181,3314,1867,1627,1678,9,-99.93696896453113,177617.64330732293,1361,959
+250,median_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,1627,1678,9,-10.631650016142617,10.795371199840954,1361,959
+250,p90_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,5135,3985,1150,2334,1651,0,-134.74001493333333,354.380872,695,736
+250,p90_pla_area,percent_change,HK1,%,0.1,chat,5135,3985,1150,2334,1651,0,-99.84724894671103,162595.83394508882,695,736
+250,p90_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,2334,1651,0,-9.354601956535948,10.667961593916464,695,736
+250,p90_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,5181,3314,1867,1811,1501,2,-124.27968200000001,86.0167151,1361,959
+250,p90_pla_area,percent_change,PFKP,%,0.1,chat,5181,3314,1867,1811,1501,2,-99.9167990331811,206420.00000000015,1361,959
+250,p90_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,1811,1501,2,-10.231112086558888,11.012065787873999,1361,959
+250,total_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,5135,5135,0,3372,1482,281,-1006.6936403333347,391.59128766666663,0,0
+250,total_pla_area,percent_change,HK1,%,0.1,chat,5135,4440,695,3372,1068,0,-100.00000000000001,1173850.023915816,0,0
+250,total_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,2917,1068,0,-14.053651204906158,13.519083372508932,0,0
+250,total_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,5181,5181,0,2558,2167,456,-514.9719586666668,263.2724293333334,0,0
+250,total_pla_area,percent_change,PFKP,%,0.1,chat,5181,3820,1361,2558,1259,3,-100.00000000000001,1198400.0,0,0
+250,total_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,2052,1259,3,-13.317836541004578,13.548942288536495,0,0
+250,mean_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,5135,3985,1150,1831,2154,0,-0.34349799999999997,0.3417736666666667,695,736
+250,mean_pla_intensity,percent_change,HK1,%,0.1,chat,5135,3985,1150,1831,2154,0,-86.18887391761449,604.2948981615737,695,736
+250,mean_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,1831,2154,0,-2.8560971411682097,2.816179632033433,695,736
+250,mean_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,5181,3314,1867,1558,1756,0,-0.3264195,0.3416509833333333,1361,959
+250,mean_pla_intensity,percent_change,PFKP,%,0.1,chat,5181,3314,1867,1558,1756,0,-85.14854455293161,612.2556203912583,1361,959
+250,mean_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,1558,1756,0,-2.7513237723882176,2.832395100864471,1361,959
+250,marker_associated_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,5135,5135,0,3502,667,966,-550.3333333333334,152.66666666666666,0,0
+250,marker_associated_pla_count,percent_change,HK1,%,0.1,chat,5135,4055,1080,3502,381,172,-100.00000000000001,7633.333333333333,0,0
+250,marker_associated_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,2927,2208,2374,381,172,-9.10678101845012,6.273018494406416,0,0
+250,marker_associated_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,5181,5181,0,2634,1348,1199,-443.3333333333333,300.0,0,0
+250,marker_associated_pla_count,percent_change,PFKP,%,0.1,chat,5181,3465,1716,2634,652,179,-100.00000000000001,51700.0,0,0
+250,marker_associated_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2550,2631,1719,652,179,-10.001408194392809,9.016808287686555,0,0
+250,marker_associated_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,5135,3985,1150,2771,1040,174,-1.0,1.0,695,736
+250,marker_associated_pla_fraction,percent_change,HK1,%,0.1,chat,5135,3732,1403,2771,911,50,-100.00000000000001,3050.0,695,736
+250,marker_associated_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,2927,2208,1966,911,50,-5.54432051622381,4.977279923499917,695,736
+250,marker_associated_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,5181,3314,1867,2270,861,183,-1.0,1.0,1361,959
+250,marker_associated_pla_fraction,percent_change,PFKP,%,0.1,chat,5181,3102,2079,2270,713,119,-100.00000000000001,1500.0,1361,959
+250,marker_associated_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2550,2631,1718,713,119,-5.194053272335204,4.0,1361,959
+250,marker_associated_large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,5135,5135,0,3247,719,1169,-194.66666666666669,25.0,0,0
+250,marker_associated_large_pla_count,percent_change,HK1,%,0.1,chat,5135,3880,1255,3247,392,241,-100.00000000000001,2500.0,0,0
+250,marker_associated_large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,2598,2537,1965,392,241,-8.194756854422248,4.700439718141092,0,0
+250,marker_associated_large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,5181,5181,0,2415,1350,1416,-135.0,97.0,0,0
+250,marker_associated_large_pla_count,percent_change,PFKP,%,0.1,chat,5181,3239,1942,2415,621,203,-100.00000000000001,13999.999999999998,0,0
+250,marker_associated_large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2205,2976,1381,621,203,-8.124121311829187,7.139551352398794,0,0
+250,marker_associated_pla_mean_area,absolute_difference,HK1,µm² (exported),0.1,chat,5135,2927,2208,1593,1334,0,-75.69563522222224,149.6571609846154,1080,1922
+250,marker_associated_pla_mean_area,percent_change,HK1,%,0.1,chat,5135,2927,2208,1593,1334,0,-99.88449970841448,100466.15737449363,1080,1922
+250,marker_associated_pla_mean_area,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,2927,2208,1593,1334,0,-9.75788779086981,9.973929174275534,1080,1922
+250,marker_associated_pla_mean_area,absolute_difference,PFKP,µm² (exported),0.1,chat,5181,2550,2631,1230,1319,1,-148.91438745454545,96.60134400000001,1716,1935
+250,marker_associated_pla_mean_area,percent_change,PFKP,%,0.1,chat,5181,2550,2631,1230,1319,1,-99.81597659728872,118804.53965677183,1716,1935
+250,marker_associated_pla_mean_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2550,2631,1230,1319,1,-9.085895035615932,10.215588081455385,1716,1935
+250,section_pla_share,absolute_difference,HK1,percentage points,0.1,chat,5135,5135,0,2226,2628,281,-1.8123071907856678,0.7668366420189636,0,0
+250,section_pla_share,percent_change,HK1,%,0.1,chat,5135,4440,695,2226,2214,0,-100.00000000000001,21560.237115941698,0,0
+250,section_pla_share,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,1771,2214,0,-6.396083631527522,7.758905226078342,0,0
+250,section_pla_share,absolute_difference,PFKP,percentage points,0.1,chat,5181,5181,0,2136,2592,453,-2.256143215222285,1.7256953390827592,0,0
+250,section_pla_share,percent_change,PFKP,%,0.1,chat,5181,3820,1361,2136,1684,0,-100.00000000000001,36171.72340310721,0,0
+250,section_pla_share,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,1630,1684,0,-6.934154696471657,8.502701484463882,0,0
+250,marker_associated_pla_area_fraction,absolute_difference,HK1,fraction,0.1,chat,5135,3985,1150,2843,998,144,-1.0,1.0,695,736
+250,marker_associated_pla_area_fraction,percent_change,HK1,%,0.1,chat,5135,3732,1403,2843,869,20,-100.00000000000001,51924.99999999999,695,736
+250,marker_associated_pla_area_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,2927,2208,2038,869,20,-9.227902402728727,9.023061249735335,695,736
+250,marker_associated_pla_area_fraction,absolute_difference,PFKP,fraction,0.1,chat,5181,3314,1867,2221,956,137,-1.0,1.0,1361,959
+250,marker_associated_pla_area_fraction,percent_change,PFKP,%,0.1,chat,5181,3102,2079,2221,808,73,-100.00000000000001,53785.71428571429,1361,959
+250,marker_associated_pla_area_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2550,2631,1669,808,73,-8.68288490572183,9.073759038617492,1361,959
+250,median_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,5135,3985,1150,1609,2376,0,-0.3436745,0.3417736666666667,695,736
+250,median_pla_intensity,percent_change,HK1,%,0.1,chat,5135,3985,1150,1609,2376,0,-86.2331604527514,611.2151997744409,695,736
+250,median_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,1609,2376,0,-2.8607306968408808,2.8302861571329276,695,736
+250,median_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,5181,3314,1867,1474,1840,0,-0.327329,0.34185775,1361,959
+250,median_pla_intensity,percent_change,PFKP,%,0.1,chat,5181,3314,1867,1474,1840,0,-85.23415834494251,618.1399147082841,1361,959
+250,median_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,1474,1840,0,-2.7596645022508723,2.844264950720957,1361,959
+250,pla_area_iqr,absolute_difference,HK1,µm² (exported),0.1,chat,5135,3985,1150,2324,1599,62,-74.05323783333333,219.75102766666666,695,736
+250,pla_area_iqr,percent_change,HK1,%,0.1,chat,5135,3784,1351,2324,1459,1,-100.00000000000001,213422.34376618668,695,736
+250,pla_area_iqr,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3323,1812,1863,1459,1,-9.722807531169547,11.060171331341605,695,736
+250,pla_area_iqr,absolute_difference,PFKP,µm² (exported),0.1,chat,5181,3314,1867,1842,1383,89,-74.241665,48.520976,1361,959
+250,pla_area_iqr,percent_change,PFKP,%,0.1,chat,5181,2964,2217,1842,1121,1,-100.00000000000001,55550.000000000015,1361,959
+250,pla_area_iqr,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2478,2703,1356,1121,1,-10.111880863970743,9.12023787734196,1361,959
+250,pla_area_cv,absolute_difference,HK1,dimensionless CV,0.1,chat,5135,3334,1801,2346,988,0,-15.031268199184606,11.527769264069978,990,1416
+250,pla_area_cv,percent_change,HK1,%,0.1,chat,5135,3333,1802,2346,987,0,-100.00000000000001,2677.547115313086,990,1416
+250,pla_area_cv,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3323,1812,2336,987,0,-7.196689119818331,4.795739479031711,990,1416
+250,pla_area_cv,absolute_difference,PFKP,dimensionless CV,0.1,chat,5181,2482,2699,1470,1012,0,-11.511778451931741,11.149803761926005,1825,1820
+250,pla_area_cv,percent_change,PFKP,%,0.1,chat,5181,2480,2701,1470,1010,0,-100.0,7662.429240449177,1825,1820
+250,pla_area_cv,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,2478,2703,1468,1010,0,-8.091799247106477,6.278436307184301,1825,1820
+250,mean_pla_nearest_neighbor_distance,absolute_difference,HK1,exported coordinate units,0.1,chat,5135,3985,1150,1272,2713,0,-340.7565175422255,497.4488323628301,695,736
+250,mean_pla_nearest_neighbor_distance,percent_change,HK1,%,0.1,chat,5135,3985,1150,1272,2713,0,-99.11535780884655,9229.668595308924,695,736
+250,mean_pla_nearest_neighbor_distance,log2_fold_change,HK1,log2 ratio,0.1,chat,5135,3985,1150,1272,2713,0,-6.820690234471267,6.543753930048431,695,736
+250,mean_pla_nearest_neighbor_distance,absolute_difference,PFKP,exported coordinate units,0.1,chat,5181,3314,1867,1351,1962,1,-485.8916993395002,590.7429512193764,1361,959
+250,mean_pla_nearest_neighbor_distance,percent_change,PFKP,%,0.1,chat,5181,3314,1867,1351,1962,1,-99.04994935321336,20073.856844936712,1361,959
+250,mean_pla_nearest_neighbor_distance,log2_fold_change,PFKP,log2 ratio,0.1,chat,5181,3314,1867,1351,1962,1,-6.717779859723492,7.656343115031601,1361,959
+100,pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,29708,29708,0,14859,6943,7906,-189.66666666666666,78.66666666666667,0,0
+100,pla_count,percent_change,HK1,%,0.1,chat,29708,19026,10682,14859,2565,1602,-100.00000000000001,23600.000000000004,0,0
+100,pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,6133,2565,1602,-8.816983623255382,7.888743248898259,0,0
+100,pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,30344,30344,0,10678,7699,11967,-181.0,105.0,0,0
+100,pla_count,percent_change,PFKP,%,0.1,chat,30344,14148,16196,10678,1998,1472,-100.00000000000001,31500.0,0,0
+100,pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,3172,1998,1472,-8.219168520462162,8.303780748177102,0,0
+100,large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,29708,29708,0,12225,5853,11630,-65.0,17.333333333333336,0,0
+100,large_pla_count,percent_change,HK1,%,0.1,chat,29708,15166,14542,12225,1418,1523,-100.00000000000001,5200.000000000001,0,0
+100,large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,6086,23622,3145,1418,1523,-7.409390936137702,5.7279204545632,0,0
+100,large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,30344,30344,0,8565,6219,15560,-56.0,31.0,0,0
+100,large_pla_count,percent_change,PFKP,%,0.1,chat,30344,10813,19531,8565,1049,1199,-100.00000000000001,9100.000000000002,0,0
+100,large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,3745,26599,1497,1049,1199,-7.400879436282184,6.523561956057013,0,0
+100,small_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,29708,29708,0,12628,5564,11516,-124.66666666666667,61.333333333333336,0,0
+100,small_pla_count,percent_change,HK1,%,0.1,chat,29708,15251,14457,12628,1340,1283,-100.00000000000001,7200.0,0,0
+100,small_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,5987,23721,3364,1340,1283,-8.159871336778389,6.189824558880018,0,0
+100,small_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,30344,30344,0,8367,5602,16375,-125.0,74.66666666666667,0,0
+100,small_pla_count,percent_change,PFKP,%,0.1,chat,30344,10216,20128,8367,816,1033,-100.00000000000001,13800.0,0,0
+100,small_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,3159,27185,1310,816,1033,-7.651051691178929,7.118941072723508,0,0
+100,large_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,29708,10300,19408,4233,4707,1360,-1.0,1.0,10682,15030
+100,large_pla_fraction,percent_change,HK1,%,0.1,chat,29708,8401,21307,4233,3353,815,-100.00000000000001,2700.0,10682,15030
+100,large_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,6086,23622,1918,3353,815,-4.0,4.807354922057604,10682,15030
+100,large_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,30344,6642,23702,2584,2820,1238,-1.0,1.0,16196,18001
+100,large_pla_fraction,percent_change,PFKP,%,0.1,chat,30344,5123,25221,2584,1720,819,-100.00000000000001,4700.0,16196,18001
+100,large_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,3745,26599,1206,1720,819,-3.9068905956085187,5.584962500721156,16196,18001
+100,mean_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,29708,10300,19408,5586,4695,19,-480.623356,276.02894,10682,15030
+100,mean_pla_area,percent_change,HK1,%,0.1,chat,29708,10300,19408,5586,4695,19,-99.99802648456455,1026893.3779761904,10682,15030
+100,mean_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,5586,4695,19,-15.628872671420973,13.326139258779353,10682,15030
+100,mean_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,30344,6642,23702,3366,3267,9,-107.423682,94.357758,16196,18001
+100,mean_pla_area,percent_change,PFKP,%,0.1,chat,30344,6642,23702,3366,3267,9,-99.98965315872208,847400.0,16196,18001
+100,mean_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,3366,3267,9,-13.238521975904634,13.04899765291107,16196,18001
+100,median_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,29708,10300,19408,5001,5239,60,-480.623356,276.033084,10682,15030
+100,median_pla_area,percent_change,HK1,%,0.1,chat,29708,10300,19408,5001,5239,60,-99.99802648456455,1214079.36312456,10682,15030
+100,median_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,5001,5239,60,-15.628872671420973,13.567693937202696,10682,15030
+100,median_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,30344,6642,23702,3272,3338,32,-107.447202,94.566078,16196,18001
+100,median_pla_area,percent_change,PFKP,%,0.1,chat,30344,6642,23702,3272,3338,32,-99.98191681735986,847400.0,16196,18001
+100,median_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,3272,3338,32,-12.43306376512207,13.04899765291107,16196,18001
+100,p90_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,29708,10300,19408,5816,4468,16,-480.623356,377.7771568,10682,15030
+100,p90_pla_area,percent_change,HK1,%,0.1,chat,29708,10300,19408,5816,4468,16,-99.9984431387429,816125.0,10682,15030
+100,p90_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,5816,4468,16,-15.971000093036414,12.994751183966342,10682,15030
+100,p90_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,30344,6642,23702,3453,3181,8,-134.14773300000002,93.95706679999999,16196,18001
+100,p90_pla_area,percent_change,PFKP,%,0.1,chat,30344,6642,23702,3453,3181,8,-99.99112641331959,1402520.0000000002,16196,18001
+100,p90_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,3453,3181,8,-13.460123118483411,13.775836584250884,16196,18001
+100,total_pla_area,absolute_difference,HK1,µm² (exported),0.1,chat,29708,29708,0,15206,8176,6326,-420.410078666667,391.8254423333334,0,0
+100,total_pla_area,percent_change,HK1,%,0.1,chat,29708,19026,10682,15206,3798,22,-100.00000000000001,4047500.0637755115,0,0
+100,total_pla_area,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,6480,3798,22,-16.90377006456791,15.30477912647093,0,0
+100,total_pla_area,absolute_difference,PFKP,µm² (exported),0.1,chat,30344,30344,0,11207,8630,10507,-282.8536000000001,164.95359666666644,0,0
+100,total_pla_area,percent_change,PFKP,%,0.1,chat,30344,14148,16196,11207,2929,12,-100.00000000000001,1916399.9681122447,0,0
+100,total_pla_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,3701,2929,12,-18.04573828032037,14.226186353683547,0,0
+100,mean_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,29708,10300,19408,4828,5471,1,-0.5555355000000001,0.5240411666666667,10682,15030
+100,mean_pla_intensity,percent_change,HK1,%,0.1,chat,29708,10300,19408,4828,5471,1,-90.4088153947179,935.3813521505537,10682,15030
+100,mean_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,4828,5471,1,-3.3821471765520745,3.3720903346155016,10682,15030
+100,mean_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,30344,6642,23702,3050,3586,6,-0.344947,0.36286142857142856,16196,18001
+100,mean_pla_intensity,percent_change,PFKP,%,0.1,chat,30344,6642,23702,3050,3586,6,-86.47130341050098,626.5150674801258,16196,18001
+100,mean_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,3050,3586,6,-2.885905244076017,2.860992718785082,16196,18001
+100,marker_associated_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,29708,29708,0,12308,3651,13749,-161.66666666666666,78.66666666666667,0,0
+100,marker_associated_pla_count,percent_change,HK1,%,0.1,chat,29708,14185,15523,12308,834,1043,-100.00000000000001,23600.000000000004,0,0
+100,marker_associated_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,4438,25270,2561,834,1043,-8.92481250360578,7.888743248898259,0,0
+100,marker_associated_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,30344,30344,0,9849,4778,15717,-177.33333333333334,103.0,0,0
+100,marker_associated_pla_count,percent_change,PFKP,%,0.1,chat,30344,11677,18667,9849,893,935,-100.00000000000001,30900.0,0,0
+100,marker_associated_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,3529,26815,1701,893,935,-7.994353436858858,8.276124405274238,0,0
+100,marker_associated_pla_fraction,absolute_difference,HK1,fraction,0.1,chat,29708,10300,19408,5663,2578,2059,-1.0,1.0,10682,15030
+100,marker_associated_pla_fraction,percent_change,HK1,%,0.1,chat,29708,8193,21515,5663,1710,820,-100.00000000000001,2500.0,10682,15030
+100,marker_associated_pla_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,4438,25270,1908,1710,820,-4.754887502163468,4.700439718141092,10682,15030
+100,marker_associated_pla_fraction,absolute_difference,PFKP,fraction,0.1,chat,30344,6642,23702,3576,1542,1524,-1.0,1.0,16196,18001
+100,marker_associated_pla_fraction,percent_change,PFKP,%,0.1,chat,30344,5690,24654,3576,977,1137,-100.00000000000001,1400.0,16196,18001
+100,marker_associated_pla_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,3529,26815,1415,977,1137,-5.584962500721156,3.9068905956085187,16196,18001
+100,marker_associated_large_pla_count,absolute_difference,HK1,PLA count / bin,0.1,chat,29708,29708,0,10207,3382,16119,-62.33333333333333,17.333333333333336,0,0
+100,marker_associated_large_pla_count,percent_change,HK1,%,0.1,chat,29708,11724,17984,10207,528,989,-100.00000000000001,5200.000000000001,0,0
+100,marker_associated_large_pla_count,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,2936,26772,1419,528,989,-7.554588851677638,5.7279204545632,0,0
+100,marker_associated_large_pla_count,absolute_difference,PFKP,PLA count / bin,0.1,chat,30344,30344,0,7901,4242,18201,-56.333333333333336,31.0,0,0
+100,marker_associated_large_pla_count,percent_change,PFKP,%,0.1,chat,30344,9279,21065,7901,573,805,-100.00000000000001,9100.000000000002,0,0
+100,marker_associated_large_pla_count,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,2272,28072,894,573,805,-6.357552004618084,6.523561956057013,0,0
+100,marker_associated_pla_mean_area,absolute_difference,HK1,µm² (exported),0.1,chat,29708,4438,25270,2175,2255,8,-480.623356,276.02894,15523,22453
+100,marker_associated_pla_mean_area,percent_change,HK1,%,0.1,chat,29708,4438,25270,2175,2255,8,-99.9818198340335,1026893.3779761904,15523,22453
+100,marker_associated_pla_mean_area,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,4438,25270,2175,2255,8,-12.425347009614526,13.326139258779353,15523,22453
+100,marker_associated_pla_mean_area,absolute_difference,PFKP,µm² (exported),0.1,chat,30344,3529,26815,1594,1927,8,-149.08701,94.3352684,18667,22930
+100,marker_associated_pla_mean_area,percent_change,PFKP,%,0.1,chat,30344,3529,26815,1594,1927,8,-99.98582565588376,449500.00000000006,18667,22930
+100,marker_associated_pla_mean_area,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,3529,26815,1594,1927,8,-12.78443040008867,12.134426320220927,18667,22930
+100,section_pla_share,absolute_difference,HK1,percentage points,0.1,chat,29708,29708,0,12380,11024,6304,-0.5381604259111504,0.3853192589387945,0,0
+100,section_pla_share,percent_change,HK1,%,0.1,chat,29708,19026,10682,12380,6646,0,-100.00000000000001,83655.50835042485,0,0
+100,section_pla_share,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,3654,6646,0,-6.6809446851810055,9.710040265110285,0,0
+100,section_pla_share,absolute_difference,PFKP,percentage points,0.1,chat,30344,30344,0,10059,9790,10495,-0.7556729645582534,0.5786321546202511,0,0
+100,section_pla_share,percent_change,PFKP,%,0.1,chat,30344,14148,16196,10059,4089,0,-100.00000000000001,59533.920704845834,0,0
+100,section_pla_share,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,2553,4089,0,-7.825520086480229,9.21998938139998,0,0
+100,marker_associated_pla_area_fraction,absolute_difference,HK1,fraction,0.1,chat,29708,10300,19408,5689,2653,1958,-1.0,1.0,10682,15030
+100,marker_associated_pla_area_fraction,percent_change,HK1,%,0.1,chat,29708,8193,21515,5689,1785,719,-100.00000000000001,89853.33333333334,10682,15030
+100,marker_associated_pla_area_fraction,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,4438,25270,1934,1785,719,-12.44515553226361,9.81303293311215,10682,15030
+100,marker_associated_pla_area_fraction,absolute_difference,PFKP,fraction,0.1,chat,30344,6642,23702,3587,1603,1452,-1.0,1.0,16196,18001
+100,marker_associated_pla_area_fraction,percent_change,PFKP,%,0.1,chat,30344,5690,24654,3587,1038,1065,-100.00000000000001,38233.33599064625,16196,18001
+100,marker_associated_pla_area_fraction,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,3529,26815,1426,1038,1065,-7.84247606299394,8.582455745119939,16196,18001
+100,median_pla_intensity,absolute_difference,HK1,exported intensity units,0.1,chat,29708,10300,19408,4589,5707,4,-0.5555355000000001,0.5241385000000001,10682,15030
+100,median_pla_intensity,percent_change,HK1,%,0.1,chat,29708,10300,19408,4589,5707,4,-90.4088153947179,937.1832925063029,10682,15030
+100,median_pla_intensity,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,4589,5707,4,-3.3821471765520745,3.3745989666882767,10682,15030
+100,median_pla_intensity,absolute_difference,PFKP,exported intensity units,0.1,chat,30344,6642,23702,3019,3617,6,-0.344947,0.366664,16196,18001
+100,median_pla_intensity,percent_change,PFKP,%,0.1,chat,30344,6642,23702,3019,3617,6,-86.47130341050098,638.1870713962473,16196,18001
+100,median_pla_intensity,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6642,23702,3019,3617,6,-2.885905244076017,2.88398647045286,16196,18001
+100,pla_area_iqr,absolute_difference,HK1,µm² (exported),0.1,chat,29708,10300,19408,5535,3254,1511,-90.061998,236.14904099999998,10682,15030
+100,pla_area_iqr,percent_change,HK1,%,0.1,chat,29708,7399,22309,5535,1860,4,-100.00000000000001,558042.8525874636,10682,15030
+100,pla_area_iqr,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,3888,25820,2024,1860,4,-12.377302536067031,12.44641870123859,10682,15030
+100,pla_area_iqr,absolute_difference,PFKP,µm² (exported),0.1,chat,30344,6642,23702,2977,2187,1478,-74.541937,27.458816,16196,18001
+100,pla_area_iqr,percent_change,PFKP,%,0.1,chat,30344,3922,26422,2977,943,2,-100.00000000000001,153780.00000000015,16196,18001
+100,pla_area_iqr,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,1826,28518,881,943,2,-10.982963262060775,10.587590019409253,16196,18001
+100,pla_area_cv,absolute_difference,HK1,dimensionless CV,0.1,chat,29708,3931,25777,2400,1531,0,-10.692497116843754,9.202920281436505,16644,22355
+100,pla_area_cv,percent_change,HK1,%,0.1,chat,29708,3917,25791,2400,1517,0,-100.00000000000001,14326.6605052359,16644,22355
+100,pla_area_cv,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,3888,25820,2371,1517,0,-8.019188640811084,7.17259357206297,16644,22355
+100,pla_area_cv,absolute_difference,PFKP,dimensionless CV,0.1,chat,30344,1844,28500,956,888,0,-18.268407026739805,7.873399551442869,22126,24687
+100,pla_area_cv,percent_change,PFKP,%,0.1,chat,30344,1833,28511,956,877,0,-100.00000000000001,5014.844769810522,22126,24687
+100,pla_area_cv,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,1826,28518,949,877,0,-10.635129869895923,5.676618551236687,22126,24687
+100,mean_pla_nearest_neighbor_distance,absolute_difference,HK1,exported coordinate units,0.1,chat,29708,10300,19408,3977,6323,0,-375.8773138560087,459.33405681481327,10682,15030
+100,mean_pla_nearest_neighbor_distance,percent_change,HK1,%,0.1,chat,29708,10300,19408,3977,6323,0,-99.52267125329574,32837.59250461393,10682,15030
+100,mean_pla_nearest_neighbor_distance,log2_fold_change,HK1,log2 ratio,0.1,chat,29708,10300,19408,3977,6323,0,-7.710801060614687,8.363591298312368,10682,15030
+100,mean_pla_nearest_neighbor_distance,absolute_difference,PFKP,exported coordinate units,0.1,chat,30344,6642,23702,2869,3773,0,-485.8916993395002,501.76649469848087,16196,18001
+100,mean_pla_nearest_neighbor_distance,percent_change,PFKP,%,0.1,chat,30344,6641,23703,2869,3772,0,-99.46095190545988,30623.42549251763,16196,18001
+100,mean_pla_nearest_neighbor_distance,log2_fold_change,PFKP,log2 ratio,0.1,chat,30344,6641,23703,2869,3772,0,-7.535370286899325,8.263195267342843,16196,18001

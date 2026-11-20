@@ -1,0 +1,7 @@
+Final verification record (summary, not a verbatim transcript)
+Command: .venv/bin/python -m unittest discover -s tests
+Run after the final calculation-control label fix.
+Ran 143 tests in 6.194s
+OK; exit code 0
+The complete preceding run is in test_log_calculation_functions_2026-11-17.txt.
+Expected BLOCKED messages exercise strict-input rejection fixtures; they are not failures of the current scientist-directed analysis.

@@ -9,8 +9,12 @@ import base64
 import hashlib
 import json
 from plotly.offline import get_plotlyjs
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from comet_spatial.measurement_features import ensure_spatial_feature_cache
+from comet_spatial.context_geometry import build_context_geometry
 
 
 def load_exploratory(root):
@@ -194,6 +198,14 @@ def build(root=ROOT):
     )
     exploratory = load_exploratory(root)
     multiresolution = load_multiresolution(root)
+    measurement_features = ensure_spatial_feature_cache(root, multiresolution.get("pla_points", []))
+    feature_pointer=root/'outputs/measurement_features/latest_run.json'
+    feature_payload_sha256=json.loads(feature_pointer.read_text()).get('payload_sha256') if measurement_features else None
+    context_geometry = build_context_geometry(multiresolution)
+    if context_geometry:
+        context_path=root/'outputs/comet_core/context_geometry.json'
+        context_path.parent.mkdir(parents=True,exist_ok=True)
+        context_path.write_text(json.dumps(context_geometry,separators=(',',':'),allow_nan=False))
     review_figures = []
     review_directory = root / "outputs/comet_core/detailed_review"
     review_manifest = review_directory / "manifest.json"
@@ -210,16 +222,26 @@ def build(root=ROOT):
     data = {"core": core, "exploratory": exploratory, "multiresolution": multiresolution, "saved_alignment": snapshot,
             "cohort_selection": cohort, "selected_cohort_verified": selected_cohort_verified,
             "scientist_questions": questions, "review_figures": review_figures,
+            "measurement_features": measurement_features,
+            "measurement_feature_payload_sha256": feature_payload_sha256,
+            "context_geometry": context_geometry,
             "alignment_replay_validation": {**replay_validation, "display_claim_verified": replay_verified},
             "asset_audit": {k: v for k, v in audit.items() if k != "saved_app_snapshot"}}
     encoded = json.dumps(data, ensure_ascii=False, allow_nan=False,
                          separators=(",", ":")).replace("<", "\\u003c")
     source = (Path(__file__).parent / "comet_core_explorer.html").read_text()
+    # Independent modules are embedded before the core script and need no network.
+    source=source.replace('<script id="comet-measurement-engine-js">__MEASUREMENT_ENGINE_JS__</script>',
+        '<script id="comet-measurement-engine-js">__MEASUREMENT_ENGINE_JS__</script><script id="comet-vector-export-js">__VECTOR_EXPORT_JS__</script><script id="comet-detail-grid-js">__DETAIL_GRID_JS__</script>')
     page = source.replace("__PLOTLY__", get_plotlyjs()).replace("__PAYLOAD__", encoded)
     # Embed the local review renderers so the exported app remains fully offline.
     # These modules reuse saved numerical payloads; they never recalculate counts
     # or change the frozen section transforms.
-    for token, filename in (("__PLOT_LIFECYCLE_JS__", "comet_plot_lifecycle.js"),
+    for token, filename in (("__MEASUREMENT_ENGINE_JS__", "comet_measurements.js"),
+                            ("__VECTOR_EXPORT_JS__", "comet_vector_export.js"),
+                            ("__DETAIL_GRID_JS__", "comet_detail_grid.js"),
+                            ("__MEASUREMENT_CONTROLS_JS__", "comet_measurement_controls.js"),
+                            ("__PLOT_LIFECYCLE_JS__", "comet_plot_lifecycle.js"),
                             ("__SUPPORT_DETAIL_JS__", "comet_support_detail.js"),
                             ("__ALIGNMENT_DETAIL_JS__", "comet_alignment_detail.js")):
         if token in page:

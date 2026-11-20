@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "renderer": "Mermaid 12.3.0",
+  "renderer_source": "https://cdn.jsdelivr.net/npm/mermaid@12.3.0/dist/mermaid.esm.min.mjs",
+  "method": "Local isolated browser rendering; diagram source was not uploaded to a rendering service",
+  "workflow_svg_text_within_bounds": true,
+  "diagrams": [
+    {
+      "source_document": "README.md",
+      "mermaid_block": 1,
+      "svg_file": "overview_flow_1.svg",
+      "rendered": true,
+      "source_sha256": "477b0ebd90015845796908181a1e6ec64f59d2e8c2bcac24ff5f8fb1c1976a14",
+      "svg_sha256": "35feac41537658fc93d349c505b2149dac950811803f0abfd24ad5a95bff43e9"
+    },
+    {
+      "source_document": "calculations.md",
+      "mermaid_block": 1,
+      "svg_file": "calculations_flow_1.svg",
+      "rendered": true,
+      "source_sha256": "f090c45fe7bd197dd03b686d6b78475fac2db17806444e003834cfaf1a35daa3",
+      "svg_sha256": "bc397ab30e5a55c8b0a407b6ca4b4b80c8fce608dd87e064f490ef437ea5853a"
+    },
+    {
+      "source_document": "calculations.md",
+      "mermaid_block": 2,
+      "svg_file": "calculations_flow_2.svg",
+      "rendered": true,
+      "source_sha256": "3e89a85680c9dcb712b09fc747dca80f809c275455b27b9f22fa32b86c513d6f",
+      "svg_sha256": "0b1d14b4d849d0fb5c0a78b395e444809e93e25de9be1481f5897299a302beb6"
+    },
+    {
+      "source_document": "code_reference.md",
+      "mermaid_block": 1,
+      "svg_file": "code_reference_flow_1.svg",
+      "rendered": true,
+      "source_sha256": "8b17f3993fc97dfeaf3f6e3bd999f838b30758fa6ae13f1bf8a9f258663d612f",
+      "svg_sha256": "66674aae0d6148cb074a51a5e769636db769aba1eb4ceca8b3589c078cdcba58"
+    },
+    {
+      "source_document": "code_reference.md",
+      "mermaid_block": 2,
+      "svg_file": "code_reference_flow_2.svg",
+      "rendered": true,
+      "source_sha256": "f3fdb149fa1bee26bf297359cc3c190c9cc98e7f9d0fd85c1f0fd4e56ebabdd7",
+      "svg_sha256": "2b1c8bfa060d81d00136edb55707473ff324bf02fdfed8166060e04c1629e908"
+    },
+    {
+      "source_document": "repository_guide.md",
+      "mermaid_block": 1,
+      "svg_file": "repository_guide_flow_1.svg",
+      "rendered": true,
+      "source_sha256": "75fdb19e7eceb5d0f58b2727fef05da5d7688578f3b2ccba98d279ce23f43d6c",
+      "svg_sha256": "e275d4521ecf2099f898cd48e52e07ec40a6d9c4137ba84d6fa9920d6357df6d"
+    }
+  ]
+}

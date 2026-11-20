@@ -1,0 +1,123 @@
+{
+  "recorded_utc": "2026-11-19T22:15:28.158024+00:00",
+  "local_date": "2026-11-19",
+  "status": "passed",
+  "method": "Independent full-section brute-force Euclidean minimum, explicitly excluding the focal object",
+  "queries": 120,
+  "point_count": 310024,
+  "rtol": 1e-12,
+  "atol": 1e-12,
+  "sections": [
+    {
+      "section_id": "21F_Hk1",
+      "pla_objects": 33438,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 4,
+      "minimum": 0.0,
+      "median": 3.605551275463989,
+      "maximum": 587.2180174347513
+    },
+    {
+      "section_id": "21M_Hk1",
+      "pla_objects": 20478,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 2,
+      "minimum": 0.0,
+      "median": 4.272001872658765,
+      "maximum": 623.4909782827656
+    },
+    {
+      "section_id": "22F_Hk1",
+      "pla_objects": 12644,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 2,
+      "minimum": 0.0,
+      "median": 7.615773105863909,
+      "maximum": 623.4909782827656
+    },
+    {
+      "section_id": "22M_Hk1",
+      "pla_objects": 14984,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 2,
+      "minimum": 0.0,
+      "median": 8.54400374531753,
+      "maximum": 582.2482288508915
+    },
+    {
+      "section_id": "23M_Hk1",
+      "pla_objects": 72369,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 18,
+      "minimum": 0.0,
+      "median": 3.0,
+      "maximum": 623.4909782827656
+    },
+    {
+      "section_id": "24M_Hk1",
+      "pla_objects": 41237,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 8,
+      "minimum": 0.0,
+      "median": 3.640054944640259,
+      "maximum": 590.9978849369936
+    },
+    {
+      "section_id": "21F_Pfkp",
+      "pla_objects": 23857,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 2,
+      "minimum": 0.0,
+      "median": 3.8078865529319543,
+      "maximum": 669.0071001118
+    },
+    {
+      "section_id": "21M_Pfkp",
+      "pla_objects": 18160,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 4,
+      "minimum": 0.0,
+      "median": 3.8078865529319543,
+      "maximum": 623.4909782827656
+    },
+    {
+      "section_id": "22F_Pfkp",
+      "pla_objects": 11589,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 0,
+      "minimum": 0.5,
+      "median": 16.507574019219177,
+      "maximum": 517.9314626473275
+    },
+    {
+      "section_id": "22M_Pfkp",
+      "pla_objects": 8412,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 0,
+      "minimum": 0.5,
+      "median": 8.139410298049853,
+      "maximum": 623.4909782827656
+    },
+    {
+      "section_id": "23M_Pfkp",
+      "pla_objects": 45123,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 10,
+      "minimum": 0.0,
+      "median": 3.5,
+      "maximum": 623.4909782827656
+    },
+    {
+      "section_id": "24M_Pfkp",
+      "pla_objects": 7733,
+      "independent_brute_force_queries": 10,
+      "zero_spacing_objects": 2,
+      "minimum": 0.0,
+      "median": 17.613914953808536,
+      "maximum": 516.3768004083839
+    }
+  ],
+  "positions_changed": false,
+  "physical_units_verified": false,
+  "edge_correction": false
+}

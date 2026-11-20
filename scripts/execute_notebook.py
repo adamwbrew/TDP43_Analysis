@@ -39,6 +39,7 @@ def main():
         validation = json.loads(validation_path.read_text())
         validation["notebook_execution"] = "passed"
         validation["executed_code_cells"] = len(cells)
+        validation["saved_notebook_png_outputs"] = sum('image/png' in o.get('data',{}) for c in cells for o in c.get('outputs',[]))
         validation["saved_notebook"] = str(path.resolve())
         validation_path.write_text(json.dumps(validation, indent=2) + "\n")
     print("Executed and validated %d code cells; saved %s" % (len(cells), path))

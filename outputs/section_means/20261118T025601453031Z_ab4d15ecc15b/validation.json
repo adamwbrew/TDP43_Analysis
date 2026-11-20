@@ -1,0 +1,117 @@
+{
+  "source_payload_sha256": "ab4d15ecc15b5bea405c2ede70283765ef86a1434832c2c02a439c35ef8ea368",
+  "cached_raw_counts_reused": true,
+  "raw_csv_recomputed": false,
+  "fixed_section_denominator": 3,
+  "empty_bin_policy": "zero",
+  "tissue_coverage_verified": false,
+  "all_mean_difference_checks_passed": true,
+  "all_counts_conserved": true,
+  "fixed_transforms_unchanged": true,
+  "resolutions": {
+    "1000": {
+      "HK1": {
+        "displayable_bins": 354,
+        "total_grid_bins": 600,
+        "negative_difference_bins": 271,
+        "positive_difference_bins": 71,
+        "zero_difference_bins": 12,
+        "minimum_difference": -1136.0,
+        "maximum_difference": 96.33333333333334,
+        "whole_condition_zero_bins_displayed": 46,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      },
+      "PFKP": {
+        "displayable_bins": 359,
+        "total_grid_bins": 600,
+        "negative_difference_bins": 196,
+        "positive_difference_bins": 154,
+        "zero_difference_bins": 9,
+        "minimum_difference": -1854.3333333333333,
+        "maximum_difference": 892.3333333333333,
+        "whole_condition_zero_bins_displayed": 77,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      }
+    },
+    "500": {
+      "HK1": {
+        "displayable_bins": 1344,
+        "total_grid_bins": 2400,
+        "negative_difference_bins": 993,
+        "positive_difference_bins": 299,
+        "zero_difference_bins": 52,
+        "minimum_difference": -758.0,
+        "maximum_difference": 147.66666666666666,
+        "whole_condition_zero_bins_displayed": 195,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      },
+      "PFKP": {
+        "displayable_bins": 1340,
+        "total_grid_bins": 2400,
+        "negative_difference_bins": 723,
+        "positive_difference_bins": 570,
+        "zero_difference_bins": 47,
+        "minimum_difference": -1007.6666666666667,
+        "maximum_difference": 822.6666666666666,
+        "whole_condition_zero_bins_displayed": 301,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      }
+    },
+    "250": {
+      "HK1": {
+        "displayable_bins": 5135,
+        "total_grid_bins": 9600,
+        "negative_difference_bins": 3483,
+        "positive_difference_bins": 1220,
+        "zero_difference_bins": 432,
+        "minimum_difference": -622.0,
+        "maximum_difference": 154.33333333333334,
+        "whole_condition_zero_bins_displayed": 730,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      },
+      "PFKP": {
+        "displayable_bins": 5181,
+        "total_grid_bins": 9600,
+        "negative_difference_bins": 2560,
+        "positive_difference_bins": 1988,
+        "zero_difference_bins": 633,
+        "minimum_difference": -540.0,
+        "maximum_difference": 313.0,
+        "whole_condition_zero_bins_displayed": 1222,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      }
+    },
+    "100": {
+      "HK1": {
+        "displayable_bins": 29708,
+        "total_grid_bins": 60000,
+        "negative_difference_bins": 14859,
+        "positive_difference_bins": 6943,
+        "zero_difference_bins": 7906,
+        "minimum_difference": -189.66666666666666,
+        "maximum_difference": 78.66666666666667,
+        "whole_condition_zero_bins_displayed": 4757,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      },
+      "PFKP": {
+        "displayable_bins": 30344,
+        "total_grid_bins": 60000,
+        "negative_difference_bins": 10678,
+        "positive_difference_bins": 7699,
+        "zero_difference_bins": 11967,
+        "minimum_difference": -181.0,
+        "maximum_difference": 105.0,
+        "whole_condition_zero_bins_displayed": 7715,
+        "fixed_section_denominator": 3,
+        "tissue_coverage_verified": false
+      }
+    }
+  }
+}
