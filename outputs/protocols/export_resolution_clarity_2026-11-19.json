@@ -1,0 +1,39 @@
+{
+  "schema_version": "export-size-clarity-v1",
+  "recorded_utc": "2026-11-19T22:54:29.403131+00:00",
+  "user_observation": "8K and 12K appear the same",
+  "finding": "Expected when fitted to the same displayed size: PNG width changes export dimensions only. It does not change spatial calculations or the on-screen map.",
+  "implemented": [
+    "Clear export-only PNG label and explanation",
+    "Distinct width-bearing PNG filenames; vector SVG filename",
+    "Open fine detail shortcut without resetting selections",
+    "Existing global-bin zoom and recomputed fine-bin export scopes clearly distinguished"
+  ],
+  "true_spatial_detail": "Original source positions re-binned in the fine window at 100/50/25/10 exported-coordinate units; no interpolation or newly invented measurements.",
+  "browser_validation": "outputs/protocols/export_size_browser_check_2026-11-19.json",
+  "targeted_tests": {
+    "run": 25,
+    "status": "passed",
+    "log": "outputs/test_log_export_clarity_2026-11-19.txt"
+  },
+  "scientific_arrays_changed": false,
+  "raw_inputs_modified": false,
+  "new_git_push": false,
+  "file_sha256": {
+    "README.md": "88ef98a979d9a2c0000a472d21bf6dd8449872f2616b7e83fab7e810618bee11",
+    "docs/calculation_functions.md": "0a37ce3aab1c3ea6d71517566f2a3d95ac9578b9efca59be571dfc2966311319",
+    "scripts/comet_core_explorer.html": "e0c7a5390fbb1cd9632c37610672fa2ea19c99006ebd5582923d986f9c773693",
+    "scripts/comet_measurement_controls.js": "879d421b4d7a444d2b5a482c74324b2a3871a39d7e063e6917e0788689ae91e0",
+    "tests/test_measurement_ui.py": "9e3a2b641604dfedeab56e231d830fc4296e8220d5cdf07736bc9097d0063031",
+    "metadata/detailed_visual_parameters.json": "b08a427c37a45f79f00806c2a8e8fffa05bc48b0cb43838c7cf49fe2fb02d638",
+    "outputs/app/index.html": "5e8cea2f7d4d303d8e67af00efde2a751f7296d8826b9f7f129a6271296ed0c6",
+    "outputs/validation.json": "9b33a94e19bf145602357d2e64ac2b1b46e02e9ffefd68cb4d0514d108463392",
+    "outputs/test_log_export_clarity_2026-11-19.txt": "e6593e34d95a6cd90411995e4bd572e8b55e86ebec0887dcb45a6e326e186ef3",
+    "outputs/protocols/export_size_browser_check_2026-11-19.json": "13431dec89ce34d61d865a7e42edc4265e8c2563d687700c1f9829d3e0ed23a5",
+    "outputs/comet_core/figures/export_size_explanation_2026-11-19.png": "90f6f1b6e5304ef42105c5e5518fd20e0b70501c22b511ca1245713e3637d9d6",
+    "outputs/comet_core/figures/fine_detail_10_unit_grid_2026-11-19.png": "13a797cf2073e36bd5bad4acbf712c10170209d4479c055abfd9be92d95c4bcd",
+    "outputs/comet_core/figures/pla_count_whole_field_8000px_2026-11-19.png": "5945ec4aaae96668d099119b61a97bf816fe3eb153e30f09d49881f7de8a7736",
+    "outputs/comet_core/figures/pla_count_whole_field_12000px_2026-11-19.png": "5ab862027dfb44e2fbc22bd1b1ac68be9fbe81ad972493cfd0288cd6c73427e6",
+    ".gitignore": "4caf49b8820666bb70bb68b86e0f52fae46c196ca4fc68b2a6d1332243b98acf"
+  }
+}

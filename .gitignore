@@ -10,6 +10,7 @@ Initial Data/
 entire Chat dataset/
 data/
 COMET_Spatial_PLA_Heatmap_Codex_Instructions.pdf
+COMET_Spatial_Heatmap_Functions.pdf
 *.ome.tif
 *.ome.tiff
 metadata/workspace_copy.json
@@ -56,3 +57,28 @@ outputs/exploratory_multiresolution/20261112T230929125171Z_55527b6c71a2/*
 outputs/section_means/*
 !outputs/section_means/latest_run.json
 !outputs/section_means/20261114T175717494903Z_ab4d15ecc15b/
+
+# Selected calculation-functions snapshot; other generated runs remain local.
+!outputs/test_log_calculation_functions_2026-11-17.txt
+!outputs/test_log_calculation_functions_final_2026-11-17.txt
+!outputs/comet_core/figures/calculation_functions_*_2026-11-17.png
+!outputs/section_means/20261118T025601453031Z_ab4d15ecc15b/
+!outputs/measurement_features/
+outputs/measurement_features/*
+!outputs/measurement_features/latest_run.json
+!outputs/measurement_features/20261118T023734594332Z_ab4d15ecc15b/
+!outputs/calculation_functions/
+outputs/calculation_functions/*
+!outputs/calculation_functions/latest_run.json
+!outputs/calculation_functions/20261118T025635444707Z_fed14133d6cc/
+
+# Selected nineteen-measurement snapshot and high-resolution review exports.
+!outputs/test_log_spatial_extensions_2026-11-19.txt
+!outputs/test_log_export_clarity_2026-11-19.txt
+!outputs/test_log_fixed_export_size_2026-11-19.txt
+!outputs/test_log_appendix_publication_2026-11-19.txt
+!outputs/comet_core/figures/*_2026-11-19.png
+!outputs/comet_core/figures/*_2026-11-19.svg
+!outputs/section_means/20261119T221951584723Z_ab4d15ecc15b/
+!outputs/measurement_features/20261119T221023384317Z_ab4d15ecc15b/
+!outputs/calculation_functions/20261119T222024277618Z_4adcf19fac8f/

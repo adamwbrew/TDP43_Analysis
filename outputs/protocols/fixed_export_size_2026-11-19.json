@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-11-19T23:34:29.026210+00:00",
+  "local_scientific_date": "2026-11-19",
+  "user_request": "Default the pixel size to make the download section cleaner.",
+  "status": "passed",
+  "png_export_width": 8000,
+  "pixel_size_selector_removed": true,
+  "svg_export_retained": true,
+  "download_toolbar": "Region selector, fine-detail shortcut, PNG/SVG buttons and compact fixed-size status.",
+  "tests": {
+    "run": 25,
+    "status": "passed",
+    "seconds": 1.124,
+    "log": "outputs/test_log_fixed_export_size_2026-11-19.txt"
+  },
+  "presentation_only": true,
+  "raw_inputs_modified": false,
+  "scientific_arrays_recomputed": false,
+  "git_push": false,
+  "file_sha256": {
+    ".gitignore": "97f549b6b868b5fd4b9bfbad9cd5fdee5055ea16bc30b080c5d1d9eb625d7605",
+    "README.md": "11c10178c84f9c8b24759b399bbdd9c71d499f72e099ba5f1aa84fcabc44fce1",
+    "docs/calculation_functions.md": "3d0f1be8b517390f3a20e8d243c034cffc3aa8753f7e1b037f205ffcd0700a2a",
+    "scripts/comet_core_explorer.html": "87bbb049e1fe322f97aacfba9add48e2455f1f3fd23ee6f92991e5ece013bfb4",
+    "scripts/comet_measurement_controls.js": "e2c875237fcdc3de8934bb722f834f3bfb28670761de4a0614b7f1c3b790bef8",
+    "tests/test_measurement_ui.py": "45c5a5e52a85610dee9046236aec25a8d366d867654b2106ca4c991cc6fdd57e",
+    "metadata/detailed_visual_parameters.json": "64544675dcfb7ea2b267b987df8d9941e06bfaddf898824b265e0fea51f95a9c",
+    "outputs/app/index.html": "f2f9af7946b59e6b3497a33ea1b71f253f5e5bbd406102ac8e5f96751d21ce25",
+    "outputs/validation.json": "9ac02c06b3ed134989a427d4aa92a4edb5de350cfa405cb04091073735a2cfb3",
+    "outputs/test_log_fixed_export_size_2026-11-19.txt": "29e9b2606afee50969bd79c62158670ce642b913ef46a5f52a5ecd8c27c4ef8d"
+  }
+}

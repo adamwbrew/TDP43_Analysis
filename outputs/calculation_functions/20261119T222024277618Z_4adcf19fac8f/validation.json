@@ -1,0 +1,14 @@
+{
+  "all_19_measurements_saved": true,
+  "measurement_count": 19,
+  "all_3_comparisons_saved": true,
+  "all_4_resolutions_saved": true,
+  "existing_PLA_count_results_unchanged": true,
+  "large_small_partition_conserved": true,
+  "full_pla_point_count": 310024,
+  "geometry_and_coverage_unchanged": true,
+  "pseudocounts_added": false,
+  "raw_features_reused": true,
+  "raw_sources_modified": false,
+  "source_spatial_payload_sha256": "4adcf19fac8f6ad5257b2262ff0bdf3d72493b9cc987be160fa4351f698939b5"
+}

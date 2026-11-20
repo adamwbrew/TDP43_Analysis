@@ -1,12 +1,18 @@
 {
-  "recorded_utc": "2026-11-14T18:00:48.159346+00:00",
-  "current_analysis": "Scientist-directed fixed-three section means and Running \u2212 Homecage; separateHK1/PFKP; empty section-bins assumed zero; coverage uncertain.",
-  "scientific_policy": "metadata/scientist_directed_mean_policy.json",
-  "status": "completed_exploratory_fixed_three_means",
-  "fixed_section_denominator": 3,
-  "empty_bin_policy": "zero",
+  "recorded_utc": "2026-11-19T22:25:53.233819+00:00",
+  "current_analysis": "Nineteen per-section spatial measurements with persistent metric-independent object-footprint context, exact finer ROI bins and vector/8k/12k exports.",
+  "scientific_policy": "metadata/calculation_functions_policy.json",
+  "status": "completed_spatial_extensions_and_resolution",
+  "fixed_section_denominator": {
+    "counts_sums_and_section_share": 3,
+    "object_statistics_and_fractions": "Number of defined section measurements, 0–3"
+  },
+  "empty_bin_policy": {
+    "counts_sums_and_section_share": "assumed_zero; section share requires a positive section total",
+    "object_statistics_and_fractions": "undefined"
+  },
   "tissue_coverage_verified": false,
-  "current_run_directory": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/section_means/20261114T175717494903Z_ab4d15ecc15b",
+  "current_run_directory": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/calculation_functions/20261119T222024277618Z_4adcf19fac8f",
   "source_totals": {
     "source_rows": 3010776,
     "pla_objects": 310024,
@@ -25,48 +31,210 @@
   "all_fixed_three_means_independently_verified": true,
   "raw_csv_recomputed_this_update": false,
   "saved_raw_counts_reused": true,
-  "raw_source_hashes_revalidated_this_update": 12,
-  "historical_numerical_files_hash_verified_unchanged": 99,
-  "source_revalidation": "outputs/protocols/source_revalidation_2026-11-14.json",
+  "raw_source_hashes_revalidated_this_update": 0,
+  "source_revalidation": "The source-verified Nov17 attribute cache and exact point-order/source hashes were revalidated; twelve raw CSVs were not read this update. Nearest-neighbor vectors derive from the unchanged full-section point coordinates, saved immutably with predecessor cache SHA.",
   "alignment_transforms_unchanged": true,
   "alignment_replay_pixel_identical": true,
   "serial_3d_reconstruction": false,
   "tests": {
-    "run": 111,
+    "run": 171,
     "failures": 0,
     "errors": 0,
-    "log": "outputs/test_log_fixed_three_2026-11-14.txt",
-    "note": "Expected BLOCKED messages in the log exercise fictional strict-input rejection fixtures; current scientist-directed results are complete."
+    "seconds": 9.75,
+    "log": "outputs/test_log_spatial_extensions_2026-11-19.txt",
+    "final_display_copy_check": "Nine measurement UI tests passed after clarifying that SVG exports are resolution independent.",
+    "note": "Expected BLOCKED messages exercise historical strict-input rejection fixtures, not current analysis failures."
   },
   "notebook_execution": "passed",
-  "executed_code_cells": 7,
-  "saved_notebook_png_outputs": 6,
-  "notebook_scope": "Entire current seven-cell report executed using raw-validated saved counts; historical raw report preserved in outputs/revisions/before_fixed_three_means_2026-11-14.",
+  "executed_code_cells": 8,
+  "saved_notebook_png_outputs": 12,
+  "notebook_scope": "All eight current code cells executed using validated saved counts, matched PLA attributes and exact precomputed same-section spacing. Twelve saved PNG outputs. Final SVG-download status wording was a presentation-only app refresh; no measurements changed.",
   "high_resolution_png_dpi": 600,
-  "scientific_figures_exported": 11,
   "scientist_questions_pending": 0,
   "strict_historical_pdf_mask_test_passed": false,
   "strict_historical_method_status": "Preserved separately; not a prerequisite for current authorized analysis",
   "browser_validation": {
     "status": "passed",
-    "surface": "Local-only HTTP preview in actual in-app browser, normal zoom",
+    "recorded_utc": "2026-11-19T22:23:22.023Z",
+    "browser": "Isolated headless Chrome automated test; not the connected in-app browser",
     "checks": [
-      "Clean startup on100-unit grid; loaded-readiness indicator, all prepared images decoded before tabs opened",
-      "First-visit difference maps, full195150HK1 and114874PFKP point alignment overlays and four support maps visible without zoom correction",
-      "Repeated tab switching and250-to100 resolution changes retain fitted visible plots",
-      "Condition means use shared0\u201325 linear detail range and full-range restore0\u2013196.67 shared across both conditions and arms",
-      "Difference uses shared\u00b125 linear detail range;128HK1 and113PFKP saturated bins disclosed; exact values unchanged",
-      "Support-map click atHK1 X6300\u20136400,Y2100\u20132200 shows all six section counts and Homecage0,Running1/3,difference1/3,denominator3",
-      "Original twelve fixed transforms and identical historical alignment check retained"
+      "Clean startup at normal zoom; all views loaded and nineteen measurement choices present.",
+      "All nineteen measurements render with persistent vector outlines, including sparse/undefined statistics.",
+      "Outline toggle leaves every selected measurement value and missing mask unchanged.",
+      "Fine detail computes 100/50/25/10-unit grids and six individual section panels; source points remain present.",
+      "Actual whole-field and fine-window SVG/PNG downloads completed, at 8,000 and 12,000 pixel widths.",
+      "Alignment and observed-support tabs are visible on first visit without zoom correction."
+    ],
+    "page_errors": [],
+    "downloads": [
+      {
+        "format": "svg",
+        "scope": "whole",
+        "width": "8000",
+        "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/whole_8000_COMET_HK1_mean_pla_area_absolute_difference_100_units_whole_cutoff_0.1_marker_chat.svg",
+        "retained_path": "outputs/comet_core/figures/mean_area_whole_field_vector_2026-11-19.svg",
+        "sha256": "09b1853559b285051c1ba5011e8aed79e275dceaaaad2656efcf16a74f0ab3a8"
+      },
+      {
+        "format": "png",
+        "scope": "whole",
+        "width": "8000",
+        "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/whole_8000_COMET_HK1_mean_pla_area_absolute_difference_100_units_whole_cutoff_0.1_marker_chat.png",
+        "retained_path": "outputs/comet_core/figures/high_resolution_mean_area_8000px_2026-11-19.png",
+        "sha256": "ca74e8b54c29ded95d2e873e834f7dc8eba0670df53c24d594c9dad98d87c738"
+      },
+      {
+        "format": "svg",
+        "scope": "detail",
+        "width": "8000",
+        "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/detail_8000_COMET_HK1_mean_pla_area_absolute_difference_10_units_detail_cutoff_0.1_marker_chat.svg",
+        "retained_path": "outputs/comet_core/figures/fine_detail_mean_area_vector_2026-11-19.svg",
+        "sha256": "55f7ce9b29bc6dc0707039aad9ea36671510ea0161e48f47b1338ca347d17c41"
+      },
+      {
+        "format": "png",
+        "scope": "detail",
+        "width": "12000",
+        "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/browser_exports_2026-11-19/detail_12000_COMET_HK1_mean_pla_area_absolute_difference_10_units_detail_cutoff_0.1_marker_chat.png",
+        "retained_path": "outputs/comet_core/figures/high_resolution_detail_12000px_2026-11-19.png",
+        "sha256": "4f89fac349df1351203bac619736f5c933b77c84c70171e8e87f5cb4730c8ce5"
+      }
     ],
     "proof_images": [
-      "outputs/comet_core/figures/fixed_three_difference_app_2026-11-14.png",
-      "outputs/comet_core/figures/fixed_three_mean_app_2026-11-14.png",
-      "outputs/comet_core/figures/fixed_alignment_app_2026-11-14.png",
-      "outputs/comet_core/figures/fixed_support_app_2026-11-14.png"
-    ]
+      "outputs/comet_core/figures/spatial_outline_heatmaps_2026-11-19.png",
+      "outputs/comet_core/figures/spatial_controls_2026-11-19.png"
+    ],
+    "test_script_sha256": "9c7365088e3149ea6f4587319749fd09c80db1f51a34a552a3fca4f157bf7cc9",
+    "png_dimensions_verified": {
+      "whole_8000": [
+        8000,
+        8126
+      ],
+      "detail_12000": [
+        12000,
+        12600
+      ]
+    },
+    "svg_downloads_have_no_raster_images": true
   },
   "raw_inputs_modified": false,
   "historical_project_modified": false,
-  "pushed_or_published": false
+  "fixed_three_section_means_generated": true,
+  "raw_recomputed_this_execution": false,
+  "historical_count_source_sha256": "ab4d15ecc15b5bea405c2ede70283765ef86a1434832c2c02a439c35ef8ea368",
+  "current_notebook_scope": "All current report cells executed using validated saved raw counts and matched object attributes, including exact same-section nearest-neighbor spacing; full raw recount is optional.",
+  "saved_notebook": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/TDP43_COMET_analysis.ipynb",
+  "count_run_directory": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/section_means/20261119T221951584723Z_ab4d15ecc15b",
+  "feature_run_directory": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/measurement_features/20261119T221023384317Z_ab4d15ecc15b",
+  "raw_measurement_attributes_extracted_this_update": false,
+  "added_scientific_figures_exported": 22,
+  "added_png_width_range": [
+    8904,
+    9116
+  ],
+  "functions_validation": {
+    "all_19_measurements_saved": true,
+    "measurement_count": 19,
+    "all_3_comparisons_saved": true,
+    "all_4_resolutions_saved": true,
+    "existing_PLA_count_results_unchanged": true,
+    "large_small_partition_conserved": true,
+    "full_pla_point_count": 310024,
+    "geometry_and_coverage_unchanged": true,
+    "pseudocounts_added": false,
+    "raw_features_reused": true,
+    "raw_sources_modified": false,
+    "source_spatial_payload_sha256": "4adcf19fac8f6ad5257b2262ff0bdf3d72493b9cc987be160fa4351f698939b5"
+  },
+  "measurement_feature_validation": {
+    "status": "completed",
+    "source_hashes_verified_before_after": true,
+    "all_pla_object_ids_and_source_rows_matched": true,
+    "native_and_aligned_coordinates_unchanged": true,
+    "all_selected_pla_objects_retained": true,
+    "point_count": 310024,
+    "source_class_counts": {
+      "pla": 310024,
+      "chat": 2700752
+    },
+    "raw_sources_modified": false,
+    "invalid_attribute_counts": {
+      "area_um2": 0,
+      "intensity": 0,
+      "chat": 0
+    },
+    "within_section_nearest_neighbors_exact": true,
+    "spatial_extension_coordinates_unchanged": true
+  },
+  "measurement_count": 19,
+  "comparison_count": 3,
+  "summary_table_rows": 456,
+  "numerical_audit": {
+    "status": "passed",
+    "comparison_cases": 60,
+    "arrays_checked": 880,
+    "scalar_entries_checked": 52800000,
+    "maximum_absolute_error": 1.7763568394002505e-15,
+    "all_finite_and_undefined_masks_exact": true,
+    "record": "outputs/protocols/calculation_engine_parity_2026-11-19.json"
+  },
+  "spatial_extension_policy": "metadata/spatial_extensions_policy_2026-11-19.json",
+  "svg_grid_tiles_and_colorbars_all_vector": true,
+  "all_prior_thirteen_metric_arrays_unchanged": true,
+  "old_metric_grid_npz_byte_identical_count": 52,
+  "legacy_preservation_audit": "outputs/protocols/spatial_extension_preservation_2026-11-19.json",
+  "nearest_neighbor_audit": "outputs/protocols/nearest_neighbor_validation_2026-11-19.json",
+  "export_resolution_clarity_update": {
+    "status": "passed",
+    "record": "outputs/protocols/export_resolution_clarity_2026-11-19.json",
+    "tests": "25 targeted measurement UI/core lifecycle tests passed",
+    "same_scope_PNG_dimensions": [
+      [
+        8000,
+        8126
+      ],
+      [
+        12000,
+        12190
+      ]
+    ],
+    "scientific_arrays_recomputed": false,
+    "notebook_rerun_required": false,
+    "in_app_preview_resolution_changes_with_export_width": false,
+    "explicit_fine_detail_shortcut": true
+  },
+  "fixed_png_export_size_update": {
+    "status": "passed",
+    "png_width": 8000,
+    "size_selector_removed": true,
+    "svg_retained": true,
+    "scientific_arrays_changed": false,
+    "tests_passed": 25,
+    "log": "outputs/test_log_fixed_export_size_2026-11-19.txt",
+    "protocol": "outputs/protocols/fixed_export_size_2026-11-19.json"
+  },
+  "repository_appendix": {
+    "status": "passed",
+    "entry": "docs/appendix/README.md",
+    "files_documented": 527,
+    "source_files_explained": 49,
+    "all_19_measurements_explained": true,
+    "flow_diagrams": 7,
+    "local_links_checked": 1247,
+    "record": "outputs/protocols/repository_appendix_validation_2026-11-19.json"
+  },
+  "publication_preflight": {
+    "status": "passed",
+    "raw_inputs_and_instruction_pdfs_excluded": true,
+    "repository_visibility_observed": "public",
+    "visibility_changed_by_this_update": false,
+    "clean_snapshot_tests_passed": 171,
+    "app_rebuild_without_raw_data": "passed",
+    "portability_record": "outputs/protocols/publication_portability_2026-11-19.json",
+    "publication_manifest": "outputs/publication_manifest.json"
+  },
+  "publication_state": {
+    "record": "outputs/publication_manifest.json",
+    "meaning": "Pre-push validation record; the GitHub branch or merged commit establishes the actual publication outcome."
+  }
 }

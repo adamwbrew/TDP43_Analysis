@@ -1,0 +1,437 @@
+{
+  "recorded_utc": "2026-11-18T02:56:09.651503+00:00",
+  "local_scientific_date": "2026-11-17",
+  "status": "passed",
+  "raw_inputs_recounted": false,
+  "point_objects": 310024,
+  "physical_sections": 12,
+  "bin_width_export_units": 100,
+  "bins_per_arm": 60000,
+  "measurement_variants": 14,
+  "comparison_cases": 42,
+  "arrays_checked": 616,
+  "scalar_entries_checked": 36960000,
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-12,
+  "maximum_absolute_error": 1.7763568394002505e-15,
+  "node_execution": {
+    "measurements": 14,
+    "comparison_cases": 42,
+    "sections": 12,
+    "grid": [
+      240,
+      250
+    ]
+  },
+  "all_finite_and_undefined_masks_exact": true,
+  "published_pla_count_baselines": [
+    {
+      "bin_width": 1000,
+      "both_arms_mean_difference_eligibility_exactly_equal": true
+    },
+    {
+      "bin_width": 500,
+      "both_arms_mean_difference_eligibility_exactly_equal": true
+    },
+    {
+      "bin_width": 250,
+      "both_arms_mean_difference_eligibility_exactly_equal": true
+    },
+    {
+      "bin_width": 100,
+      "both_arms_mean_difference_eligibility_exactly_equal": true
+    }
+  ],
+  "geometry_and_observed_support_sha256": "bd8a727bbb60a8d49c5a630cbe9a6188fc9ea2691fc03294b15f50bada64f105",
+  "all_input_files_unchanged_before_after": true,
+  "input_sha256": {
+    "outputs/section_means/20261118T024920602806Z_ab4d15ecc15b/view_payload.json": "a4243d76a71baef0c1a93e620e095a42976e29b7aa0d8619cd4a8a0d86b5639f",
+    "outputs/measurement_features/20261118T023734594332Z_ab4d15ecc15b/features.json": "8291bb8bc5d7c13c9da28c9adfa069082c3c468fff496497279b7ebb8c0a2235",
+    "outputs/section_means/20261114T175717494903Z_ab4d15ecc15b/view_payload.json": "639f3d44858aeac80e78f5a5a42e6bfb1c16c5f31eef42eecb6ea91f7f4765de",
+    "outputs/comet_core/alignment_snapshot.json": "ba193aeaedec2bc0242b084ca0d6ab8ee25ba064434e0bef7fb80312fb560a30",
+    "outputs/comet_core/figures/alignment_check_reference.png": "7587b1dc18669e834dab50295a72fead390b940dcff8ab1299dbaf6c7757b859",
+    "scripts/comet_measurements.js": "2e260bdeae85b84e75acd29b72f65f01b81bc924b06fe9305e4ed2648bafc908",
+    "comet_spatial/measurements.py": "8a7d1933d0c7f7d30941d901c72e088f91a3c9d45acdb64b9e8ca93a1adbb5de"
+  },
+  "validator_sha256": "699544144ab1e95e953e0a7a6dcfd5ac9c952e67248415cf90c6a44951a06a9e",
+  "cases": [
+    {
+      "measurement": "pla_count",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "pla_count",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "pla_count",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_count",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_count",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_count",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "small_pla_count",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "small_pla_count",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "small_pla_count",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_fraction",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_fraction",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_fraction",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 2.220446049250313e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "mean_pla_area",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "mean_pla_area",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "mean_pla_area",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 8.881784197001252e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "median_pla_area",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "median_pla_area",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "median_pla_area",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 8.881784197001252e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "p90_pla_area",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "p90_pla_area",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "p90_pla_area",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 8.881784197001252e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "total_pla_area",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "total_pla_area",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "total_pla_area",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 1.7763568394002505e-15,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "mean_pla_intensity",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "mean_pla_intensity",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "mean_pla_intensity",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 2.220446049250313e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_count",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_count",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_count",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_fraction",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_fraction",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_fraction",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 2.220446049250313e-16,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_large_pla_count",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_large_pla_count",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_large_pla_count",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_mean_area",
+      "cutoff": 0.1,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_mean_area",
+      "cutoff": 0.1,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "marker_associated_pla_mean_area",
+      "cutoff": 0.1,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 1.7763568394002505e-15,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_count",
+      "cutoff": 0.2,
+      "comparison": "absolute_difference",
+      "arrays_checked": 36,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_count",
+      "cutoff": 0.2,
+      "comparison": "percent_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    },
+    {
+      "measurement": "large_pla_count",
+      "cutoff": 0.2,
+      "comparison": "log2_fold_change",
+      "arrays_checked": 4,
+      "maximum_absolute_error": 0.0,
+      "finite_and_undefined_masks_exact": true,
+      "passed": true
+    }
+  ]
+}

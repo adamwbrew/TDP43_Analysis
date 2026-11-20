@@ -1,0 +1,143 @@
+{
+  "schema_version": "spatial-extensions-v1",
+  "local_date": "2026-11-19",
+  "authority": "User requested additional useful spatial measurements, persistent outline and best available visual detail. These six additions are separate from the original thirteen PDF measurements.",
+  "measurements": [
+    {
+      "id": "section_pla_share",
+      "label": "Section PLA share",
+      "units": "% of section PLA",
+      "difference_units": "percentage points",
+      "needsMarker": false,
+      "needsCutoff": false,
+      "empty_bin_rule": "assumed_zero",
+      "definition": "100 × bin PLA count / whole same-section PLA count",
+      "empty_bin": "zero when the section has PLA; undefined if the entire section PLA total is zero",
+      "interpretation": "Relative spatial allocation within each section, not tissue-area density or absolute concentration"
+    },
+    {
+      "id": "marker_associated_pla_area_fraction",
+      "label": "Marker-associated PLA area fraction",
+      "units": "fraction",
+      "needsMarker": true,
+      "needsCutoff": false,
+      "empty_bin_rule": "undefined",
+      "definition": "Sum area of marker-associated PLA / sum area of all PLA in the section-bin",
+      "empty_bin": "undefined when total PLA area is zero",
+      "interpretation": "Area-weighted association; not fraction of tissue or molecular binding",
+      "required_validity": "All PLA areas and association flags must be valid"
+    },
+    {
+      "id": "median_pla_intensity",
+      "label": "Median PLA intensity",
+      "units": "exported intensity units",
+      "needsMarker": false,
+      "needsCutoff": false,
+      "empty_bin_rule": "undefined",
+      "definition": "Type-7 linear median of PLA Average Intensity in a section-bin",
+      "empty_bin": "undefined without PLA",
+      "interpretation": "Robust exported intensity summary; acquisition/segmentation/normalization unverified"
+    },
+    {
+      "id": "pla_area_iqr",
+      "label": "PLA area interquartile range",
+      "units": "µm² (exported)",
+      "needsMarker": false,
+      "needsCutoff": false,
+      "empty_bin_rule": "undefined",
+      "definition": "Type-7 area percentile 75 minus percentile 25 in a section-bin",
+      "empty_bin": "undefined without PLA; one object yields zero IQR",
+      "interpretation": "Within-bin spread of detected object size"
+    },
+    {
+      "id": "pla_area_cv",
+      "label": "PLA area coefficient of variation",
+      "units": "dimensionless CV",
+      "needsMarker": false,
+      "needsCutoff": false,
+      "empty_bin_rule": "undefined",
+      "definition": "Population area standard deviation (ddof=0) / mean area; at least two objects and positive mean",
+      "empty_bin": "undefined unless n >= 2 and mean > 0",
+      "interpretation": "Relative within-bin size variability; unstable with sparse objects or small mean"
+    },
+    {
+      "id": "mean_pla_nearest_neighbor_distance",
+      "label": "Mean PLA nearest-neighbor distance",
+      "units": "exported coordinate units",
+      "needsMarker": false,
+      "needsCutoff": false,
+      "empty_bin_rule": "undefined",
+      "definition": "Per-object Euclidean distance to the nearest other PLA object in the same entire section, then mean of focal-object distances within each bin",
+      "empty_bin": "undefined without focal PLA or when same-section neighbor is unavailable",
+      "interpretation": "Descriptive spacing of detected bounding-box midpoint proxies in exported coordinate units",
+      "method": {
+        "library": "scipy.spatial.cKDTree.query",
+        "k": 2,
+        "eps": 0,
+        "p": 2,
+        "self_excluded": true,
+        "full_section_search_before_any_binning_or_window_filter": true,
+        "duplicate_positions": "zero distance retained",
+        "edge_correction": false
+      },
+      "limits": "Depends on detection density, segmentation and unobserved objects beyond the section; not calibrated physical distance, cell spacing, colocalization or statistical clustering"
+    }
+  ],
+  "biological_unit": "Three distinct animal sections per condition within each arm; same animals across two arms. Objects do not increase independent biological N.",
+  "averaging": "Compute each statistic per section and bin, then equal mean of defined section values within condition; no pooled-object condition mean.",
+  "context": {
+    "source": "Finest original 100-unit union of bins containing PLA or ChAT detections across six sections, separately per arm",
+    "metric_independent": true,
+    "all_holes_and_disconnected_parts_preserved": true,
+    "boundary_method": "Exact merged collinear grid-edge segments",
+    "fill": "Pale detected-object footprint beneath selected finite measurement tiles",
+    "outline": "Thin neutral foreground grid-edge path",
+    "default_visible": true,
+    "does_not_establish_tissue_coverage": true,
+    "does_not_impute_measurements": true
+  },
+  "resolution": {
+    "global_grid_widths": [
+      1000,
+      500,
+      250,
+      100
+    ],
+    "local_detail_grid_widths": [
+      100,
+      50,
+      25,
+      10
+    ],
+    "default_local_detail_width": 25,
+    "local_method": "Rebin exact unsampled cached PLA coordinates and matching attributes; preserve whole-section totals and full-section nearest-neighbor distances",
+    "maximum_local_rows_or_columns": 400,
+    "smoothing": false,
+    "spatial_interpolation": false,
+    "physical_resolution_claimed": false
+  },
+  "exports": {
+    "default_png_width": 8000,
+    "optional_png_width": 12000,
+    "aspect_preserving": true,
+    "svg": "Independent vector tiles plus footprint and boundary paths, not a screenshot or embedded raster heatmap",
+    "high_resolution_static_png_dpi": 600,
+    "display_caps_change_values": false
+  },
+  "unchanged": [
+    "Raw inputs",
+    "Specimen assignments and controls",
+    "Native and fixed aligned coordinates",
+    "Prior fixed transforms",
+    "Global grid edges",
+    "Observed support and uncertain coverage policy",
+    "Original thirteen metric definitions",
+    "Original PLA count means and contrasts"
+  ],
+  "references": [
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.cKDTree.query.html",
+    "https://numpy.org/doc/stable/reference/generated/numpy.quantile.html",
+    "https://numpy.org/doc/stable/reference/generated/numpy.std.html",
+    "https://search.r-project.org/CRAN/refmans/spatstat.explore/html/Gest.html"
+  ]
+}

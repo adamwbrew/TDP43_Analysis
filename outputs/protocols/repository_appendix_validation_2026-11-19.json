@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "recorded_utc": "2026-11-20T00:13:53.152417+00:00",
+  "local_scientific_date": "2026-11-19",
+  "files_documented": 527,
+  "source_files_individually_explained": 49,
+  "measurements_explained": 19,
+  "comparison_formulas_explained": 3,
+  "worked_examples_independently_checked": true,
+  "mermaid_diagrams_rendered": 6,
+  "additional_scalable_workflow_diagram": 1,
+  "all_svg_xml_valid": true,
+  "workflow_text_within_viewbox": true,
+  "local_links_checked": 1247,
+  "published_file_link_targets_only": true,
+  "missing_git_executable_zip_fallback_checked": true,
+  "code_items_csv_headers_and_npz_names_match_files": true,
+  "all_source_file_bytes_match_clean_test_copy": true,
+  "clean_snapshot_tests": {
+    "run": 171,
+    "seconds": 8.91,
+    "failures": 0,
+    "errors": 0,
+    "log": "outputs/test_log_appendix_publication_2026-11-19.txt"
+  },
+  "clean_snapshot_portability": "outputs/protocols/publication_portability_2026-11-19.json",
+  "new_scientific_recomputation_this_documentation_update": false,
+  "raw_inputs_modified": false,
+  "original_source_project_modified": false,
+  "note": "Clean-copy scientific calculations were verification only. Later edits update explanatory prose and audit/publication metadata, not numerical source files or original analysis outputs."
+}

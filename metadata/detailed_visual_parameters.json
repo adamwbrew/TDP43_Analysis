@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "local_date": "2026-11-14",
+  "local_date": "2026-11-19",
   "timezone": "America/New_York",
-  "user_request": "Scientist-directed all-three-section averages and differences; very detailed 2D maps and reliable boot loading.",
-  "scope": "Fixed-three PLA count means; empty section-bins assumed zero; coverage uncertain.",
+  "user_request": "Add the thirteen PDF calculation functions and three condition comparisons while preserving the detailed 2D maps.",
+  "scope": "Nineteen spatial measurements, persistent metric-independent object-footprint context, exact finer local rebinning and vector/8k/12k exports.",
   "bin_widths_export_units": [
     1000,
     500,
@@ -43,14 +43,102 @@
   "biological_sample_size": "Three animals per condition; the same six animals occur in both PLA arms.",
   "default_signed_display_half_range": 25,
   "high_resolution_export_dpi": 600,
-  "mean_denominator": 3,
+  "mean_denominator": "Three for count/sum bins with valid attributes, including assumed empty-bin zeros; 0–3 defined section values for object means, quantiles and fractions.",
   "three_dimensional_reconstruction": false,
   "scientist_questions_pending": 0,
-  "default_signed_range_rationale": "A labeled \u00b125 linear display exposes small count contrasts compressed by extreme bins. Saturated bin counts are explicit; uncapped values and full-range restore are retained.",
-  "previous_policy_record": "outputs/revisions/before_fixed_three_means_2026-11-14/detailed_visual_parameters.json",
+  "default_signed_range_rationale": "A labeled ±25 linear display exposes small count contrasts compressed by extreme bins. Saturated bin counts are explicit; uncapped values and full-range restore are retained.",
+  "previous_policy_record": "outputs/revisions/before_spatial_extensions_2026-11-19/metadata/detailed_visual_parameters.json",
   "default_sequential_mean_display_range": [
     0,
     25
   ],
-  "mean_scale_policy": "Shared linear range across both conditions and both arms; capped view discloses saturated bins and preserves exact values; full-range restore uses shared full maximum."
+  "mean_scale_policy": "Shared linear range across both conditions and both arms; capped view discloses saturated bins and preserves exact values; full-range restore uses shared full maximum.",
+  "baseline_count_mean_denominator": 3,
+  "measurements": [
+    "pla_count",
+    "large_pla_count",
+    "small_pla_count",
+    "large_pla_fraction",
+    "mean_pla_area",
+    "median_pla_area",
+    "p90_pla_area",
+    "total_pla_area",
+    "mean_pla_intensity",
+    "marker_associated_pla_count",
+    "marker_associated_pla_fraction",
+    "marker_associated_large_pla_count",
+    "marker_associated_pla_mean_area",
+    "section_pla_share",
+    "marker_associated_pla_area_fraction",
+    "median_pla_intensity",
+    "pla_area_iqr",
+    "pla_area_cv",
+    "mean_pla_nearest_neighbor_distance"
+  ],
+  "comparisons": [
+    "absolute_difference",
+    "percent_change",
+    "log2_fold_change"
+  ],
+  "default_measurement": "pla_count",
+  "default_comparison": "absolute_difference",
+  "area_cutoff": {
+    "default": 0.1,
+    "configurable": true,
+    "large_rule": ">= cutoff",
+    "small_rule": "< cutoff",
+    "units": "exported µm²; calibration unverified"
+  },
+  "available_marker_ids": [
+    "chat"
+  ],
+  "quantile_method": "type7_linear",
+  "measurement_defined_N_distinct_from_observed_support": true,
+  "color_controls": "Units-aware presets, full range and arbitrary positive display cap; never changes values.",
+  "added_static_detail_cap": "95th percentile of nonzero absolute comparison values, shared across arms; full-range companions retained.",
+  "added_figure_count": 22,
+  "calculation_policy": "metadata/calculation_functions_policy.json",
+  "context_geometry_policy": {
+    "source": "Finest original 100-unit union of bins containing PLA or ChAT detections across six sections, separately per arm",
+    "metric_independent": true,
+    "all_holes_and_disconnected_parts_preserved": true,
+    "boundary_method": "Exact merged collinear grid-edge segments",
+    "fill": "Pale detected-object footprint beneath selected finite measurement tiles",
+    "outline": "Thin neutral foreground grid-edge path",
+    "default_visible": true,
+    "does_not_establish_tissue_coverage": true,
+    "does_not_impute_measurements": true
+  },
+  "detail_resolution_policy": {
+    "global_grid_widths": [
+      1000,
+      500,
+      250,
+      100
+    ],
+    "local_detail_grid_widths": [
+      100,
+      50,
+      25,
+      10
+    ],
+    "default_local_detail_width": 25,
+    "local_method": "Rebin exact unsampled cached PLA coordinates and matching attributes; preserve whole-section totals and full-section nearest-neighbor distances",
+    "maximum_local_rows_or_columns": 400,
+    "smoothing": false,
+    "spatial_interpolation": false,
+    "physical_resolution_claimed": false
+  },
+  "exports": {
+    "default_png_width": 8000,
+    "aspect_preserving": true,
+    "svg": "Independent vector tiles plus footprint and boundary paths, not a screenshot or embedded raster heatmap",
+    "high_resolution_static_png_dpi": 600,
+    "display_caps_change_values": false,
+    "control_meaning": "PNG downloads use a fixed width of 8000 pixels; no export-size selector. Spatial calculations and on-screen dimensions are unchanged.",
+    "filename_identifies_pixel_width": true,
+    "fine_detail_shortcut": "Open fine detail scrolls to computed 100/50/25/10-unit bins without changing the selected statistic or bin width.",
+    "png_width_user_selectable": false
+  },
+  "spatial_extension_policy": "metadata/spatial_extensions_policy_2026-11-19.json"
 }

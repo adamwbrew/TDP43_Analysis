@@ -1,0 +1,1136 @@
+{
+  "recorded_utc": "2026-11-19T22:24:04.287169+00:00",
+  "local_scientific_date": "2026-11-19",
+  "status": "passed",
+  "current_run": "outputs/calculation_functions/20261119T222024277618Z_4adcf19fac8f",
+  "prior_13_metric_run": "outputs/calculation_functions/20261118T025635444707Z_fed14133d6cc",
+  "current_report_sha256": "1674496e2d9a6a47be95b26699ad8ccf34a163770f37fc646b656ef9901e9ffa",
+  "prior_report_sha256": "fb6db91057fdccc77ac83914d4103c63325ca31efa00e5e00b1db24fcccd18ba",
+  "png_svg_pairs": 22,
+  "all_pngs_600_dpi": true,
+  "minimum_png_width": 8904,
+  "maximum_png_width": 9116,
+  "all_svgs_true_vector_no_images": true,
+  "all_svgs_exact_defined_tile_counts": true,
+  "all_svgs_observed_object_outline_present": true,
+  "total_vector_measurement_tiles": 555294,
+  "total_outline_segments_across_exports": 108900,
+  "old_measurements_preserved": 13,
+  "resolutions_preserved": 4,
+  "old_metric_grid_files_exact": 52,
+  "arrays_checked": 1404,
+  "scalar_entries_checked": 43426357,
+  "all_old_arrays_exact_equal": true,
+  "all_old_npz_bytes_identical": true,
+  "immutable_outputs_modified": false,
+  "artifact_checks": [
+    {
+      "id": "pla_count_percent_change_100",
+      "png_pixels": [
+        9116,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "%",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 19026,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 14148,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "9b0903851a24f9f73d020cf5e1d288ee58c60069bb734c6d02428f6fab52f2cc",
+      "svg_sha256": "e8dd4cbd3e7fed22c48ccbfde6e33e27a98c8682928ac755b5b3564e13396d64"
+    },
+    {
+      "id": "pla_count_percent_change_detail_100",
+      "png_pixels": [
+        9010,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "%",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 19026,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 14148,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "032288f0741a2c08eca6f198697e432103ec4f4b9d0672972e583084e0e2d004",
+      "svg_sha256": "e842afcb89960b7905466561af146686f24c4ff892b904ede099cea0e7f2d6f0"
+    },
+    {
+      "id": "pla_count_log2_fold_change_100",
+      "png_pixels": [
+        8904,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "log2 ratio",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "c438a1bdc92c72f8483c7fd8047e8e80bc317467d4d5c28fdd33d1c5182ec241",
+      "svg_sha256": "75bb1fd3f7ba263868f7a156d5fef4bcc092206793b4ac58d6cd8f2e68ca8e3d"
+    },
+    {
+      "id": "pla_count_log2_fold_change_detail_100",
+      "png_pixels": [
+        8904,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "log2 ratio",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "dcc009018754e4b25307b2fb0ddb1b9bd6e0cb4eaaedd0a248ccb425ed861ede",
+      "svg_sha256": "7e9db8867b44c6bcfc5357de7542ec2f442c5878d02f9e8bf210f5cb3feed552"
+    },
+    {
+      "id": "large_pla_fraction_absolute_difference_100",
+      "png_pixels": [
+        9036,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "fraction",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "99c0b56b6f31ad1b3866a68d99e25d9f8431b7bf893d0e975c16f7f0447e3c25",
+      "svg_sha256": "fce42169005c15c94b73a55c269245bb07790ab6b15eee8ccd46c5a596ddffac"
+    },
+    {
+      "id": "large_pla_fraction_absolute_difference_detail_100",
+      "png_pixels": [
+        9036,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "fraction",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "f9cb974b4c1dca6871c81eed35e0d2d5208942e62abc0523b22ba9a2d763e096",
+      "svg_sha256": "5b6b3b05791cc95297ec94edb3d1df9e6d57e04c718f9642ba29a0b2479b5dca"
+    },
+    {
+      "id": "mean_pla_area_absolute_difference_100",
+      "png_pixels": [
+        9010,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "\u00b5m\u00b2 (exported)",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "c2a98324f2df13b39d2c56595a2b6ebde32481cf08b2c3e826b579329ec53fcf",
+      "svg_sha256": "ba859abab8aa619af54a3503476c9ba6fdafd3c62fedaff3ecb21eff8101a34e"
+    },
+    {
+      "id": "mean_pla_area_absolute_difference_detail_100",
+      "png_pixels": [
+        8904,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "\u00b5m\u00b2 (exported)",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "93cb0f4bb470589968d05ff979200ce5e0d5bd8d5233bcdd33275419ce163ca8",
+      "svg_sha256": "e38303b8168f980582bc1994b876abfe72c8c7066718218ec24cc40be5e01a81"
+    },
+    {
+      "id": "marker_associated_pla_count_absolute_difference_100",
+      "png_pixels": [
+        9010,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "PLA count / bin",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 29708,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 30344,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "6df2daaca4623a98478834d10f7ecc73a7d285040d922ed7c7a169406d66babd",
+      "svg_sha256": "207da2aefe202aa508bbb3561da41269758efab9205556655227397469e823bf"
+    },
+    {
+      "id": "marker_associated_pla_count_absolute_difference_detail_100",
+      "png_pixels": [
+        8904,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "PLA count / bin",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 29708,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 30344,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "7aaa74ae4c760bb97d62afe04bd97fdb7991f8c50aa84626678a7ee3155c3750",
+      "svg_sha256": "04df9ed8af179e156688c9e591eb5be724029ab80310b51a57070fdfab568e1e"
+    },
+    {
+      "id": "section_pla_share_absolute_difference_100",
+      "png_pixels": [
+        8983,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "percentage points",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 29708,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 30344,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "fddcaeb77491973cdbcf9b88971ffdb45bfcd1195803f1fc585e03fb7d8ab30e",
+      "svg_sha256": "1dafae04f7a65b9328dfd8c122b39fc47ef4a8d2c1b1ffe656d09e6d76988d7f"
+    },
+    {
+      "id": "section_pla_share_absolute_difference_detail_100",
+      "png_pixels": [
+        9089,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "percentage points",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 29708,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 30344,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "885fe020e7ef3aca4e229b026117e0a46caa72b2b4d19d6798bc6698b8685cb4",
+      "svg_sha256": "358a5796067569b8d95386c2855bf19f48bce38d7720ad5d88d5b1a15197d818"
+    },
+    {
+      "id": "marker_associated_pla_area_fraction_absolute_difference_100",
+      "png_pixels": [
+        9036,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "fraction",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "011b61e8e80ab0970eda43a8ffab30f071f4a4a8c0a6d8ccd267c637a1105f0d",
+      "svg_sha256": "e44f6d3bffb68dfdfd96389357d2d84608f872dfdb8886d7c6073fb69bca1a31"
+    },
+    {
+      "id": "marker_associated_pla_area_fraction_absolute_difference_detail_100",
+      "png_pixels": [
+        9036,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "fraction",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "19539e377c83c69309ca24c5982b27e480d16d806488618a65e0df82a5d805a1",
+      "svg_sha256": "90b000ab48620637fea8c7d7ad3f5ee4eec1ea8669ebba0c36f963a0a4a0c21b"
+    },
+    {
+      "id": "median_pla_intensity_absolute_difference_100",
+      "png_pixels": [
+        8983,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "exported intensity units",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "4653c19300897a1b314ecd378a19ee9c4ea3b9da7c0adbe3826cf420e69e6c0e",
+      "svg_sha256": "95807b097c50a368b94eaae25ef0aa905c1b6d23a01ec23253a36582c06fe221"
+    },
+    {
+      "id": "median_pla_intensity_absolute_difference_detail_100",
+      "png_pixels": [
+        9089,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "exported intensity units",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "80cbadaa21f3ef660cf084de462a3eb3c9662c400e815b03d2d7133aa0632cca",
+      "svg_sha256": "643addf649d202d1924c10f496bd3a7356725ce21212b636204d316c7aa07022"
+    },
+    {
+      "id": "pla_area_iqr_absolute_difference_100",
+      "png_pixels": [
+        9010,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "\u00b5m\u00b2 (exported)",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "a01b07c4a5456bc7deeb34abbe77101211a669533879105b4d6a3f117083426e",
+      "svg_sha256": "5ed7a405d8376285fa779b6a8111c007feabbd0260ff8af93b79c5016e04f79a"
+    },
+    {
+      "id": "pla_area_iqr_absolute_difference_detail_100",
+      "png_pixels": [
+        8983,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "\u00b5m\u00b2 (exported)",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "4b746d4eff2490ec84d28e641ecefa834012ed8f06e2013cfe503a62ba33dc5f",
+      "svg_sha256": "c2a73920dcec1131f9b7169bb73f6339ff2456d4904dd80d5c2c9fbb71102323"
+    },
+    {
+      "id": "pla_area_cv_absolute_difference_100",
+      "png_pixels": [
+        8957,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "dimensionless CV",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 3931,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 1844,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "3af307c73fce7c65f6c3083d4ccfe79e581507516113eb8c40a7f53cccb49e48",
+      "svg_sha256": "8ad143621ef5c7814c05e10d71d964048cab287b1b146f3fb32f3841623d9c67"
+    },
+    {
+      "id": "pla_area_cv_absolute_difference_detail_100",
+      "png_pixels": [
+        8983,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "dimensionless CV",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 3931,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 1844,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "3616e16febba12aa395cc92dc516d70efb2f596357216619a51b183b22a15ab9",
+      "svg_sha256": "ebe82a797eaae3c1934b59269dce32cf65e22563f1e1125359ee39f490235f64"
+    },
+    {
+      "id": "mean_pla_nearest_neighbor_distance_absolute_difference_100",
+      "png_pixels": [
+        9010,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "exported coordinate units",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "d989493daa7c96f45389121d13f2642f6443ce5871976daed1254dcd5fcba056",
+      "svg_sha256": "8c561ef3bfaa9f18c2a9564c52a1b4f6cfe2d31d99bf731a4312c63da972be60"
+    },
+    {
+      "id": "mean_pla_nearest_neighbor_distance_absolute_difference_detail_100",
+      "png_pixels": [
+        9010,
+        5262
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "svg_embedded_images": 0,
+      "units": "exported coordinate units",
+      "panels": [
+        {
+          "arm": "HK1",
+          "vector_data_tiles": 10300,
+          "context_strips": 1052,
+          "outline_segments": 2610
+        },
+        {
+          "arm": "PFKP",
+          "vector_data_tiles": 6642,
+          "context_strips": 925,
+          "outline_segments": 2340
+        }
+      ],
+      "png_sha256": "ab8312bbfda4155e74168b0657f790fbe95e4e821d3429f684761df4e1a933da",
+      "svg_sha256": "01ce2febc4b9422c027d24bc08ff85d0629d4abc7184c1958fdcacdfe5903ab5"
+    }
+  ],
+  "preservation_checks": [
+    {
+      "bin_width": 1000,
+      "measurement": "pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "f3906b7845a7bdf324f9a679b0cb9a44218c2504aa80c8c7cb32ec9acb9a5805",
+      "current_sha256": "f3906b7845a7bdf324f9a679b0cb9a44218c2504aa80c8c7cb32ec9acb9a5805"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "5bdaf043c5c8692b974fa5d9b04d7a0aa2b470c1a2193d79c9428e23a55f61a2",
+      "current_sha256": "5bdaf043c5c8692b974fa5d9b04d7a0aa2b470c1a2193d79c9428e23a55f61a2"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "small_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "de1d15483d45bb41417566736be6b2513d63bf74f45878c930fbf795759bbc93",
+      "current_sha256": "de1d15483d45bb41417566736be6b2513d63bf74f45878c930fbf795759bbc93"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "large_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "63e021af8e6f04761da99e2bdbf6673356b3df991f97f49e733926e750c60063",
+      "current_sha256": "63e021af8e6f04761da99e2bdbf6673356b3df991f97f49e733926e750c60063"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "mean_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "7baf4ee498f601bc642154720178ebd7d47fae5e51920da9bfb7f439f206c2f4",
+      "current_sha256": "7baf4ee498f601bc642154720178ebd7d47fae5e51920da9bfb7f439f206c2f4"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "median_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "3be5a6d758a503f8001fe4cd374130cfce3e5a9a7605dc51c5a153cc0b8a5454",
+      "current_sha256": "3be5a6d758a503f8001fe4cd374130cfce3e5a9a7605dc51c5a153cc0b8a5454"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "p90_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "1f8c12ba080e107a2769109e265b04b934306413be5db47cd88dee7f0bac7092",
+      "current_sha256": "1f8c12ba080e107a2769109e265b04b934306413be5db47cd88dee7f0bac7092"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "total_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "25f45f141d1f1827806c2711c29a6e6929601ba3b2c83350fe4ceb2a131b1db9",
+      "current_sha256": "25f45f141d1f1827806c2711c29a6e6929601ba3b2c83350fe4ceb2a131b1db9"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "mean_pla_intensity",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "45753229447143c4d939c4eabe9ed7e51c00ed801ec68bca66589c36ea84900d",
+      "current_sha256": "45753229447143c4d939c4eabe9ed7e51c00ed801ec68bca66589c36ea84900d"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "marker_associated_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "855a0a6c6b61f4a351f5383af8c4894e016ef65f7b8683038987d3fa13b28329",
+      "current_sha256": "855a0a6c6b61f4a351f5383af8c4894e016ef65f7b8683038987d3fa13b28329"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "marker_associated_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "f465c046cae853cd60658973334f46b2c7bcae142c645c73e7d252fec4fe56db",
+      "current_sha256": "f465c046cae853cd60658973334f46b2c7bcae142c645c73e7d252fec4fe56db"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "marker_associated_large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "ed5066d3cd04f8b19e0df6d47c2908e4c6d9068edadb8b2683412d99683dc521",
+      "current_sha256": "ed5066d3cd04f8b19e0df6d47c2908e4c6d9068edadb8b2683412d99683dc521"
+    },
+    {
+      "bin_width": 1000,
+      "measurement": "marker_associated_pla_mean_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "91a0c82bc97cdc0298d38fafe08b806b5528b6d8e33c40eb819378b753499605",
+      "current_sha256": "91a0c82bc97cdc0298d38fafe08b806b5528b6d8e33c40eb819378b753499605"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "8299f91f04fc430372e311746d15532c1b862154c66b8be16bcbb05f104c2fad",
+      "current_sha256": "8299f91f04fc430372e311746d15532c1b862154c66b8be16bcbb05f104c2fad"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "dbacd13dbdc59df067cac92dc5e7f3210d2a081d5552eb11f2c6e3e58c835120",
+      "current_sha256": "dbacd13dbdc59df067cac92dc5e7f3210d2a081d5552eb11f2c6e3e58c835120"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "small_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "1ab6ce8c7b27d0ee1b914a62b0bd1207ea160b92cd701b6b0b3a473f7d5fcad6",
+      "current_sha256": "1ab6ce8c7b27d0ee1b914a62b0bd1207ea160b92cd701b6b0b3a473f7d5fcad6"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "large_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "7343321be1e5d70b04b109c6875ef9a0235e66f3d6f22bb77582557e2cbe97ec",
+      "current_sha256": "7343321be1e5d70b04b109c6875ef9a0235e66f3d6f22bb77582557e2cbe97ec"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "mean_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "62c5997a72b3e15a3c1fe29562d5678d01147db00179bddcfeccdb277cd90481",
+      "current_sha256": "62c5997a72b3e15a3c1fe29562d5678d01147db00179bddcfeccdb277cd90481"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "median_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "a3723f524bf30d685ace0a18103b04f74359c130886670f4a2eea5355c4ad902",
+      "current_sha256": "a3723f524bf30d685ace0a18103b04f74359c130886670f4a2eea5355c4ad902"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "p90_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "4b5131be36a52796e319c97b0bf044a4c56c64ba945b3fe4c44fa547e42d53d5",
+      "current_sha256": "4b5131be36a52796e319c97b0bf044a4c56c64ba945b3fe4c44fa547e42d53d5"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "total_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "0e29de472ef1d87cf9a05b4249e03201e5779db33ea6cc835582230581036537",
+      "current_sha256": "0e29de472ef1d87cf9a05b4249e03201e5779db33ea6cc835582230581036537"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "mean_pla_intensity",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "1cfa11d28a0972a0eef4e0dfb8574c29c11a205c51e3b26c99da372507e70822",
+      "current_sha256": "1cfa11d28a0972a0eef4e0dfb8574c29c11a205c51e3b26c99da372507e70822"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "marker_associated_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "28b4bf83d7cae6897451b1ce192e4033b0f9e8f82214457b097e89557c5c5667",
+      "current_sha256": "28b4bf83d7cae6897451b1ce192e4033b0f9e8f82214457b097e89557c5c5667"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "marker_associated_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "f88d8e42379337d37ca4b631c9bf215db3803b7056d336610c3adecc96b073ab",
+      "current_sha256": "f88d8e42379337d37ca4b631c9bf215db3803b7056d336610c3adecc96b073ab"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "marker_associated_large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "51f0c23adee2fa8862c9dbe06eec3dadcb57944d029789bdf85a66704df4610c",
+      "current_sha256": "51f0c23adee2fa8862c9dbe06eec3dadcb57944d029789bdf85a66704df4610c"
+    },
+    {
+      "bin_width": 500,
+      "measurement": "marker_associated_pla_mean_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "6542cc1d5252d2f9c11fa9e45fe84a540fcb5754f3a22f483d35ddcc03b62a17",
+      "current_sha256": "6542cc1d5252d2f9c11fa9e45fe84a540fcb5754f3a22f483d35ddcc03b62a17"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "1b71b0a1d60c510392f0df863d487a264e73e0046607dea15b594624360f3fe2",
+      "current_sha256": "1b71b0a1d60c510392f0df863d487a264e73e0046607dea15b594624360f3fe2"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "8c972ef9c6a29c3d9db801675d3f243c447d1ea8872f253746ac2766781b720b",
+      "current_sha256": "8c972ef9c6a29c3d9db801675d3f243c447d1ea8872f253746ac2766781b720b"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "small_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "a35d6e2b2c47a45b062c252798f2a17d6966bde9bb20523af67d30526864011a",
+      "current_sha256": "a35d6e2b2c47a45b062c252798f2a17d6966bde9bb20523af67d30526864011a"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "large_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "bcb075d275964bc6c6b30f6be268dc7408016e5de87983993f2e0c974afd1d85",
+      "current_sha256": "bcb075d275964bc6c6b30f6be268dc7408016e5de87983993f2e0c974afd1d85"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "mean_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "9416765d6e61c8ea9f6a4a879bf6db5297252d25e9d0bbf9f32f7f86f7678903",
+      "current_sha256": "9416765d6e61c8ea9f6a4a879bf6db5297252d25e9d0bbf9f32f7f86f7678903"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "median_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "b1ad94f15d8a8790818c99cd9e309261f0179ee756e67aa826944834a36f5f02",
+      "current_sha256": "b1ad94f15d8a8790818c99cd9e309261f0179ee756e67aa826944834a36f5f02"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "p90_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "eecc48a666c14da44942f1cc18a7e5f5aeddf096c055c534dab547f8069ee4e6",
+      "current_sha256": "eecc48a666c14da44942f1cc18a7e5f5aeddf096c055c534dab547f8069ee4e6"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "total_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "d0a8e69a7ffe3bf5fafbd31c090ec3b5051bd5e5f916c058ba7399c26b0632cf",
+      "current_sha256": "d0a8e69a7ffe3bf5fafbd31c090ec3b5051bd5e5f916c058ba7399c26b0632cf"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "mean_pla_intensity",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "a3b0d056818995b8d9cf7d765c8e3bf5ea8f938a7f92abd58d30b11a9f73b3cf",
+      "current_sha256": "a3b0d056818995b8d9cf7d765c8e3bf5ea8f938a7f92abd58d30b11a9f73b3cf"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "marker_associated_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "670a2ce7b51042e8859e4ca01ece9b3c68b6a099fa69552d0537f8334c70f0c2",
+      "current_sha256": "670a2ce7b51042e8859e4ca01ece9b3c68b6a099fa69552d0537f8334c70f0c2"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "marker_associated_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "d0a5c98ae77767ec0690cc255a96fec5faf435fc9a0083d44dc28d4bd54e76d0",
+      "current_sha256": "d0a5c98ae77767ec0690cc255a96fec5faf435fc9a0083d44dc28d4bd54e76d0"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "marker_associated_large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "d3546b70b1d2e88512dceff5cef0f3b21d2dee7a4fe881c47329702fc4e7e1b1",
+      "current_sha256": "d3546b70b1d2e88512dceff5cef0f3b21d2dee7a4fe881c47329702fc4e7e1b1"
+    },
+    {
+      "bin_width": 250,
+      "measurement": "marker_associated_pla_mean_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "f2aea5f8794fbe1bd0f1b08fa8651c9b869490be79d737e12078cbaa8238e53a",
+      "current_sha256": "f2aea5f8794fbe1bd0f1b08fa8651c9b869490be79d737e12078cbaa8238e53a"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "1117d87b4e3d34ba8ed0b1f8297bb7d6ce21f9e4c90a07cb76097ce35cfc80bd",
+      "current_sha256": "1117d87b4e3d34ba8ed0b1f8297bb7d6ce21f9e4c90a07cb76097ce35cfc80bd"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "746e84b12c45298628ad61f568fbce7a49a762f9ab3560d9c6fb1e51923928c4",
+      "current_sha256": "746e84b12c45298628ad61f568fbce7a49a762f9ab3560d9c6fb1e51923928c4"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "small_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "55ac7edb9a8348603f52f2cf5aede5d2756f6e2d98ae21fe2815a0088ec12120",
+      "current_sha256": "55ac7edb9a8348603f52f2cf5aede5d2756f6e2d98ae21fe2815a0088ec12120"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "large_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "e5472cbb9ae22b5535b2fc9634d5f2f1276e68934703cee4ade80c8dc3874c90",
+      "current_sha256": "e5472cbb9ae22b5535b2fc9634d5f2f1276e68934703cee4ade80c8dc3874c90"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "mean_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "ebeb0d8646016c49f7bb6d30373c8c168345680fb3ec346292142f7ae2c67ac1",
+      "current_sha256": "ebeb0d8646016c49f7bb6d30373c8c168345680fb3ec346292142f7ae2c67ac1"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "median_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "92f4ccc10e5edb315dc511bb3faa4b5479ee4130d3e3573c928ffab163dd0315",
+      "current_sha256": "92f4ccc10e5edb315dc511bb3faa4b5479ee4130d3e3573c928ffab163dd0315"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "p90_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "518078455c686e54acb08c82a902d006fcfbb68f3032e4c02b1523660d8645b2",
+      "current_sha256": "518078455c686e54acb08c82a902d006fcfbb68f3032e4c02b1523660d8645b2"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "total_pla_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "e4ce996d1c5e329179580bfae702e4a87004b7b8892654ebd0d1cdfb98c33ed8",
+      "current_sha256": "e4ce996d1c5e329179580bfae702e4a87004b7b8892654ebd0d1cdfb98c33ed8"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "mean_pla_intensity",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "e52cd4fec7cc90d9046fd74011cd56d11ba2c6f760f83ec982c1619df26189ca",
+      "current_sha256": "e52cd4fec7cc90d9046fd74011cd56d11ba2c6f760f83ec982c1619df26189ca"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "marker_associated_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "4cf691341f8403ccd520f45bb52af15c4da0ee9a1eec43cba9f1ace73d684ae9",
+      "current_sha256": "4cf691341f8403ccd520f45bb52af15c4da0ee9a1eec43cba9f1ace73d684ae9"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "marker_associated_pla_fraction",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "e7b60efe532020cacd947d292b4783e1b95eed55aacd5194f30e0213f3388d4f",
+      "current_sha256": "e7b60efe532020cacd947d292b4783e1b95eed55aacd5194f30e0213f3388d4f"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "marker_associated_large_pla_count",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "7547146a95e25a81de4cd9989b91c85de5c1434f5ff4221c6995cdce5f8b1937",
+      "current_sha256": "7547146a95e25a81de4cd9989b91c85de5c1434f5ff4221c6995cdce5f8b1937"
+    },
+    {
+      "bin_width": 100,
+      "measurement": "marker_associated_pla_mean_area",
+      "arrays_exact": true,
+      "array_count": 27,
+      "npz_bytes_identical": true,
+      "old_sha256": "b1bc0de99e27bf23c0a9e0708d36f31fbb456167ecb15abeb60d07dda2bdc547",
+      "current_sha256": "b1bc0de99e27bf23c0a9e0708d36f31fbb456167ecb15abeb60d07dda2bdc547"
+    }
+  ]
+}

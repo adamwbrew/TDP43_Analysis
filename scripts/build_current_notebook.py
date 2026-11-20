@@ -5,13 +5,56 @@ import nbformat as nb
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def measurement_cells():
+    return [nb.v4.new_markdown_cell('''## Spatial calculation functions · scientist update, 17 November 2026
+
+The one-page calculation-functions PDF requests **13 section-level measurements** and **three comparisons**. The **19 November extension** adds six complementary measurements, bringing the current catalog to **19**: section PLA share, ChAT-associated share of PLA area, median PLA intensity, area interquartile range, area coefficient of variation and mean same-section nearest-neighbor distance. These additions answer the user's follow-up; they were not in the PDF. Size categories retain the adjustable default cutoff of **0.1 exported µm²**. ChAT is the only available non-PLA marker flag; HK1 and PFKP remain separate PLA arms.
+
+Calculate each measurement per section and bin, then average defined section values equally within each condition. **Counts and summed areas retain assumed empty-bin zeros. Means, medians, 90th percentiles and fractions are undefined when their required objects are absent.** A marker-associated area mean needs associated PLA objects, not merely any PLA. Measurement-defined section N is shown separately from observed-object support N.
+
+Comparisons follow the condition means: signed `R − H` (the PDF's `absolute_difference`), `100 × (R − H) / H`, or `log₂(R / H)`. A zero Homecage mean makes percent change undefined; zero Running with positive Homecage gives −100%. Log ratios require positive means in both conditions. No pseudocount is added. Fraction differences remain fractions, not automatically percentage points.
+
+**Preserved scope:** existing object positions, saved transforms, four grids and current mask-free plotting domain are unchanged. The PDF's request to retain existing masks/100% coverage is recorded against the scientist-directed coverage policy agreed on 14 November; no masks or complete tissue coverage are invented. Source values come from `Area (µm²)`, `Average Intensity` and the ChAT-presence flag on PLA-class rows. Area labels do not independently calibrate X/Y distances or fluorescence intensity.
+
+The tables below audit all **19 measurements × three comparisons × two arms × four grids**. A persistent pale footprint and thin outline preserve the location context when a statistic or ratio is undefined. This follows detected-object bins on the finest original 100-unit grid; it does not establish tissue boundaries or fill missing statistics. Detail figures use a disclosed shared color cap at the 95th percentile of nonzero absolute comparisons; saturated bins are counted and full-range companions retain all extremes. SVG exports retain vector tiles and boundaries rather than embedded map screenshots.
+
+**What the additions answer:** section share shows where each section's PLA detections are concentrated, reducing the influence of unequal section totals while introducing its own compositional denominator. The area-associated fraction complements the count-associated fraction by weighting measured area. Median intensity and area IQR describe robust central tendency and spread; area CV uses population SD divided by positive mean and requires at least two objects in a bin. These do not correct acquisition, segmentation or tissue area. Same-section nearest-neighbor spacing is computed exactly from all PLA midpoint proxies before binning. It is not recomputed within each display bin or zoom window, and never joins animals. Duplicate positions give zero distance. Exported distance units are unverified; detection density, boundary truncation and missing objects affect interpretation, so no clustering or anatomical distance conclusion is claimed.
+
+The app's detail window can genuinely rebin the original points at **100, 50, 25 or 10 exported-coordinate units**; the global comparison retains its original four grids. Smaller bins expose more spatial detail and often fewer defined objects/sections. An 8,000- or 12,000-pixel PNG increases export sharpness; it does not add measured biology. True vector SVG retains every calculated tile at arbitrary viewing magnification. All source PLA points remain available without sampling.
+
+Read `docs/calculation_functions.md`, `metadata/calculation_functions_policy.json` and `metadata/spatial_extensions_policy_2026-11-19.json` for definitions, exact zero/missing rules and provenance. Official [NumPy quantile](https://numpy.org/doc/stable/reference/generated/numpy.quantile.html), [NumPy standard deviation](https://numpy.org/doc/stable/reference/generated/numpy.std.html) and [SciPy nearest-neighbor](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.cKDTree.query.html) documentation specify the numerical methods; no spatial interpolation is performed.'''),
+    nb.v4.new_code_cell('''from pathlib import Path as _FunctionPath
+import json as _function_json
+import numpy as _function_np
+import pandas as _function_pd
+from IPython.display import display as _function_display, Image as _FunctionImage
+from scripts.build_measurement_report import build as _build_function_report
+from comet_spatial.measurement_features import build_feature_cache as _build_function_features
+_function_root = _FunctionPath.cwd()
+if not (_function_root/'outputs/measurement_features/latest_run.json').is_file():
+    _build_function_features(_function_root)
+function_run = _build_function_report(_function_root)
+function_report = _function_json.loads((function_run/'report.json').read_text())
+function_summary = _function_pd.read_csv(function_run/'summary.csv')
+_function_display(function_summary.query("bin_width == 100 and comparison == 'absolute_difference'")[['measurement','arm','units','defined_comparison_bins','undefined_eligible_bins','homecage_metric_N_0','running_metric_N_0']])
+print('All 19 measurements × 3 comparisons × 2 arms × 4 grids:', len(function_summary), 'summary rows')
+print('Original PLA count results unchanged:', function_report['validation']['existing_PLA_count_results_unchanged'])
+print('Large + small count partition conserved:', function_report['validation']['large_small_partition_conserved'])
+print('No pseudocounts:', not function_report['validation']['pseudocounts_added'])
+for _function_name in ['marker_associated_pla_count_absolute_difference_detail_100', 'mean_pla_area_absolute_difference_detail_100', 'pla_count_log2_fold_change_detail_100', 'section_pla_share_absolute_difference_detail_100', 'marker_associated_pla_area_fraction_absolute_difference_detail_100', 'mean_pla_nearest_neighbor_distance_absolute_difference_detail_100']:
+    _function_display(_FunctionImage(filename=str(function_run/'figures'/(_function_name+'.png')),width=1450))
+print('600-DPI examples plus full-range companions:', function_run/'figures')
+print('Every section value, defined N, condition mean and all comparisons:', function_run/'resolution_100')
+print('Blank statistics are not zero; tissue coverage remains uncertain.')''')]
+
+
 def build():
     md, code = nb.v4.new_markdown_cell, nb.v4.new_code_cell
-    cells = [md('''# COMET spatial PLA · three-section averages and differences
+    cells = [md('''# COMET spatial PLA · spatial measurements and condition comparisons
 
 The current analysis follows the scientist’s answers relayed on **14 November 2026**: use the former app’s twelve completed sections and saved alignment, average **all three sections per condition**, treat empty section-bins as zero, then subtract **Running − Homecage**. Tissue coverage remains uncertain. Original images, outlines, distance labels and 3D reconstruction are not required for this exploratory comparison.
 
-The three visual families are the separate HK1/PFKP condition differences, detailed 2D alignment review, and four observed-support maps. Each difference is accompanied by its two condition means. All 310,024 exported PLA locations remain available for object-level inspection in the offline app.
+The three visual families are the separate HK1/PFKP condition differences, detailed 2D alignment review, and four observed-support maps. Each difference is accompanied by its two condition means. All 310,024 exported PLA locations remain available for object-level inspection in the offline app. The **17 November calculation-functions update** supplied 13 measurements and three comparison choices; the **19 November extension** brings the catalog to 19 and adds persistent object-footprint context, finer local rebinning and high-resolution/vector exports. The fixed-three rule below applies to counts and summed areas; object statistics and fractions average defined section values.
 
 **Change from the earlier report:** the old estimator divided by the number of sections containing objects in a bin. The current denominator is always three. Old results remain preserved in `outputs/exploratory/`, `outputs/exploratory_multiresolution/` and the archived notebook under `outputs/revisions/before_fixed_three_means_2026-11-14/`; their conclusions are not silently reused.
 
@@ -159,6 +202,9 @@ flowchart LR
     C --> F[Observed support and all PLA points]
     E --> G[600 DPI figures, tables and offline app]
     F --> G
+    C --> H[19 per-section measurements and defined-section means]
+    H --> I[Three comparisons with fixed object-footprint context]
+    I --> J[Exact finer local bins and vector or 8k/12k exports]
 ```
 
 This run reuses validated raw-count arrays by default, derives new immutable means and exports saved figures. The historical source payload is hash-checked before/after. Set `TDP43_RECOUNT_RAW=1` to recount the twelve CSVs first. The README has exact environment and execution commands. Nothing is moved, pushed or published.'''),
@@ -170,19 +216,24 @@ print('Tables:', run/'resolution_100/hk1_bins.csv', 'and pfkp_bins.csv')
 print('Current policy:', ROOT/'metadata/scientist_directed_mean_policy.json')
 validation_path=ROOT/'outputs/validation.json'
 validation=json.loads(validation_path.read_text())
-validation.update(current_analysis='Scientist-directed fixed-three section means; empty bins assumed zero; coverage uncertain.',
-    fixed_three_section_means_generated=True, fixed_section_denominator=3, empty_bin_policy='zero',
-    tissue_coverage_verified=False, current_run_directory=str(run),
+validation.update(current_analysis='Nineteen per-section spatial measurements, defined-section condition means, three comparisons and fixed object-footprint context; coverage uncertain.',
+    fixed_three_section_means_generated=True, fixed_section_denominator={'counts_sums_and_section_share':3,'object_statistics_and_fractions':'Number of defined section measurements, 0–3'},
+    empty_bin_policy={'counts_sums_and_section_share':'assumed_zero; section share requires a positive section total','object_statistics_and_fractions':'undefined'},
+    tissue_coverage_verified=False, current_run_directory=str(function_run), count_run_directory=str(run),
+    measurement_count=19,comparison_count=3,summary_table_rows=len(function_summary),
+    scientific_policy='metadata/calculation_functions_policy.json',spatial_extension_policy='metadata/spatial_extensions_policy_2026-11-19.json',
     raw_recomputed_this_execution=raw_recomputed, historical_count_source_sha256=source_sha,
     all_fixed_three_means_independently_verified=True, full_pla_point_provenance_count=310024,
     alignment_transforms_unchanged=True, high_resolution_png_dpi=600,
-    current_notebook_scope='All current report cells executed using validated saved raw counts; full raw recount is optional.',
+    current_notebook_scope='All current report cells executed using validated saved raw counts and matched object attributes, including exact same-section nearest-neighbor spacing; full raw recount is optional.',
     scientist_questions_pending=0)
 validation_path.write_text(json.dumps(validation,indent=2)+'\\n')''')]
+    position=next(i for i,c in enumerate(cells) if c.cell_type=='markdown' and c.source.startswith('## Scientific scope, provenance and rerun'))
+    cells[position:position]=measurement_cells()
     notebook=nb.v4.new_notebook(cells=cells)
     notebook.metadata={'kernelspec':{'display_name':'Python 3 (TDP43)','language':'python','name':'python3'},
                        'language_info':{'name':'python','version':'3.12'},
-                       'scientific_policy':'2026-11-14 fixed three sections; zero-empty; uncertain coverage'}
+                       'scientific_policy':'2026-11-19 nineteen section-level measurements; zero extensive/undefined intensive; uncertain coverage'}
     nb.write(notebook, ROOT/'TDP43_COMET_analysis.ipynb')
     print('Current notebook source generated; execute to save results.')
 

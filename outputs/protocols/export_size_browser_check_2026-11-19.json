@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "recorded_utc": "2026-11-19T22:53:09.930Z",
+  "browser": "Isolated headless Chrome",
+  "same_map_and_values_preserved_by_export_width": true,
+  "same_scope": "Whole aligned field; PLA count; Running minus Homecage; 100-unit grid; same display limits",
+  "pixel_width_in_filenames": true,
+  "fine_detail_shortcut_preserves_selection": true,
+  "fine_10_unit_rebin_visible": true,
+  "page_errors": [],
+  "downloads": [
+    {
+      "width": 8000,
+      "dimensions": [
+        8000,
+        8126
+      ],
+      "filename": "COMET_HK1_pla_count_absolute_difference_100_units_whole_cutoff_0.1_marker_chat_8000px.png",
+      "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/export_clarity_2026-11-19/COMET_HK1_pla_count_absolute_difference_100_units_whole_cutoff_0.1_marker_chat_8000px.png",
+      "retained_path": "outputs/comet_core/figures/pla_count_whole_field_8000px_2026-11-19.png",
+      "sha256": "5945ec4aaae96668d099119b61a97bf816fe3eb153e30f09d49881f7de8a7736"
+    },
+    {
+      "width": 12000,
+      "dimensions": [
+        12000,
+        12190
+      ],
+      "filename": "COMET_HK1_pla_count_absolute_difference_100_units_whole_cutoff_0.1_marker_chat_12000px.png",
+      "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/tmp/export_clarity_2026-11-19/COMET_HK1_pla_count_absolute_difference_100_units_whole_cutoff_0.1_marker_chat_12000px.png",
+      "retained_path": "outputs/comet_core/figures/pla_count_whole_field_12000px_2026-11-19.png",
+      "sha256": "5ab862027dfb44e2fbc22bd1b1ac68be9fbe81ad972493cfd0288cd6c73427e6"
+    }
+  ],
+  "proof_images": [
+    "outputs/comet_core/figures/export_size_explanation_2026-11-19.png",
+    "outputs/comet_core/figures/fine_detail_10_unit_grid_2026-11-19.png"
+  ],
+  "equal_display_comparison": {
+    "display_size": [
+      1600,
+      1625
+    ],
+    "mean_absolute_RGB_channel_difference_out_of_255": 0.15685653846153846,
+    "meaning": "Fitting both files to the same display size intentionally removes the extra export pixels; the measurement pattern remains the same."
+  }
+}

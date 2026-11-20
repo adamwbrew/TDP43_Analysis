@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "source_hashes_verified_before_after": true,
+  "all_pla_object_ids_and_source_rows_matched": true,
+  "native_and_aligned_coordinates_unchanged": true,
+  "all_selected_pla_objects_retained": true,
+  "point_count": 310024,
+  "source_class_counts": {
+    "pla": 310024,
+    "chat": 2700752
+  },
+  "raw_sources_modified": false,
+  "invalid_attribute_counts": {
+    "area_um2": 0,
+    "intensity": 0,
+    "chat": 0
+  },
+  "within_section_nearest_neighbors_exact": true,
+  "spatial_extension_coordinates_unchanged": true
+}

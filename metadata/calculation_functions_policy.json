@@ -1,0 +1,267 @@
+{
+  "schema_version": "comet-calculation-functions-policy-v1",
+  "local_date": "2026-11-17",
+  "timezone": "America/New_York",
+  "authority": "Scientist calculation-functions PDF supplied by the user; existing 14 November scientist-directed coverage policy preserved",
+  "source_pdf": {
+    "filename": "COMET_Spatial_Heatmap_Functions.pdf",
+    "sha256": "a2819adcf0655f090db4caf702c50c8d7483464c5e6b8525293472717358ec7e",
+    "pages": 1,
+    "requirements_pages": [
+      1
+    ],
+    "annotations_present": false,
+    "read_and_visually_reviewed_complete": true,
+    "included_in_git": false
+  },
+  "defaults": {
+    "measurement_id": "pla_count",
+    "comparison_id": "absolute_difference",
+    "area_cutoff": 0.1,
+    "marker_id": "chat",
+    "resolution": 100
+  },
+  "preserved": {
+    "cohort": "Twelve completed sections; three distinct animals per condition per arm; same six animals across HK1 and PFKP",
+    "arms_analyzed_separately": [
+      "HK1",
+      "PFKP"
+    ],
+    "conditions": [
+      "Homecage",
+      "Running"
+    ],
+    "alignment": "Unchanged prior fixed transforms; no refitting",
+    "positions": "Full-precision bounding-box midpoint proxies, not measured centroids; no resampling",
+    "resolutions": [
+      1000,
+      500,
+      250,
+      100
+    ],
+    "coverage_policy_file": "metadata/scientist_directed_mean_policy.json",
+    "display_domain": "Existing per-arm union of observed PLA/ChAT bins across its six sections",
+    "observed_support": "Existing detected-object support maps are unchanged and are not tissue masks",
+    "tissue_coverage_verified": false,
+    "strict_100_percent_tissue_mask_test_passed": false,
+    "coverage_wording_resolution": "Page 1 refers to existing tissue masks and 100% coverage. Preserve the current mask-free domain and uncertain-coverage label agreed with the scientist on 14 November; do not invent masks or reopen the previous asset requirement."
+  },
+  "object_attributes": {
+    "population": "PLA-class detections only",
+    "area": {
+      "field": "area_um2",
+      "source_column": "Area (µm²)",
+      "units": "µm² as labeled in the export; physical calibration not independently verified",
+      "cutoff_configurable": true,
+      "large_rule": "area >= cutoff",
+      "small_rule": "area < cutoff"
+    },
+    "intensity": {
+      "field": "intensity",
+      "source_column": "Average Intensity",
+      "units": "Exported intensity units; physical scale and normalization undocumented"
+    },
+    "available_markers": [
+      {
+        "id": "chat",
+        "label": "ChAT",
+        "source_column": "ChAt-50 - FITC_E1 present",
+        "population": "Association flag on each PLA row",
+        "positive_value": 1,
+        "negative_value": 0
+      }
+    ],
+    "marker_selection_configurable_within_available_flags": true,
+    "separate_chat_object_counts_are_not_associated_pla_counts": true,
+    "invalid_value_policy": "Unavailable, malformed, nonfinite or negative required attributes invalidate their dependent section-bin measurement; invalid marker flags also invalidate dependent measurements. No silent object deletion."
+  },
+  "measurements": [
+    {
+      "id": "pla_count",
+      "per_section_definition": "Count of all PLA detections",
+      "units": "PLA count per bin",
+      "empty_bin": "zero"
+    },
+    {
+      "id": "large_pla_count",
+      "per_section_definition": "Count of PLA detections with area >= cutoff",
+      "units": "PLA count per bin",
+      "empty_bin": "zero"
+    },
+    {
+      "id": "small_pla_count",
+      "per_section_definition": "Count of PLA detections with area < cutoff",
+      "units": "PLA count per bin",
+      "empty_bin": "zero"
+    },
+    {
+      "id": "large_pla_fraction",
+      "per_section_definition": "Large PLA count divided by total PLA count",
+      "units": "fraction",
+      "empty_bin": "missing"
+    },
+    {
+      "id": "mean_pla_area",
+      "per_section_definition": "Arithmetic mean area of PLA detections",
+      "units": "exported area units",
+      "empty_bin": "missing"
+    },
+    {
+      "id": "median_pla_area",
+      "per_section_definition": "Median area of PLA detections",
+      "units": "exported area units",
+      "empty_bin": "missing"
+    },
+    {
+      "id": "p90_pla_area",
+      "per_section_definition": "90th-percentile area of PLA detections",
+      "units": "exported area units",
+      "empty_bin": "missing"
+    },
+    {
+      "id": "total_pla_area",
+      "per_section_definition": "Sum of PLA detection areas",
+      "units": "exported area units per bin",
+      "empty_bin": "zero"
+    },
+    {
+      "id": "mean_pla_intensity",
+      "per_section_definition": "Arithmetic mean of exported PLA Average Intensity",
+      "units": "exported intensity units",
+      "empty_bin": "missing"
+    },
+    {
+      "id": "marker_associated_pla_count",
+      "per_section_definition": "Count of PLA detections with selected marker flag equal to 1",
+      "units": "PLA count per bin",
+      "empty_bin": "zero"
+    },
+    {
+      "id": "marker_associated_pla_fraction",
+      "per_section_definition": "Marker-associated PLA count divided by total PLA count",
+      "units": "fraction",
+      "empty_bin": "missing"
+    },
+    {
+      "id": "marker_associated_large_pla_count",
+      "per_section_definition": "Count of marker-associated PLA detections with area >= cutoff",
+      "units": "PLA count per bin",
+      "empty_bin": "zero"
+    },
+    {
+      "id": "marker_associated_pla_mean_area",
+      "per_section_definition": "Arithmetic mean area of marker-associated PLA detections",
+      "units": "exported area units",
+      "empty_bin": "missing",
+      "no_associated_objects": "missing"
+    },
+    {
+      "id": "section_pla_share",
+      "per_section_definition": "100 × bin PLA count / whole same-section PLA count",
+      "units": "% of section PLA",
+      "empty_bin": "zero when the section has PLA; undefined if the entire section PLA total is zero",
+      "introduced_by": "19 November user-requested extension"
+    },
+    {
+      "id": "marker_associated_pla_area_fraction",
+      "per_section_definition": "Sum area of marker-associated PLA / sum area of all PLA in the section-bin",
+      "units": "fraction",
+      "empty_bin": "undefined when total PLA area is zero",
+      "introduced_by": "19 November user-requested extension"
+    },
+    {
+      "id": "median_pla_intensity",
+      "per_section_definition": "Type-7 linear median of PLA Average Intensity in a section-bin",
+      "units": "exported intensity units",
+      "empty_bin": "undefined without PLA",
+      "introduced_by": "19 November user-requested extension"
+    },
+    {
+      "id": "pla_area_iqr",
+      "per_section_definition": "Type-7 area percentile 75 minus percentile 25 in a section-bin",
+      "units": "µm² (exported)",
+      "empty_bin": "undefined without PLA; one object yields zero IQR",
+      "introduced_by": "19 November user-requested extension"
+    },
+    {
+      "id": "pla_area_cv",
+      "per_section_definition": "Population area standard deviation (ddof=0) / mean area; at least two objects and positive mean",
+      "units": "dimensionless CV",
+      "empty_bin": "undefined unless n >= 2 and mean > 0",
+      "introduced_by": "19 November user-requested extension"
+    },
+    {
+      "id": "mean_pla_nearest_neighbor_distance",
+      "per_section_definition": "Per-object Euclidean distance to the nearest other PLA object in the same entire section, then mean of focal-object distances within each bin",
+      "units": "exported coordinate units",
+      "empty_bin": "undefined without focal PLA or when same-section neighbor is unavailable",
+      "introduced_by": "19 November user-requested extension"
+    }
+  ],
+  "section_and_condition_rules": {
+    "order": [
+      "Calculate the selected measurement per section and bin",
+      "Average defined section values equally within each condition and arm",
+      "Apply the selected comparison to the two condition means"
+    ],
+    "available_sections_per_condition": 3,
+    "empty_count_or_sum_bin": "Assumed zero under current uncertain-coverage policy",
+    "empty_object_mean_percentile_or_fraction_bin": "Undefined; do not substitute zero",
+    "no_associated_pla": "Associated counts and associated fraction are zero when total PLA exists; associated mean area is undefined",
+    "condition_denominator": "Number of finite defined section measurements, reported per condition/bin; three for complete-attribute count/sum calculations including empty-bin zeros",
+    "zero_defined_sections": "Undefined condition mean",
+    "weighting": "Equal weight per defined animal section; do not pool all objects across animals",
+    "quantile_method": "type7_linear within each section/bin",
+    "quantile_interpolation_is_not_spatial_interpolation": true,
+    "measurement_defined_n_is_not_observed_support_n": true
+  },
+  "comparisons": [
+    {
+      "id": "absolute_difference",
+      "formula": "R - H",
+      "meaning": "Signed Running-minus-Homecage difference, not abs(R-H)",
+      "units": "selected measurement units"
+    },
+    {
+      "id": "percent_change",
+      "formula": "100 * (R - H) / H",
+      "units": "%",
+      "zero_homecage": "missing",
+      "running_zero_homecage_positive": -100
+    },
+    {
+      "id": "log2_fold_change",
+      "formula": "log2(R / H)",
+      "units": "log2 ratio",
+      "requires": "Both R and H strictly positive",
+      "nonpositive_condition_mean": "missing"
+    }
+  ],
+  "comparison_rules": {
+    "R": "Running condition mean of defined section measurements",
+    "H": "Homecage condition mean of defined section measurements",
+    "undefined_condition_mean": "All comparisons missing",
+    "pseudocount": null,
+    "outside_current_display_domain": "Blank with outside-domain reason",
+    "color_scale": "Shared across arms, symmetric and linear around zero for selected comparison",
+    "display_cap_changes_values": false
+  },
+  "artifacts": {
+    "feature_cache_pointer": "outputs/measurement_features/latest_run.json",
+    "numerical_report_pointer": "outputs/calculation_functions/latest_run.json",
+    "attribute_extractor": "scripts/build_measurement_features.py",
+    "report_builder": "scripts/build_measurement_report.py",
+    "count_cache_alone_reconstructs_added_attributes": false,
+    "representative_png_dpi": 600,
+    "vector_export": "SVG"
+  },
+  "smoothing": false,
+  "spatial_interpolation": false,
+  "new_alignment_fit": false,
+  "inferential_tests": false,
+  "raw_data_modified": false,
+  "catalog_count": 19,
+  "original_pdf_measurement_count": 13,
+  "catalog_extension_policy": "metadata/spatial_extensions_policy_2026-11-19.json",
+  "extended_on": "2026-11-19"
+}

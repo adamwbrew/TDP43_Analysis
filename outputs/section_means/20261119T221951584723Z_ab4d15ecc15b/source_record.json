@@ -1,0 +1,33 @@
+{
+  "path": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/exploratory_multiresolution/20261112T230929125171Z_55527b6c71a2/view_payload.json",
+  "sha256": "ab4d15ecc15b5bea405c2ede70283765ef86a1434832c2c02a439c35ef8ea368",
+  "scientist_policy": {
+    "local_date": "2026-11-14",
+    "timezone": "America/New_York",
+    "authority": "Scientist answers relayed by the user, plus explicit user answer on empty section-bins",
+    "sections_per_condition": 3,
+    "empty_bin_policy": "zero",
+    "exact_user_confirmation": "Average all three, treating empty section-bins as zero; label coverage as uncertain",
+    "comparison": "Running mean minus Homecage mean, separately for HK1 and PFKP",
+    "alignment": "Reuse the previous fixed transforms, without fitting",
+    "anatomy": "User relays scientist confirmation of comparable anatomical regions and sufficient previous alignment for the current exploratory comparison",
+    "display_domain": "Per-arm union of observed PLA/ChAT bins across all six sections; blank outside that union",
+    "coverage_verified": false,
+    "original_images_required_for_current_analysis": false,
+    "tissue_outlines_required_for_current_analysis": false,
+    "physical_distance_labels_or_scale_bars_requested": false,
+    "serial_sections_available": false,
+    "three_dimensional_reconstruction_requested": false,
+    "strict_historical_pdf_mask_test_passed": false,
+    "smoothing": false,
+    "interpolation": false,
+    "normalization": false,
+    "inferential_tests": false
+  },
+  "policy_sha256": "74dc457fb267a0999101af2241083bce6f315b253064cd65b8ee7d2f36dfb436",
+  "code_sha256": {
+    "scripts/build_section_mean_maps.py": "0ec3a52c9d4bb22c9d06237410480bdfa8116607e42d4169cdf6000fe8e0594a",
+    "comet_spatial/section_means.py": "a9a84c2ecea5a22af2191ff6b59b0bdabde4541d5eec6ff36997149a0bdec91f"
+  },
+  "historical_payload_unchanged": true
+}

@@ -1,0 +1,7 @@
+{
+  "run_directory": "/Users/adambrewer/Documents/ChatGPT/TDP43_Analysis/outputs/measurement_features/20261119T221023384317Z_ab4d15ecc15b",
+  "payload_file": "features.json",
+  "schema_version": "comet-measurement-features-v1",
+  "payload_sha256": "0a77acc0b18d9eeecd40248138d0c2e2bcdb794a05ffe0da36f8d7c1d149882a",
+  "point_count": 310024
+}
